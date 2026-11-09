@@ -1,0 +1,12 @@
+; Address
+; target   	src
+; Data
+; target   	src
+D00 	<=  D01
+D01 	<=  D02
+D02 	<=  D03
+D03 	<=  D05
+D04 	<=  D04
+D05 	<=  D00
+D06 	<=  D06
+D07 	<=  D07
