@@ -1,0 +1,7174 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A0 46811 33110
+encoding utf-8
+Sheet 1 1
+Title "Apple ]["
+Date "27/02/1980"
+Rev "2"
+Comp "Computadores Maça"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS74 A11
+U 2 1 60630302
+P 4700 25850
+F 0 "A11" H 5100 26175 50  0000 C CNN
+F 1 "74LS74" H 5100 26100 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 4700 25850 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 4700 25850 50  0001 C CNN
+	2    4700 25850
+	1    0    0    -1  
+$EndComp
+Text Label 2025 20225 0    315  Italic 63
+15-VIDEO
+$Comp
+L appleii-rescue:PPROM_28C65_256-geral A5
+U 1 1 6064E274
+P 4700 20625
+F 0 "A5" H 4725 20450 50  0000 C CNN
+F 1 "PPROM_28C65_256" H 4725 20359 50  0000 C CNN
+F 2 "geral:standard_DIP_28pins_thin_doubleBody" H 4700 20475 50  0001 C CNN
+F 3 "" H 4700 20475 50  0001 C CNN
+	1    4700 20625
+	-1   0    0    -1  
+$EndComp
+Text Label 5050 21625 0    50   ~ 0
+LD0
+Text Label 5050 21525 0    50   ~ 0
+LD1
+Text Label 5050 21425 0    50   ~ 0
+LD2
+Text Label 5050 21325 0    50   ~ 0
+LD3
+Text Label 5050 21225 0    50   ~ 0
+LD4
+Text Label 4300 21325 2    50   ~ 0
+LD5
+Wire Wire Line
+	4300 21425 4300 21525
+Wire Wire Line
+	4300 21625 4300 21725
+Wire Wire Line
+	4300 21625 4300 21575
+Connection ~ 4300 21625
+Connection ~ 4300 21525
+Wire Wire Line
+	4300 21825 4300 21725
+Connection ~ 4300 21725
+Wire Wire Line
+	5050 21125 5050 21025
+Text Label 4175 21575 2    50   ~ 0
+GND
+Wire Wire Line
+	4300 21575 4175 21575
+Text Label 5225 21025 0    50   ~ 0
+GND
+Wire Wire Line
+	5050 21025 5225 21025
+Connection ~ 5050 21025
+Text Label 5050 22325 0    50   ~ 0
+GND
+$Comp
+L 74xx:74LS08 B11
+U 4 1 6066CBB0
+P 3975 22950
+F 0 "B11" H 3975 23275 50  0000 C CNN
+F 1 "74LS08" H 3975 23184 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 3975 22950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3975 22950 50  0001 C CNN
+	4    3975 22950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 B13
+U 2 1 60670E87
+P 4575 23050
+F 0 "B13" H 4575 23375 50  0000 C CNN
+F 1 "74LS02" H 4575 23284 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 4575 23050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 4575 23050 50  0001 C CNN
+	2    4575 23050
+	1    0    0    -1  
+$EndComp
+Text Label 3675 22850 2    50   ~ 0
+LD6
+Text Label 4275 23150 2    50   ~ 0
+LD7
+Text Label 22975 25075 2    50   ~ 0
+GND
+Text Label 22975 24375 2    50   ~ 10
+A7_5V
+$Comp
+L appleii:APPLEII_KEYBCON A7
+U 1 1 60AB729C
+P 23425 24725
+F 0 "A7" H 23425 25340 50  0000 C CNN
+F 1 "APPLEII_KEYBCON" H 23425 25249 50  0000 C CNN
+F 2 "geral:Conector2x8_Oval" H 23425 25325 50  0001 C CNN
+F 3 "" H 23425 25325 50  0001 C CNN
+	1    23425 24725
+	1    0    0    -1  
+$EndComp
+Text Label 19050 23625 0    315  Italic 63
+13-INTEGRATED_IOPERIPHERAL-KEYB&RESET
+Text Label 25850 26600 0    50   ~ 0
+D0
+Text Label 25850 26900 0    50   ~ 0
+D1
+$Comp
+L appleii-rescue:74LS257_RD-geral B6
+U 1 1 60B195E0
+P 25325 24925
+F 0 "B6" H 24825 25825 50  0000 C CNN
+F 1 "74LS257_RD" H 25000 25750 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 25325 24925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 25325 24925 50  0001 C CNN
+	1    25325 24925
+	1    0    0    -1  
+$EndComp
+Text Label 25850 27500 0    50   ~ 0
+D2
+Text Label 25850 27200 0    50   ~ 0
+D3
+Text Label 24850 26700 2    50   ~ 0
+LD0
+Text Label 24850 27000 2    50   ~ 0
+LD1
+Text Label 24850 27600 2    50   ~ 0
+LD2
+Text Label 24850 27300 2    50   ~ 0
+LD3
+Text Label 24825 25625 2    50   Italic 10
+~RAMSEL
+Text Label 24825 25525 2    50   Italic 10
+~KBD
+Text Label 25325 25925 3    50   ~ 0
+GND
+Text Label 25325 24025 0    50   ~ 10
+B6_5V
+Text Label 25825 24325 0    50   ~ 0
+D4
+Text Label 25825 24925 0    50   ~ 0
+D7
+$Comp
+L appleii-rescue:74LS257_RD-geral B7
+U 1 1 60BB8DA7
+P 25350 27200
+F 0 "B7" H 24825 28150 50  0000 C CNN
+F 1 "74LS257_RD" H 25000 28050 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 25350 27200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 25350 27200 50  0001 C CNN
+	1    25350 27200
+	1    0    0    -1  
+$EndComp
+Text Label 25825 24625 0    50   ~ 0
+D6
+Text Label 25825 25225 0    50   ~ 0
+D5
+Text Label 25350 28200 3    50   ~ 0
+GND
+Text Label 25350 26300 0    50   ~ 10
+B7_5V
+Text Label 24850 27900 2    50   Italic 10
+~RAMSEL
+Text Label 24850 27800 2    50   Italic 10
+~KBD
+Text Label 24825 24425 2    50   ~ 0
+LD4
+Text Label 24825 25025 2    50   ~ 0
+LD7
+Text Label 24825 24725 2    50   ~ 0
+LD6
+$Comp
+L 74xx:74LS74 B10
+U 2 1 60C60EE2
+P 23375 26975
+F 0 "B10" H 23375 27456 50  0000 C CNN
+F 1 "74LS74" H 23375 27365 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 23375 26975 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 23375 26975 50  0001 C CNN
+	2    23375 26975
+	1    0    0    -1  
+$EndComp
+NoConn ~ 23675 27075
+Wire Wire Line
+	23050 26875 23050 26675
+Wire Wire Line
+	23050 26675 23375 26675
+Wire Wire Line
+	23075 26975 22700 26975
+Wire Wire Line
+	22700 26975 22700 24475
+Wire Wire Line
+	22700 24475 22975 24475
+$Comp
+L Transistor_BJT:2N3904 Q5
+U 1 1 60CED514
+P 22050 25425
+F 0 "Q5" H 22240 25471 50  0000 L CNN
+F 1 "2N3904" H 22240 25380 50  0000 L CNN
+F 2 "geral:TO-92_Inline" H 22250 25350 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 22050 25425 50  0001 L CNN
+	1    22050 25425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 60D0E1A8
+P 22375 27325
+F 0 "R26" H 22445 27371 50  0000 L CNN
+F 1 "2.2M" H 22445 27280 50  0000 L CNN
+F 2 "geral:standard_2pins" V 22305 27325 50  0001 C CNN
+F 3 "~" H 22375 27325 50  0001 C CNN
+	1    22375 27325
+	1    0    0    -1  
+$EndComp
+Text Label 22225 27075 1    50   ~ 10
+A13_5V
+Wire Wire Line
+	22225 27400 22225 27075
+Wire Wire Line
+	21575 27700 21350 27700
+Wire Wire Line
+	21350 27700 21350 27075
+Text Label 21575 27400 2    50   ~ 0
+GND
+$Comp
+L Device:R R14
+U 1 1 60D86AAE
+P 21825 26025
+F 0 "R14" V 21618 26025 50  0000 C CNN
+F 1 "1K" V 21709 26025 50  0000 C CNN
+F 2 "geral:standard_2pins" V 21755 26025 50  0001 C CNN
+F 3 "~" H 21825 26025 50  0001 C CNN
+	1    21825 26025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 C11
+U 2 1 60DEB817
+P 22275 28575
+F 0 "C11" H 22275 28892 50  0000 C CNN
+F 1 "74LS04" H 22275 28801 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 22275 28575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 22275 28575 50  0001 C CNN
+	2    22275 28575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21975 28575 21450 28575
+Text Label 21450 28575 2    50   Italic 10
+~CLRSTB
+Connection ~ 23050 26675
+Text Label 23050 26450 1    50   ~ 0
+SOFT5
+Wire Wire Line
+	23050 26675 23050 26450
+Text Label 22150 25625 3    50   ~ 0
+GND
+Wire Wire Line
+	22150 24575 22150 25225
+Wire Wire Line
+	22150 24575 22975 24575
+Wire Wire Line
+	22575 28575 22600 28575
+Wire Wire Line
+	21575 27600 21050 27600
+Wire Wire Line
+	21050 27600 21050 26675
+Wire Wire Line
+	22600 27175 22600 26675
+Wire Wire Line
+	22600 26675 21825 26675
+Wire Wire Line
+	23200 27275 23375 27275
+Wire Wire Line
+	21825 26175 21825 26675
+Connection ~ 21825 26675
+Wire Wire Line
+	21825 26675 21050 26675
+Wire Wire Line
+	21825 25875 21825 25425
+Wire Wire Line
+	21825 25425 21850 25425
+Wire Wire Line
+	22150 24575 21725 24575
+Connection ~ 22150 24575
+Text Label 19050 16375 0    315  Italic 63
+12-INTEGRATED_IOPERIPHERAL
+$Comp
+L 74xx:74LS259 F14
+U 1 1 6101A3B4
+P 20175 17250
+F 0 "F14" H 19675 18000 50  0000 C CNN
+F 1 "74LS259" H 19775 17900 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 20175 17250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS259" H 20175 17250 50  0001 C CNN
+	1    20175 17250
+	1    0    0    -1  
+$EndComp
+$Comp
+L appleii-rescue:558-geral H13
+U 1 1 6102124C
+P 31275 17400
+F 0 "H13" H 31275 18015 50  0000 C CNN
+F 1 "558" H 31275 17924 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 31275 18000 50  0001 C CNN
+F 3 "" H 31275 18000 50  0001 C CNN
+	1    31275 17400
+	1    0    0    -1  
+$EndComp
+Text Label 31675 17450 0    50   ~ 0
+GND
+Text Label 30225 17650 0    50   ~ 0
+GND
+$Comp
+L Device:C kC9
+U 1 1 6104C950
+P 30225 17500
+F 0 "kC9" V 29973 17500 50  0000 C CNN
+F 1 "0.1u" V 30064 17500 50  0000 C CNN
+F 2 "geral:standard_2pins_half" H 30263 17350 50  0001 C CNN
+F 3 "~" H 30225 17500 50  0001 C CNN
+	1    30225 17500
+	1    0    0    -1  
+$EndComp
+Text Label 30875 17050 2    50   ~ 0
+GAME_OUT0
+Text Label 30875 17750 2    50   ~ 0
+GAME_OUT1
+Text Label 31675 17750 0    50   ~ 0
+GAME_OUT2
+Text Label 31675 17050 0    50   ~ 0
+GAME_OUT3
+Text Label 34000 16875 0    50   ~ 0
+GAME_SW0
+Text Label 34000 16775 0    50   ~ 0
+GAME_SW2
+Text Label 22675 18975 2    50   ~ 0
+GAME_OUT3
+Text Label 22675 18875 2    50   ~ 0
+GAME_OUT0
+Text Label 22675 19075 2    50   ~ 0
+GAME_OUT2
+Text Label 22675 19175 2    50   ~ 0
+GAME_OUT1
+Text Label 22675 18575 2    50   ~ 0
+GAME_SW0
+Text Label 22675 18775 2    50   ~ 0
+GAME_SW2
+Text Label 22675 18675 2    50   ~ 0
+GAME_SW1
+Text Label 22675 19375 2    50   ~ 0
+A0
+Text Label 22675 19475 2    50   ~ 0
+A1
+Text Label 22675 19575 2    50   ~ 0
+A2
+Text Label 23675 18475 0    50   ~ 0
+D7
+NoConn ~ 23675 18575
+Text Label 23175 18175 0    50   ~ 10
+H14_5V
+Wire Wire Line
+	30875 17250 30400 17250
+Wire Wire Line
+	32175 17250 31675 17250
+Wire Wire Line
+	31675 17550 32175 17550
+Wire Wire Line
+	32175 17550 32175 17250
+Connection ~ 32175 17250
+Wire Wire Line
+	30875 17550 30400 17550
+Wire Wire Line
+	30400 17550 30400 17250
+Connection ~ 30400 17250
+Text Label 30350 16700 2    50   Italic 10
+GAME_RESET_TIMERS
+Text Label 21300 18275 0    50   ~ 10
+CASSETE_DIGITAL_INPUT
+Text Label 30875 17150 2    50   ~ 0
+GAME_TIM0
+Text Label 32725 17150 2    50   ~ 0
+GAME_TIM2
+Text Label 30875 17650 2    50   ~ 0
+GAME_TIM1
+Text Label 30875 17450 2    50   ~ 10
+H13_5V
+Text Label 31675 17650 0    50   ~ 0
+GAME_TIM2
+Text Label 31675 17150 0    50   ~ 0
+GAME_TIM3
+$Comp
+L Device:C kC6
+U 1 1 6130E884
+P 32875 17300
+F 0 "kC6" H 32990 17346 50  0000 L CNN
+F 1 "22n" H 32990 17255 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 32913 17150 50  0001 C CNN
+F 3 "~" H 32875 17300 50  0001 C CNN
+	1    32875 17300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	32725 17150 32875 17150
+Connection ~ 32875 17150
+Text Label 32875 17450 2    50   ~ 0
+GND
+$Comp
+L Device:C kC8
+U 1 1 613962DE
+P 32875 17825
+F 0 "kC8" H 32990 17871 50  0000 L CNN
+F 1 "22n" H 32990 17780 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 32913 17675 50  0001 C CNN
+F 3 "~" H 32875 17825 50  0001 C CNN
+	1    32875 17825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	32725 17675 32875 17675
+Connection ~ 32875 17675
+Text Label 32875 17975 2    50   ~ 0
+GND
+Wire Wire Line
+	33175 17150 33175 17025
+Wire Wire Line
+	33175 17025 33300 17025
+Wire Wire Line
+	33300 17125 33225 17125
+Wire Wire Line
+	33225 17125 33225 17675
+Wire Wire Line
+	33225 17675 33175 17675
+Text Label 34575 17650 0    50   ~ 0
+GAME_TIM3
+$Comp
+L Device:C kC5
+U 1 1 613D3048
+P 34425 17275
+F 0 "kC5" H 34310 17321 50  0000 R CNN
+F 1 "22n" H 34310 17230 50  0000 R CNN
+F 2 "geral:standard_2pins_half" H 34463 17125 50  0001 C CNN
+F 3 "~" H 34425 17275 50  0001 C CNN
+	1    34425 17275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 613D304E
+P 34275 17125
+F 0 "R21" H 34345 17171 50  0000 L CNN
+F 1 "100" H 34345 17080 50  0000 L CNN
+F 2 "geral:standard_2pins" V 34205 17125 50  0001 C CNN
+F 3 "~" H 34275 17125 50  0001 C CNN
+	1    34275 17125
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	34575 17125 34425 17125
+Connection ~ 34425 17125
+Text Label 34425 17425 0    50   ~ 0
+GND
+$Comp
+L Device:C kC7
+U 1 1 613D3057
+P 34425 17800
+F 0 "kC7" H 34310 17846 50  0000 R CNN
+F 1 "22n" H 34310 17755 50  0000 R CNN
+F 2 "geral:standard_2pins_half" H 34463 17650 50  0001 C CNN
+F 3 "~" H 34425 17800 50  0001 C CNN
+	1    34425 17800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 613D305D
+P 34275 17650
+F 0 "R23" H 34345 17696 50  0000 L CNN
+F 1 "100" H 34345 17605 50  0000 L CNN
+F 2 "geral:standard_2pins" V 34205 17650 50  0001 C CNN
+F 3 "~" H 34275 17650 50  0001 C CNN
+	1    34275 17650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	34575 17650 34425 17650
+Connection ~ 34425 17650
+Text Label 34425 17950 0    50   ~ 0
+GND
+Wire Wire Line
+	34000 16975 34125 16975
+Wire Wire Line
+	34125 16975 34125 17125
+Wire Wire Line
+	34000 17075 34050 17075
+Wire Wire Line
+	34050 17075 34050 17650
+Wire Wire Line
+	34050 17650 34125 17650
+Wire Wire Line
+	30400 17250 30400 16700
+Wire Wire Line
+	30350 16700 30400 16700
+Connection ~ 30400 16700
+Wire Wire Line
+	30400 16700 32175 16700
+Wire Wire Line
+	32175 16700 32175 17250
+Wire Wire Line
+	30225 17350 30875 17350
+Text Label 20675 16850 0    50   Italic 10
+TEXTMODE
+Text Label 20675 16950 0    50   Italic 10
+MIXMODE
+Text Label 20675 17050 0    50   Italic 10
+PAGE2
+Text Label 20675 17150 0    50   Italic 10
+HIRESMODE
+Text Label 20675 17250 0    50   Italic 10
+AN0
+Text Label 20675 17350 0    50   Italic 10
+AN1
+Text Label 20675 17450 0    50   Italic 10
+AN2
+Text Label 20675 17550 0    50   Italic 10
+AN3
+Text Label 20175 16550 0    50   ~ 10
+F14_5V
+Text Label 20575 18875 0    50   ~ 10
+F13_5V
+Text Label 21075 19575 0    50   ~ 0
+~GAME_STB
+Text Label 21075 19875 0    50   Italic 10
+GAME_RESET_TIMERS
+$Comp
+L 74xx:74LS138 F13
+U 1 1 6101BD17
+P 20575 19475
+F 0 "F13" H 20575 20256 50  0000 C CNN
+F 1 "74LS138" H 20575 20165 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 20575 19475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 20575 19475 50  0001 C CNN
+	1    20575 19475
+	1    0    0    -1  
+$EndComp
+Text Label 21075 19175 0    50   Italic 10
+~KBD
+Text Label 21075 19275 0    50   Italic 10
+~CLRSTB
+Text Label 21075 19375 0    50   Italic 10
+CASSETE_OUT_CLK
+Text Label 21075 19475 0    50   Italic 10
+SPK_OUT_CLK
+$Comp
+L 74xx:74LS251 H14
+U 1 1 611196B9
+P 23175 19075
+F 0 "H14" H 22825 20000 50  0000 C CNN
+F 1 "74LS251" H 22925 19900 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 23175 19075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS251" H 23175 19075 50  0001 C CNN
+	1    23175 19075
+	1    0    0    -1  
+$EndComp
+Text Label 19675 17650 2    50   ~ 0
+SOFT5
+Wire Wire Line
+	19400 17450 19675 17450
+Text Label 19675 17050 2    50   ~ 0
+A1
+Text Label 19675 17150 2    50   ~ 0
+A2
+Text Label 19675 17250 2    50   ~ 0
+A3
+Text Label 19675 16850 2    50   ~ 0
+A0
+Text Label 20175 17950 3    50   ~ 0
+GND
+Text Label 20575 20175 3    50   ~ 0
+GND
+Text Label 24100 20475 2    50   Italic 10
+CASSETE_OUT_CLK
+Text Label 24100 19475 2    50   Italic 10
+SPK_OUT_CLK
+$Comp
+L 74xx:74LS74 J13
+U 2 1 617EF483
+P 24400 20475
+F 0 "J13" H 23875 20800 50  0000 C CNN
+F 1 "74LS74" H 23925 20725 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 24400 20475 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 24400 20475 50  0001 C CNN
+	2    24400 20475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS74 J13
+U 1 1 617FB0B9
+P 24400 19475
+F 0 "J13" H 23875 19775 50  0000 C CNN
+F 1 "74LS74" H 23925 19700 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 24400 19475 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 24400 19475 50  0001 C CNN
+	1    24400 19475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	24100 20375 24100 19900
+Wire Wire Line
+	24100 19900 24825 19900
+Wire Wire Line
+	24825 19900 24825 20575
+Wire Wire Line
+	24825 20575 24700 20575
+Text Label 24400 20850 0    50   ~ 0
+SOFT5
+Wire Wire Line
+	24400 20850 24400 20775
+Wire Wire Line
+	24400 19775 24400 19850
+Text Label 24400 19850 0    50   ~ 0
+SOFT5
+Wire Wire Line
+	24100 19375 24100 18900
+Wire Wire Line
+	24100 18900 24825 18900
+Wire Wire Line
+	24825 18900 24825 19575
+Wire Wire Line
+	24825 19575 24700 19575
+Text Label 24400 19175 0    50   ~ 0
+SOFT5
+Text Label 24400 20175 0    50   ~ 0
+SOFT5
+$Comp
+L Device:R R19
+U 1 1 6194EC5F
+P 25400 20525
+F 0 "R19" V 25193 20525 50  0000 C CNN
+F 1 "12K" V 25284 20525 50  0000 C CNN
+F 2 "geral:standard_2pins" V 25330 20525 50  0001 C CNN
+F 3 "~" H 25400 20525 50  0001 C CNN
+	1    25400 20525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 61950265
+P 25400 20825
+F 0 "R18" H 25330 20779 50  0000 R CNN
+F 1 "100" H 25330 20870 50  0000 R CNN
+F 2 "geral:standard_2pins" V 25330 20825 50  0001 C CNN
+F 3 "~" H 25400 20825 50  0001 C CNN
+	1    25400 20825
+	-1   0    0    1   
+$EndComp
+Text Label 25400 20975 3    50   ~ 0
+GND
+$Comp
+L Device:C kC11
+U 1 1 6196DE33
+P 25225 19375
+F 0 "kC11" V 24973 19375 50  0000 C CNN
+F 1 "0.1u" V 25064 19375 50  0000 C CNN
+F 2 "geral:standard_2pins" H 25263 19225 50  0001 C CNN
+F 3 "~" H 25225 19375 50  0001 C CNN
+	1    25225 19375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 6196ECC6
+P 25525 19375
+F 0 "R24" V 25318 19375 50  0000 C CNN
+F 1 "47K" V 25409 19375 50  0000 C CNN
+F 2 "geral:standard_2pins" V 25455 19375 50  0001 C CNN
+F 3 "~" H 25525 19375 50  0001 C CNN
+	1    25525 19375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NPN_Darlington_EBC Q4
+U 1 1 619BE9FD
+P 26275 19375
+F 0 "Q4" H 26466 19421 50  0000 L CNN
+F 1 "MPSA13" H 26466 19330 50  0000 L CNN
+F 2 "geral:TO-92_Inline" H 26475 19475 50  0001 C CNN
+F 3 "~" H 26275 19375 50  0001 C CNN
+	1    26275 19375
+	1    0    0    -1  
+$EndComp
+Text Label 26375 19675 3    50   ~ 0
+GND
+Wire Wire Line
+	26375 19575 26375 19675
+$Comp
+L Device:R R25
+U 1 1 619F5231
+P 26375 19025
+F 0 "R25" V 26168 19025 50  0000 C CNN
+F 1 "27" V 26259 19025 50  0000 C CNN
+F 2 "geral:standard_2pins" V 26305 19025 50  0001 C CNN
+F 3 "~" H 26375 19025 50  0001 C CNN
+	1    26375 19025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C kC12
+U 1 1 61A031B5
+P 26725 19000
+F 0 "kC12" H 26840 19046 50  0000 L CNN
+F 1 "0.1u" H 26840 18955 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 26763 18850 50  0001 C CNN
+F 3 "~" H 26725 19000 50  0001 C CNN
+	1    26725 19000
+	1    0    0    -1  
+$EndComp
+Text Label 26725 19150 3    50   ~ 0
+GND
+Wire Wire Line
+	26375 18850 26725 18850
+$Comp
+L Device:Speaker SPK1
+U 1 1 61A49F57
+P 26575 18525
+F 0 "SPK1" H 26745 18521 50  0000 L CNN
+F 1 "8" H 26745 18430 50  0000 L CNN
+F 2 "geral:jumper_set_1" H 26575 18325 50  0001 C CNN
+F 3 "~" H 26565 18475 50  0001 C CNN
+	1    26575 18525
+	1    0    0    -1  
+$EndComp
+Text Label 25950 18300 2    50   ~ 0
+5V
+Wire Wire Line
+	26375 18875 26375 18850
+$Comp
+L Connector:AudioPlug2 AUDIO1
+U 1 1 61A78974
+P 26375 20775
+F 0 "AUDIO1" H 25845 20729 50  0000 R CNN
+F 1 "TS" H 25845 20820 50  0000 R CNN
+F 2 "geral:TS - mono jack MJ3502N" H 26725 20725 50  0001 C CNN
+F 3 "~" H 26725 20725 50  0001 C CNN
+	1    26375 20775
+	-1   0    0    1   
+$EndComp
+Text Label 25775 20975 3    50   ~ 0
+GND
+Wire Wire Line
+	25775 20875 25775 20975
+Text Label 23175 20075 3    50   ~ 0
+GND
+$Comp
+L Connector:AudioPlug2 AUDIO2
+U 1 1 61B3D44A
+P 20200 21050
+F 0 "AUDIO2" H 19670 21004 50  0000 R CNN
+F 1 "TS" H 19670 21095 50  0000 R CNN
+F 2 "geral:TS - mono jack MJ3502N" H 20550 21000 50  0001 C CNN
+F 3 "~" H 20550 21000 50  0001 C CNN
+	1    20200 21050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 61B570BF
+P 21450 21100
+F 0 "R30" V 21243 21100 50  0000 C CNN
+F 1 "12K" V 21334 21100 50  0000 C CNN
+F 2 "geral:standard_2pins" V 21380 21100 50  0001 C CNN
+F 3 "~" H 21450 21100 50  0001 C CNN
+	1    21450 21100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C kC10
+U 1 1 61B570C5
+P 21075 20950
+F 0 "kC10" V 21327 20950 50  0000 C CNN
+F 1 "0.1u" V 21236 20950 50  0000 C CNN
+F 2 "geral:standard_2pins_half" H 21113 20800 50  0001 C CNN
+F 3 "~" H 21075 20950 50  0001 C CNN
+	1    21075 20950
+	0    1    -1   0   
+$EndComp
+Text Label 20925 21150 0    50   ~ 0
+GND
+$Comp
+L Device:R R17
+U 1 1 61C05566
+P 21450 21400
+F 0 "R17" V 21243 21400 50  0000 C CNN
+F 1 "12K" V 21334 21400 50  0000 C CNN
+F 2 "geral:standard_2pins" V 21380 21400 50  0001 C CNN
+F 3 "~" H 21450 21400 50  0001 C CNN
+	1    21450 21400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 61CA66DA
+P 22500 22050
+F 0 "R15" V 22293 22050 50  0000 C CNN
+F 1 "1M" V 22384 22050 50  0000 C CNN
+F 2 "geral:standard_2pins" V 22430 22050 50  0001 C CNN
+F 3 "~" H 22500 22050 50  0001 C CNN
+	1    22500 22050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	22650 22050 23075 22050
+Wire Wire Line
+	23075 21350 23075 22050
+Wire Wire Line
+	22125 21450 22025 21450
+Wire Wire Line
+	22025 21450 22025 22050
+Wire Wire Line
+	22025 22050 22350 22050
+Text Label 21450 21675 0    50   ~ 0
+GND
+Wire Wire Line
+	21450 21550 21450 21675
+Text Label 22025 22500 0    50   ~ 0
+GND
+$Comp
+L Device:R R16
+U 1 1 61D0B4E5
+P 22025 22200
+F 0 "R16" V 21818 22200 50  0000 C CNN
+F 1 "12K" V 21909 22200 50  0000 C CNN
+F 2 "geral:standard_2pins" V 21955 22200 50  0001 C CNN
+F 3 "~" H 22025 22200 50  0001 C CNN
+	1    22025 22200
+	1    0    0    -1  
+$EndComp
+Connection ~ 22025 22050
+Wire Wire Line
+	22025 22350 22025 22500
+$Comp
+L Device:R R29
+U 1 1 61D62010
+P 23325 21350
+F 0 "R29" V 23118 21350 50  0000 C CNN
+F 1 "12K" V 23209 21350 50  0000 C CNN
+F 2 "geral:standard_2pins" V 23255 21350 50  0001 C CNN
+F 3 "~" H 23325 21350 50  0001 C CNN
+	1    23325 21350
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	22975 21350 23075 21350
+Wire Wire Line
+	23075 21350 23175 21350
+Connection ~ 23075 21350
+Text Label 9425 20250 0    315  Italic 63
+19-VIDEOMIX
+Text Notes 21050 16850 0    50   Italic 10
+>
+Text Notes 21025 16950 0    50   Italic 10
+>
+Text Notes 20925 17050 0    50   Italic 10
+>
+Text Notes 21100 17150 0    50   Italic 10
+>
+Text Notes 20825 17250 0    50   Italic 10
+>
+Text Notes 20825 17350 0    50   Italic 10
+>
+Text Notes 20825 17450 0    50   Italic 10
+>
+Text Notes 20825 17550 0    50   Italic 10
+>
+Text Notes 21400 24575 0    50   Italic 10
+<
+Text Label 21725 24575 2    50   Italic 10
+~RESET
+Text Label 12525 12225 0    315  Italic 63
+6-ADDRDECODE2
+$Comp
+L 74xx:74LS283 E14
+U 1 1 63D3761C
+P 14750 15625
+F 0 "E14" H 14400 16525 50  0000 C CNN
+F 1 "74LS283" H 14500 16450 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 14750 15625 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 14750 15625 50  0001 C CNN
+	1    14750 15625
+	1    0    0    -1  
+$EndComp
+Text Label 14250 15325 2    50   Italic 10
+H3
+Text Label 14250 15425 2    50   Italic 10
+H4
+Text Label 13900 15325 2    50   Italic 10
+V3
+Text Label 14050 15975 2    50   Italic 10
+V4
+Wire Wire Line
+	14250 15525 13975 15525
+Wire Wire Line
+	13975 15525 13975 15325
+Wire Wire Line
+	13975 15125 14250 15125
+Wire Wire Line
+	13900 15325 13975 15325
+Connection ~ 13975 15325
+Wire Wire Line
+	13975 15325 13975 15125
+Wire Wire Line
+	13825 16025 13825 15825
+Wire Wire Line
+	13825 15625 14250 15625
+Wire Wire Line
+	13825 16025 14250 16025
+Wire Wire Line
+	14250 16125 14125 16125
+Wire Wire Line
+	14125 16125 14125 15975
+Wire Wire Line
+	14125 15925 14250 15925
+Wire Wire Line
+	14125 15975 14050 15975
+Connection ~ 14125 15975
+Wire Wire Line
+	14125 15975 14125 15925
+Text Label 14250 15825 2    50   ~ 0
+SOFT5
+Text Label 13225 15825 2    50   Italic 10
+H5
+$Comp
+L 74xx:74LS04 C11
+U 3 1 63F861AE
+P 13525 15825
+F 0 "C11" H 13525 16142 50  0000 C CNN
+F 1 "74LS04" H 13525 16051 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 13525 15825 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13525 15825 50  0001 C CNN
+	3    13525 15825
+	1    0    0    -1  
+$EndComp
+Connection ~ 13825 15825
+Wire Wire Line
+	13825 15825 13825 15625
+Text Label 15250 15125 0    50   Italic 10
+Σ0
+Text Label 15250 15225 0    50   Italic 10
+Σ1
+Text Label 15250 15325 0    50   Italic 10
+Σ2
+Text Label 15250 15425 0    50   Italic 10
+Σ3
+NoConn ~ 15250 15625
+Text Label 14750 14825 0    50   ~ 10
+E14_5V
+Text Label 14750 16425 3    50   ~ 0
+GND
+$Comp
+L 74xx:74LS153 E13
+U 1 1 64149370
+P 16600 14275
+F 0 "E13" H 16125 15350 50  0000 C CNN
+F 1 "74LS153" H 16200 15275 50  0000 C CNN
+F 2 "GERAL:standard_DIP_16OvalPins" H 16600 14275 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 16600 14275 50  0001 C CNN
+	1    16600 14275
+	1    0    0    -1  
+$EndComp
+Text Label 16100 14275 2    50   Italic 10
+Σ3
+Text Label 16100 13575 2    50   Italic 10
+Σ2
+Text Label 16100 13775 2    50   Italic 10
+H0
+Text Label 16100 14475 2    50   Italic 10
+H1
+Text Label 16100 13875 2    50   ~ 0
+A0
+Text Label 16100 14575 2    50   ~ 0
+A1
+Text Label 16100 13675 2    50   ~ 0
+A5
+Text Label 16100 15075 2    50   Italic 10
+AX
+Text Label 16100 14975 2    50   Italic 10
+Φ0
+Text Label 16100 14775 2    50   ~ 0
+GND
+Text Label 16100 14075 2    50   ~ 0
+GND
+Text Label 16100 14375 2    50   ~ 0
+A6
+Text Label 17100 13575 0    50   Italic 10
+RA2
+Text Notes 17275 13575 0    50   Italic 10
+>
+Text Label 17100 14275 0    50   Italic 10
+RA5
+Text Notes 17275 14275 0    50   Italic 10
+>
+Text Label 16600 13275 0    50   ~ 10
+E13_5V
+Text Label 16600 15375 3    50   ~ 0
+GND
+$Comp
+L 74xx:74LS153 E12
+U 1 1 645D4791
+P 16600 16775
+F 0 "E12" H 16100 17850 50  0000 C CNN
+F 1 "74LS153" H 16200 17775 50  0000 C CNN
+F 2 "GERAL:standard_DIP_16OvalPins" H 16600 16775 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 16600 16775 50  0001 C CNN
+	1    16600 16775
+	1    0    0    -1  
+$EndComp
+Text Label 16100 16775 2    50   Italic 10
+V2
+Text Label 16100 16075 2    50   Italic 10
+Σ1
+Text Label 16100 16275 2    50   Italic 10
+H2
+Text Label 16100 16975 2    50   Italic 10
+Σ0
+Text Label 16100 16375 2    50   ~ 0
+A2
+Text Label 16100 17075 2    50   ~ 0
+A3
+Text Label 16100 16175 2    50   ~ 0
+A4
+Text Label 16100 17575 2    50   Italic 10
+AX
+Text Label 16100 17475 2    50   Italic 10
+Φ0
+Text Label 16100 17275 2    50   ~ 0
+GND
+Text Label 16100 16575 2    50   ~ 0
+GND
+Text Label 16100 16875 2    50   ~ 0
+A9
+Text Label 17100 16075 0    50   Italic 10
+RA1
+Text Notes 17275 16075 0    50   Italic 10
+>
+Text Label 17100 16775 0    50   Italic 10
+RA4
+Text Notes 17275 16775 0    50   Italic 10
+>
+Text Label 16600 15775 0    50   ~ 10
+E12_5V
+Text Label 16600 17875 3    50   ~ 0
+GND
+$Comp
+L 74xx:74LS153 E11
+U 1 1 64709584
+P 16575 19275
+F 0 "E11" H 16175 20350 50  0000 C CNN
+F 1 "74LS153" H 16250 20275 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 16575 19275 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 16575 19275 50  0001 C CNN
+	1    16575 19275
+	1    0    0    -1  
+$EndComp
+Text Label 16075 19475 2    50   Italic 10
+V1
+Text Label 16075 18875 2    50   ~ 0
+A7
+Text Label 16075 19575 2    50   ~ 0
+A8
+Text Label 16075 18675 2    50   ~ 0
+A10
+Text Label 16075 20075 2    50   Italic 10
+AX
+Text Label 16075 19975 2    50   Italic 10
+Φ0
+Text Label 16075 19775 2    50   ~ 0
+GND
+Text Label 16075 19075 2    50   ~ 0
+GND
+Text Label 16075 19375 2    50   ~ 0
+A11
+Text Label 17075 18575 0    50   Italic 10
+RA0
+Text Notes 17250 18575 0    50   Italic 10
+>
+Text Label 17075 19275 0    50   Italic 10
+RA3
+Text Notes 17250 19275 0    50   Italic 10
+>
+Text Label 16575 18275 0    50   ~ 10
+E11_5V
+Text Label 16575 20375 3    50   ~ 0
+GND
+Text Label 16075 18775 2    50   Italic 10
+V0
+Wire Wire Line
+	16075 19275 15600 19275
+Wire Wire Line
+	14900 18575 16075 18575
+Text Label 14125 18725 2    50   Italic 10
+VA
+Text Label 14125 19025 2    50   Italic 10
+VB
+Text Label 14125 18925 2    50   Italic 10
+PAGE2
+Text Label 14125 18625 2    50   Italic 10
+~PAGE2
+Text Label 15575 21325 0    50   Italic 10
+TEXTMODE
+Text Label 11275 20925 2    50   Italic 10
+COLORREF
+Text Label 9975 21675 2    50   Italic 10
+H2
+$Comp
+L 74xx:74LS02 B13
+U 1 1 61E23C0E
+P 11575 21025
+F 0 "B13" H 11575 21350 50  0000 C CNN
+F 1 "74LS02" H 11575 21259 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 11575 21025 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 11575 21025 50  0001 C CNN
+	1    11575 21025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS11 B12
+U 1 1 61EDB06D
+P 12550 21125
+F 0 "B12" H 12550 21450 50  0000 C CNN
+F 1 "74LS11" H 12550 21359 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 12550 21125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS114" H 12550 21125 50  0001 C CNN
+	1    12550 21125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11875 21025 12250 21025
+$Comp
+L Transistor_BJT:2N3904 Q7
+U 1 1 61F28580
+P 10825 21675
+F 0 "Q7" H 11015 21721 50  0000 L CNN
+F 1 "2N3904" H 11015 21630 50  0000 L CNN
+F 2 "geral:TO-92_Inline" H 11025 21600 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 10825 21675 50  0001 L CNN
+	1    10825 21675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 61F731D8
+P 10125 21675
+F 0 "R34" V 10332 21675 50  0000 C CNN
+F 1 "2K" V 10241 21675 50  0000 C CNN
+F 2 "geral:standard_2pins" V 10055 21675 50  0001 C CNN
+F 3 "~" H 10125 21675 50  0001 C CNN
+	1    10125 21675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 62003624
+P 10475 21825
+F 0 "R33" H 10405 21779 50  0000 R CNN
+F 1 "2K" H 10405 21870 50  0000 R CNN
+F 2 "geral:standard_2pins" V 10405 21825 50  0001 C CNN
+F 3 "~" H 10475 21825 50  0001 C CNN
+	1    10475 21825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10625 21675 10475 21675
+Wire Wire Line
+	10475 21675 10275 21675
+Connection ~ 10475 21675
+Text Label 10725 22075 0    50   ~ 0
+GND
+Wire Wire Line
+	10925 21975 10925 21875
+Wire Wire Line
+	10725 21975 10725 22075
+$Comp
+L Device:R R35
+U 1 1 621ADF13
+P 10925 21325
+F 0 "R35" H 10855 21279 50  0000 R CNN
+F 1 "1.5K" H 10855 21370 50  0000 R CNN
+F 2 "geral:standard_2pins" V 10855 21325 50  0001 C CNN
+F 3 "~" H 10925 21325 50  0001 C CNN
+	1    10925 21325
+	-1   0    0    1   
+$EndComp
+Text Label 10925 21175 0    50   ~ 0
+5V
+Wire Wire Line
+	10475 21975 10725 21975
+Connection ~ 10725 21975
+Wire Wire Line
+	10725 21975 10925 21975
+Wire Wire Line
+	10925 21475 11275 21475
+Wire Wire Line
+	11275 21475 11275 21125
+Connection ~ 10925 21475
+Wire Wire Line
+	11275 21475 11525 21475
+Wire Wire Line
+	11525 21475 11525 21825
+Connection ~ 11275 21475
+Text Label 14825 20900 0    50   Italic 10
+COLORBURST
+Text Notes 15325 20900 0    50   Italic 10
+>
+$Comp
+L Device:R R5
+U 1 1 62C17614
+P 13000 21125
+F 0 "R5" V 12793 21125 50  0000 C CNN
+F 1 "1K" V 12884 21125 50  0000 C CNN
+F 2 "geral:standard_2pins" V 12930 21125 50  0001 C CNN
+F 3 "~" H 13000 21125 50  0001 C CNN
+	1    13000 21125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 62C9D3D6
+P 13325 21275
+F 0 "L1" H 13377 21321 50  0000 L CNN
+F 1 "27u" H 13377 21230 50  0000 L CNN
+F 2 "geral:standard_2pins" H 13325 21275 50  0001 C CNN
+F 3 "~" H 13325 21275 50  0001 C CNN
+	1    13325 21275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C kC2
+U 1 1 62C9FD96
+P 13700 21275
+F 0 "kC2" H 13815 21321 50  0000 L CNN
+F 1 "47p" H 13815 21230 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 13738 21125 50  0001 C CNN
+F 3 "~" H 13700 21275 50  0001 C CNN
+	1    13700 21275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CTRIM kC3
+U 1 1 62CA4E89
+P 14150 21275
+F 0 "kC3" H 14265 21321 50  0000 L CNN
+F 1 "5-50p" H 14265 21230 50  0000 L CNN
+F 2 "geral:standard_small_cap_trimmer" H 14150 21275 50  0001 C CNN
+F 3 "~" H 14150 21275 50  0001 C CNN
+	1    14150 21275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13325 21125 13700 21125
+Connection ~ 13700 21125
+$Comp
+L Transistor_BJT:2N3904 Q6
+U 1 1 62DEFC8B
+P 14900 21325
+F 0 "Q6" H 15125 21675 50  0000 L CNN
+F 1 "2N3904" H 15125 21600 50  0000 L CNN
+F 2 "geral:TO-92_Inline" H 15100 21250 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 14900 21325 50  0001 L CNN
+	1    14900 21325
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13700 21125 14150 21125
+Connection ~ 14150 21125
+Wire Wire Line
+	14150 21125 14800 21125
+Wire Wire Line
+	14800 21525 14150 21525
+Wire Wire Line
+	13325 21525 13325 21425
+Wire Wire Line
+	13700 21425 13700 21525
+Connection ~ 13700 21525
+Wire Wire Line
+	13700 21525 13325 21525
+Wire Wire Line
+	14150 21425 14150 21525
+Connection ~ 14150 21525
+Wire Wire Line
+	14150 21525 13700 21525
+Connection ~ 13325 21125
+$Comp
+L Transistor_BJT:2N3904 Q3
+U 1 1 630A387B
+P 13825 22375
+F 0 "Q3" H 14015 22421 50  0000 L CNN
+F 1 "2N3904" H 14015 22330 50  0000 L CNN
+F 2 "geral:TO-92_Inline" H 14025 22300 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 13825 22375 50  0001 L CNN
+	1    13825 22375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 63132185
+P 13175 21975
+F 0 "R6" V 12968 21975 50  0000 C CNN
+F 1 "2.7K" V 13059 21975 50  0000 C CNN
+F 2 "geral:standard_2pins" V 13105 21975 50  0001 C CNN
+F 3 "~" H 13175 21975 50  0001 C CNN
+	1    13175 21975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12950 21975 13025 21975
+Wire Wire Line
+	13325 21975 13625 21975
+Wire Wire Line
+	13625 21975 13625 22375
+Wire Wire Line
+	13625 22375 13325 22375
+Connection ~ 13625 22375
+Wire Wire Line
+	13625 22375 13625 22800
+Wire Wire Line
+	13625 22800 13325 22800
+$Comp
+L Device:R R7
+U 1 1 632B29B5
+P 13175 22375
+F 0 "R7" V 12968 22375 50  0000 C CNN
+F 1 "1.5K" V 13059 22375 50  0000 C CNN
+F 2 "geral:standard_2pins" V 13105 22375 50  0001 C CNN
+F 3 "~" H 13175 22375 50  0001 C CNN
+	1    13175 22375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 632E267B
+P 13175 22800
+F 0 "R8" V 12968 22800 50  0000 C CNN
+F 1 "2K" V 13059 22800 50  0000 C CNN
+F 2 "geral:standard_2pins" V 13105 22800 50  0001 C CNN
+F 3 "~" H 13175 22800 50  0001 C CNN
+	1    13175 22800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 63312CB4
+P 13925 22025
+F 0 "R9" V 13718 22025 50  0000 C CNN
+F 1 "10" V 13809 22025 50  0000 C CNN
+F 2 "geral:standard_2pins" V 13855 22025 50  0001 C CNN
+F 3 "~" H 13925 22025 50  0001 C CNN
+	1    13925 22025
+	1    0    0    -1  
+$EndComp
+Text Label 13925 21875 0    50   ~ 0
+5V
+Text Label 13825 23150 2    50   ~ 0
+GND
+$Comp
+L Device:R_POT R11
+U 1 1 633D827C
+P 13925 22950
+F 0 "R11" H 13856 22996 50  0000 R CNN
+F 1 "200" H 13856 22905 50  0000 R CNN
+F 2 "geral:trimpot - 3 pin standard" H 13925 22950 50  0001 C CNN
+F 3 "~" H 13925 22950 50  0001 C CNN
+	1    13925 22950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14075 22950 14325 22950
+Wire Wire Line
+	14925 22950 14625 22950
+$Comp
+L Device:R R10
+U 1 1 635376E7
+P 14475 22950
+F 0 "R10" V 14268 22950 50  0000 C CNN
+F 1 "27" V 14359 22950 50  0000 C CNN
+F 2 "geral:standard_2pins" V 14405 22950 50  0001 C CNN
+F 3 "~" H 14475 22950 50  0001 C CNN
+	1    14475 22950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13925 22575 13925 22600
+Connection ~ 13925 22600
+Wire Wire Line
+	13925 22600 13925 22800
+$Comp
+L appleii:APPLEII_VIDEOCON VIDEOCON2
+U 1 1 63607DE4
+P 15425 22550
+F 0 "VIDEOCON2" H 15603 22596 50  0000 L CNN
+F 1 "AUX VIDEO OUT" H 15603 22505 50  0000 L CNN
+F 2 "" H 15425 22950 50  0001 C CNN
+F 3 "" H 15425 22950 50  0001 C CNN
+	1    15425 22550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C kC14
+U 1 1 636A76C1
+P 15000 22075
+F 0 "kC14" H 15115 22121 50  0000 L CNN
+F 1 "0.1u" H 15115 22030 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 15038 21925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 15000 22075 50  0001 C CNN
+	1    15000 22075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14825 22400 15175 22400
+Wire Wire Line
+	13925 22600 15175 22600
+Wire Wire Line
+	14725 22500 15175 22500
+Text Label 15175 22700 2    50   ~ 0
+GND
+Text Label 14425 22225 3    50   ~ 0
+GND
+Text Label 15000 22225 3    50   ~ 0
+GND
+Text Label 14825 21875 1    50   ~ 0
+12V
+Text Label 14725 21875 1    50   ~ 0
+-5V
+Wire Wire Line
+	15000 21925 14825 21925
+Wire Wire Line
+	14825 21925 14825 22400
+Wire Wire Line
+	14725 21925 14425 21925
+$Comp
+L Connector:Conn_Coaxial_x2_Isolated VIDEOCON1
+U 1 1 63CD29DE
+P 15125 22950
+F 0 "VIDEOCON1" H 15225 22925 50  0000 L CNN
+F 1 "COMP. VIDEO OUT" H 15225 22834 50  0000 L CNN
+F 2 "geral:RCA-phono jack" H 15125 22950 50  0001 C CNN
+F 3 " ~" H 15125 22950 50  0001 C CNN
+	1    15125 22950
+	1    0    0    -1  
+$EndComp
+Text Label 13025 22800 2    50   Italic 10
+SYNC
+Wire Wire Line
+	13150 21125 13325 21125
+Text Label 12950 21975 2    50   Italic 10
+COLORBURST
+$Comp
+L Device:C kC13
+U 1 1 636A71F2
+P 14425 22075
+F 0 "kC13" H 14310 22029 50  0000 R CNN
+F 1 "0.1u" H 14310 22120 50  0000 R CNN
+F 2 "geral:standard_2pins_half" H 14463 21925 50  0001 C CNN
+F 3 "~" H 14425 22075 50  0001 C CNN
+	1    14425 22075
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	11075 22125 10075 22125
+Text Notes 10875 25425 0    50   Italic 10
+>
+Text Label 10725 25425 0    50   Italic 10
+VBL
+Wire Wire Line
+	9925 25525 10125 25525
+Wire Wire Line
+	9925 25325 10125 25325
+Wire Wire Line
+	11300 24775 11450 24775
+Wire Wire Line
+	11300 25000 11300 24775
+Wire Wire Line
+	9900 25000 11300 25000
+Connection ~ 10850 24675
+Wire Wire Line
+	10850 24675 10850 24475
+Wire Wire Line
+	10725 24675 10850 24675
+$Comp
+L 74xx:74LS02 B14
+U 4 1 6290974A
+P 11750 24675
+F 0 "B14" H 11750 25000 50  0000 C CNN
+F 1 "74LS02" H 11750 24909 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 11750 24675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 11750 24675 50  0001 C CNN
+	4    11750 24675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 A12
+U 2 1 62905ACB
+P 11150 24575
+F 0 "A12" H 11150 24900 50  0000 C CNN
+F 1 "74LS02" H 11150 24809 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 11150 24575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 11150 24575 50  0001 C CNN
+	2    11150 24575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 24775 9900 24775
+Wire Wire Line
+	9900 24575 10125 24575
+$Comp
+L 74xx:74LS02 B14
+U 3 1 6280DB3A
+P 10425 24675
+F 0 "B14" H 10425 25000 50  0000 C CNN
+F 1 "74LS02" H 10425 24909 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 10425 24675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 10425 24675 50  0001 C CNN
+	3    10425 24675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9925 23475 10100 23475
+Wire Wire Line
+	9925 23675 10100 23675
+Text Label 9925 23675 2    50   Italic 10
+H5
+Text Label 9925 23475 2    50   Italic 10
+H4
+Wire Wire Line
+	9900 24200 10075 24200
+Wire Wire Line
+	10700 24200 10675 24200
+Wire Wire Line
+	10700 23775 10700 24200
+$Comp
+L 74xx:74LS02 B14
+U 1 1 625D8122
+P 11000 23675
+F 0 "B14" H 11000 24000 50  0000 C CNN
+F 1 "74LS02" H 11000 23909 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 11000 23675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 11000 23675 50  0001 C CNN
+	1    11000 23675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 B14
+U 2 1 625AEC4B
+P 10400 23575
+F 0 "B14" H 10400 23900 50  0000 C CNN
+F 1 "74LS02" H 10400 23809 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 10400 23575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 10400 23575 50  0001 C CNN
+	2    10400 23575
+	1    0    0    -1  
+$EndComp
+Text Label 9925 25525 2    50   Italic 10
+V4
+Text Label 9925 25325 2    50   Italic 10
+V3
+Text Label 9900 25000 2    50   Italic 10
+V1
+Text Label 9900 24775 2    50   Italic 10
+V0
+Text Label 9900 24575 2    50   Italic 10
+VC
+Text Label 9900 24200 2    50   Italic 10
+V2
+Wire Notes Line
+	10075 23100 11075 23100
+Wire Notes Line
+	11075 23100 11075 22125
+Wire Notes Line
+	10075 22125 10075 23100
+Wire Wire Line
+	9950 22825 10225 22825
+Wire Wire Line
+	9950 22625 10225 22625
+Text Notes 11375 22525 0    50   Italic 10
+>
+Text Label 11225 22525 0    50   Italic 10
+HBL
+Connection ~ 10125 22225
+Wire Wire Line
+	10125 22225 9950 22225
+Wire Wire Line
+	10125 22225 10225 22225
+Wire Wire Line
+	10125 22425 10125 22225
+Wire Wire Line
+	10225 22425 10125 22425
+Text Label 9950 22625 2    50   Italic 10
+H3
+Text Label 9950 22825 2    50   Italic 10
+H4
+Text Label 9950 22225 2    50   Italic 10
+H5
+$Comp
+L 74xx:74LS08 B11
+U 3 1 629B62B2
+P 10425 25425
+F 0 "B11" H 10425 25750 50  0000 C CNN
+F 1 "74LS08" H 10425 25659 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 10425 25425 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 10425 25425 50  0001 C CNN
+	3    10425 25425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 C11
+U 5 1 626032C6
+P 10375 24200
+F 0 "C11" H 10375 24517 50  0000 C CNN
+F 1 "74LS04" H 10375 24426 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 10375 24200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10375 24200 50  0001 C CNN
+	5    10375 24200
+	1    0    0    -1  
+$EndComp
+$Comp
+L appleii-rescue:OpAmp_741-geral K13
+U 1 1 61C692AC
+P 22575 20950
+F 0 "K13" H 22550 21115 50  0000 C CNN
+F 1 "OpAmp_741" H 22550 21024 50  0000 C CNN
+F 2 "geral:LM386" H 22575 21200 50  0001 C CNN
+F 3 "" H 22575 21200 50  0001 C CNN
+	1    22575 20950
+	1    0    0    -1  
+$EndComp
+$Comp
+L appleii:APPLEII_GAMECON J14
+U 1 1 6102586F
+P 33650 16925
+F 0 "J14" H 33375 17375 50  0000 C CNN
+F 1 "APPLEII_GAMECON" H 33650 17299 50  0000 C CNN
+F 2 "geral:conetor_2x05_P2.54_toDB9" H 33650 17375 50  0001 C CNN
+F 3 "" H 33650 17375 50  0001 C CNN
+	1    33650 16925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 A12
+U 1 1 60CF6876
+P 22900 27275
+F 0 "A12" H 22900 27600 50  0000 C CNN
+F 1 "74LS02" H 22900 27509 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 22900 27275 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 22900 27275 50  0001 C CNN
+	1    22900 27275
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS51 C13
+U 2 1 62247A6A
+P 10725 22525
+F 0 "C13" H 10775 22950 50  0000 C CNN
+F 1 "74LS51" H 10775 23025 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 10725 22525 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 10725 22525 50  0001 C CNN
+	2    10725 22525
+	1    0    0    1   
+$EndComp
+Text Label 12250 21125 2    50   Italic 10
+H3
+Text Label 12250 21225 2    50   Italic 10
+HBL
+$Comp
+L 74xx:74LS51 C13
+U 1 1 64106B0D
+P 13075 23925
+F 0 "C13" H 13075 24450 50  0000 C CNN
+F 1 "74LS51" H 13075 24359 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 13075 23925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 13075 23925 50  0001 C CNN
+	1    13075 23925
+	1    0    0    1   
+$EndComp
+Wire Notes Line
+	12500 23425 13625 23425
+Wire Notes Line
+	13625 23425 13625 24425
+Wire Notes Line
+	13625 24425 12500 24425
+Wire Notes Line
+	12500 24425 12500 23425
+Text Label 12350 23825 2    50   Italic 10
+HBL
+Wire Wire Line
+	12350 23825 12575 23825
+Wire Wire Line
+	11300 23675 12125 23675
+Wire Wire Line
+	12125 23675 12125 24225
+Wire Wire Line
+	12125 24225 12575 24225
+Wire Wire Line
+	12050 24675 12050 24125
+Wire Wire Line
+	12050 24125 12575 24125
+Text Label 12350 24025 2    50   Italic 10
+VBL
+Wire Wire Line
+	12350 24025 12575 24025
+Text Label 12325 23625 2    50   Italic 10
+H3
+Wire Wire Line
+	12575 23625 12325 23625
+Wire Wire Line
+	12575 23725 12175 23725
+Wire Wire Line
+	12175 23725 12175 21825
+Wire Wire Line
+	11525 21825 12175 21825
+Wire Wire Line
+	13575 23925 13675 23925
+Text Label 13675 23925 0    50   Italic 10
+SYNC
+Text Notes 13875 23925 0    50   Italic 10
+>
+Text Label 15100 21525 0    50   ~ 0
+GND
+Wire Wire Line
+	14800 21525 15100 21525
+Connection ~ 14800 21525
+Wire Wire Line
+	15125 23150 13925 23150
+Wire Wire Line
+	13925 23150 13925 23100
+Wire Wire Line
+	13925 23150 13825 23150
+Connection ~ 13925 23150
+Wire Wire Line
+	14725 22500 14725 21925
+Wire Wire Line
+	14725 21875 14725 21925
+Connection ~ 14725 21925
+Wire Wire Line
+	14825 21875 14825 21925
+Connection ~ 14825 21925
+Wire Notes Line
+	12375 23300 16350 23300
+Wire Notes Line
+	16350 23300 16350 21675
+Wire Notes Line
+	12375 21675 12375 23300
+Wire Notes Line
+	16350 21675 12375 21675
+$Comp
+L 74xx:74LS32 C14
+U 2 1 64B8EA66
+P 11800 25450
+F 0 "C14" H 11800 25775 50  0000 C CNN
+F 1 "74LS32" H 11800 25684 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 11800 25450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 11800 25450 50  0001 C CNN
+	2    11800 25450
+	1    0    0    -1  
+$EndComp
+Text Label 11500 25350 2    50   Italic 10
+VBL
+Text Label 11500 25550 2    50   Italic 10
+HBL
+Text Label 12100 25450 0    50   Italic 10
+BLANKING
+Text Notes 12475 25450 0    50   Italic 10
+>
+$Comp
+L Device:R_Network08 RA3
+U 1 1 64E45BBB
+P 3750 2625
+F 0 "RA3" H 4138 2671 50  0000 L CNN
+F 1 "1K" H 4138 2580 50  0000 L CNN
+F 2 "geral:R_Array_SIP9" V 4225 2625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3750 2625 50  0001 C CNN
+	1    3750 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network08 RA2
+U 1 1 64E0F045
+P 2700 2625
+F 0 "RA2" H 3088 2671 50  0000 L CNN
+F 1 "1K" H 3088 2580 50  0000 L CNN
+F 2 "geral:R_Array_SIP9" V 3175 2625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2700 2625 50  0001 C CNN
+	1    2700 2625
+	0    -1   1    0   
+$EndComp
+Text Label 3950 2225 0    50   ~ 0
+GND
+Text Label 2500 2225 2    50   ~ 0
+5V
+Wire Wire Line
+	2900 2425 3550 2425
+Wire Wire Line
+	2900 2525 3550 2525
+Wire Wire Line
+	2900 2725 3550 2725
+Wire Wire Line
+	2900 2825 3550 2825
+Wire Wire Line
+	2900 2925 3550 2925
+Text Label 1550 12475 0    315  Italic 63
+3-ADDRVIDEO
+Text Label 2775 13700 2    50   Italic 10
+~LPDS
+Text Label 2775 13600 2    50   ~ 10
+D14_5V
+Text Label 2700 13250 2    50   ~ 0
+GND
+Wire Wire Line
+	2775 13400 2775 13300
+Text Label 3275 12775 2    50   ~ 0
+SOFT5
+Text Label 4150 13250 0    50   Italic 10
+H0
+Text Label 4150 13350 0    50   Italic 10
+H1
+Wire Wire Line
+	3725 13350 4150 13350
+Text Label 4150 13450 0    50   Italic 10
+H2
+Text Label 4150 13550 0    50   Italic 10
+H3
+Text Notes 4275 13250 0    50   Italic 10
+>
+Text Notes 4275 13350 0    50   Italic 10
+>
+Text Notes 4275 13450 0    50   Italic 10
+>
+Text Notes 4275 13550 0    50   Italic 10
+>
+Text Label 3725 13700 0    50   Italic 10
+~HPE
+Text Label 2275 14800 2    50   ~ 0
+SOFT5
+Wire Wire Line
+	2775 13250 2700 13250
+Connection ~ 2775 13300
+Text Label 2275 14400 2    50   ~ 0
+GND
+Text Label 2775 14950 2    50   Italic 10
+~LPDS
+Text Label 2775 14850 2    50   ~ 10
+D13_5V
+$Comp
+L appleii-rescue:74LS161-geral D12
+U 1 1 66918735
+P 3275 15900
+F 0 "D12" H 3500 16475 50  0000 C CNN
+F 1 "74LS161" H 3575 16375 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 3275 15900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 3275 15900 50  0001 C CNN
+	1    3275 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L appleii-rescue:74LS161-geral D14
+U 1 1 65702153
+P 3275 13400
+F 0 "D14" H 3475 14000 50  0000 C CNN
+F 1 "74LS161" H 3575 13925 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 3275 13400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 3275 13400 50  0001 C CNN
+	1    3275 13400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 13200 2775 13250
+Wire Wire Line
+	2775 13100 2775 13200
+Connection ~ 2775 13200
+Connection ~ 2775 13250
+Wire Wire Line
+	2775 13250 2775 13300
+Text Notes 4300 14800 0    50   Italic 10
+>
+Text Notes 4350 14700 0    50   Italic 10
+>
+Text Notes 4325 14600 0    50   Italic 10
+>
+Text Notes 4325 14500 0    50   Italic 10
+>
+Text Label 4200 14800 0    50   Italic 10
+VA
+Text Label 4200 14700 0    50   Italic 10
+~HPE
+Text Label 4200 14600 0    50   Italic 10
+H5
+Text Label 4200 14500 0    50   Italic 10
+H4
+$Comp
+L appleii-rescue:74LS161-geral D13
+U 1 1 65823DBE
+P 3275 14650
+F 0 "D13" H 3475 15200 50  0000 C CNN
+F 1 "74LS161" H 3575 15125 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 3275 14650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 3275 14650 50  0001 C CNN
+	1    3275 14650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 14050 3275 14050
+Wire Wire Line
+	3275 14050 3325 14050
+Connection ~ 3275 14050
+Wire Wire Line
+	3725 14500 4200 14500
+Wire Wire Line
+	3725 14600 4200 14600
+Wire Wire Line
+	3725 14800 4200 14800
+Wire Wire Line
+	3725 14950 4075 14950
+Wire Wire Line
+	4075 14950 4075 14700
+Connection ~ 4075 14700
+Wire Wire Line
+	3900 14700 3900 13700
+Connection ~ 3900 14700
+Wire Wire Line
+	3900 14700 4075 14700
+Wire Wire Line
+	3725 13700 3900 13700
+Wire Wire Line
+	2775 15050 2375 15050
+Wire Wire Line
+	2375 15050 2375 14800
+Wire Wire Line
+	2375 14550 2775 14550
+Wire Wire Line
+	2375 14800 2275 14800
+Connection ~ 2375 14800
+Wire Wire Line
+	2375 14800 2375 14550
+Wire Wire Line
+	2775 14450 2375 14450
+Wire Wire Line
+	2375 14450 2375 14400
+Wire Wire Line
+	2375 14350 2775 14350
+Wire Wire Line
+	2375 14400 2275 14400
+Connection ~ 2375 14400
+Wire Wire Line
+	2375 14400 2375 14350
+Text Label 2775 14650 2    50   Italic 10
+VA
+Wire Wire Line
+	2775 14650 3275 14650
+Wire Wire Line
+	3275 14650 3275 14800
+Wire Wire Line
+	3275 14800 3725 14800
+Connection ~ 3725 14800
+Text Label 2775 14750 2    50   ~ 0
+GND
+Wire Wire Line
+	3225 15300 3275 15300
+Wire Wire Line
+	3275 15300 3325 15300
+Connection ~ 3275 15300
+Text Label 4150 15750 0    50   Italic 10
+VB
+Wire Wire Line
+	3725 15750 4150 15750
+Text Label 4150 15850 0    50   Italic 10
+VC
+Wire Wire Line
+	3725 15850 4150 15850
+Text Label 4150 15950 0    50   Italic 10
+V0
+Wire Wire Line
+	3725 15950 4150 15950
+Text Label 4150 16050 0    50   Italic 10
+V1
+Wire Wire Line
+	3725 16050 4150 16050
+Text Notes 4250 15750 0    50   Italic 10
+>
+Text Notes 4250 15850 0    50   Italic 10
+>
+Text Notes 4250 15950 0    50   Italic 10
+>
+Text Notes 4250 16050 0    50   Italic 10
+>
+$Comp
+L appleii-rescue:74LS161-geral D11
+U 1 1 67CA331F
+P 3275 17150
+F 0 "D11" H 3500 17725 50  0000 C CNN
+F 1 "74LS161" H 3575 17625 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 3275 17150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 3275 17150 50  0001 C CNN
+	1    3275 17150
+	1    0    0    -1  
+$EndComp
+Text Label 4150 17000 0    50   Italic 10
+V2
+Wire Wire Line
+	3725 17000 4150 17000
+Text Label 4150 17100 0    50   Italic 10
+V3
+Wire Wire Line
+	3725 17100 4150 17100
+Text Label 4150 17200 0    50   Italic 10
+V4
+Wire Wire Line
+	3725 17200 4150 17200
+Text Label 4150 17300 0    50   Italic 10
+V5
+Wire Wire Line
+	3725 17300 4150 17300
+Text Notes 4250 17000 0    50   Italic 10
+>
+Text Notes 4250 17100 0    50   Italic 10
+>
+Text Notes 4250 17200 0    50   Italic 10
+>
+Text Notes 4250 17300 0    50   Italic 10
+>
+Text Label 2775 16200 2    50   Italic 10
+~LPDS
+Text Label 2775 16100 2    50   ~ 10
+D12_5V
+Text Label 2775 16000 2    50   ~ 0
+GND
+Text Label 2775 17450 2    50   Italic 10
+~LPDS
+Text Label 2775 17350 2    50   ~ 10
+D11_5V
+Text Label 2675 17200 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS04 C11
+U 4 1 67F2D86C
+P 3975 17800
+F 0 "C11" H 3950 17600 50  0000 C CNN
+F 1 "74LS04" H 3950 17525 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 3975 17800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3975 17800 50  0001 C CNN
+	4    3975 17800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 17800 3675 17800
+Wire Wire Line
+	3725 17450 4325 17450
+Wire Wire Line
+	4325 17450 4325 17800
+Wire Wire Line
+	4325 17800 4275 17800
+Wire Wire Line
+	4325 17450 4575 17450
+Wire Wire Line
+	4575 17450 4575 16200
+Wire Wire Line
+	4575 16200 3725 16200
+Connection ~ 4325 17450
+Wire Wire Line
+	2775 17250 2725 17250
+Wire Wire Line
+	2725 17250 2725 17200
+Wire Wire Line
+	2725 17150 2775 17150
+Wire Wire Line
+	2725 17200 2675 17200
+Connection ~ 2725 17200
+Wire Wire Line
+	2725 17200 2725 17150
+Wire Wire Line
+	2775 15600 2300 15600
+Wire Wire Line
+	2300 15600 2300 15550
+Wire Wire Line
+	2775 15900 2300 15900
+Wire Wire Line
+	2300 15900 2300 15600
+Connection ~ 2300 15600
+Text Label 2900 2225 0    50   ~ 0
+RPULLUP_1
+Text Label 2300 15550 2    50   ~ 0
+RPULLUP_1
+Connection ~ 2300 15900
+Wire Wire Line
+	2775 15800 2575 15800
+Wire Wire Line
+	2575 15800 2575 15300
+Wire Wire Line
+	2575 15300 3225 15300
+Connection ~ 3225 15300
+Text Label 2775 15700 2    50   ~ 0
+GND
+Wire Wire Line
+	2775 16850 2300 16850
+Wire Wire Line
+	2300 15900 2300 16850
+Wire Wire Line
+	3275 16550 3325 16550
+Connection ~ 3275 16550
+Wire Wire Line
+	3225 16550 3275 16550
+Wire Wire Line
+	2775 16950 2675 16950
+Wire Wire Line
+	2675 16950 2675 16550
+Wire Wire Line
+	2675 16550 3225 16550
+Connection ~ 3225 16550
+Wire Wire Line
+	2775 17050 2675 17050
+Wire Wire Line
+	2675 17050 2675 16950
+Connection ~ 2675 16950
+Wire Wire Line
+	3225 12800 3275 12800
+Wire Wire Line
+	3275 12775 3275 12800
+Connection ~ 3275 12800
+Wire Wire Line
+	3275 12800 3325 12800
+$Comp
+L appleii-rescue:74_153-geral C1
+U 1 1 68B5AC3B
+P 9900 17325
+F 0 "C1" H 9875 18290 50  0000 C CNN
+F 1 "74_153" H 9875 18199 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 9900 17325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 9900 17325 50  0001 C CNN
+	1    9900 17325
+	1    0    0    -1  
+$EndComp
+Text Label 6500 12850 0    315  Italic 63
+5-ADDRDECODE
+Text Label 10750 16625 0    50   Italic 10
+RA6
+$Comp
+L Device:R R32
+U 1 1 68B5AC50
+P 10775 17325
+F 0 "R32" H 10845 17371 50  0000 L CNN
+F 1 "1K" H 10845 17280 50  0000 L CNN
+F 2 "geral:standard_2pins" V 10705 17325 50  0001 C CNN
+F 3 "~" H 10775 17325 50  0001 C CNN
+	1    10775 17325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 68B5AC57
+P 10450 17325
+F 0 "R31" H 10520 17371 50  0000 L CNN
+F 1 "1K" H 10520 17280 50  0000 L CNN
+F 2 "geral:standard_2pins" V 10380 17325 50  0001 C CNN
+F 3 "~" H 10450 17325 50  0001 C CNN
+	1    10450 17325
+	1    0    0    -1  
+$EndComp
+Text Label 10450 17600 0    50   ~ 0
+GND
+Wire Wire Line
+	10450 17475 10450 17600
+Wire Wire Line
+	10775 17175 10775 17100
+Text Label 10775 17100 0    50   ~ 0
+5V
+$Comp
+L 74xx:74LS20 D2
+U 2 1 68B5AC61
+P 11100 14250
+F 0 "D2" H 11100 14625 50  0000 C CNN
+F 1 "74LS20" H 11100 14534 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 11100 14250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS20" H 11100 14250 50  0001 C CNN
+	2    11100 14250
+	1    0    0    1   
+$EndComp
+Text Label 11400 14050 2    50   Italic 10
+R\~W
+Text Label 10800 14100 2    50   Italic 10
+~KBD
+Text Label 7025 13350 2    50   Italic 10
+HIRES
+Text Label 7025 13550 2    50   Italic 10
+PAGE2
+Text Label 6825 13925 2    50   Italic 10
+Φ0
+Text Label 7525 14525 0    50   Italic 10
+A14
+Text Label 7525 14225 0    50   Italic 10
+A15
+Text Label 8225 16225 0    50   Italic 10
+VC
+Text Label 9250 15625 0    50   Italic 10
+~PAGE2
+Text Label 8225 16125 0    50   Italic 10
+HBL
+Text Label 9400 16925 2    50   Italic 10
+A12
+Text Label 9400 16825 2    50   Italic 10
+A13
+Text Label 9400 17225 2    50   Italic 10
+AX
+Text Label 9450 14200 2    50   Italic 10
+~CAS
+$Comp
+L 74xx:74LS00 A2
+U 2 1 68B5AC75
+P 11850 14150
+F 0 "A2" H 11850 14475 50  0000 C CNN
+F 1 "74LS00" H 11850 14384 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 11850 14150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 11850 14150 50  0001 C CNN
+	2    11850 14150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 14050 11550 14050
+Wire Wire Line
+	11550 14250 11400 14250
+Text Label 12150 14150 0    50   Italic 10
+~RAMSEL
+$Comp
+L 74xx:74LS08 H1
+U 3 1 68B5AC7E
+P 7575 13450
+F 0 "H1" H 7575 13775 50  0000 C CNN
+F 1 "74LS08" H 7575 13684 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 7575 13450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7575 13450 50  0001 C CNN
+	3    7575 13450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7275 13350 7025 13350
+Wire Wire Line
+	7275 13550 7025 13550
+Wire Wire Line
+	7875 13450 8125 13450
+Text Label 6825 14625 2    50   ~ 0
+GND
+Text Label 7525 15925 2    50   Italic 10
+HIRES
+Text Label 8650 15625 2    50   Italic 10
+PAGE2
+$Comp
+L 74xx:74LS04 C11
+U 1 1 68B5AC91
+P 8950 15625
+F 0 "C11" H 8950 15942 50  0000 C CNN
+F 1 "74LS04" H 8950 15851 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 8950 15625 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 8950 15625 50  0001 C CNN
+	1    8950 15625
+	1    0    0    -1  
+$EndComp
+Text Notes 9500 15625 0    50   Italic 10
+>
+Text Label 7525 16625 2    50   ~ 0
+GND
+Text Label 9400 17325 2    50   Italic 10
+Φ0
+Text Label 9400 17125 2    50   ~ 0
+GND
+Text Notes 10900 16625 0    50   Italic 10
+>
+Text Label 9450 15100 2    50   ~ 0
+GND
+Wire Wire Line
+	9450 14850 8925 14850
+Wire Wire Line
+	8925 14400 9450 14400
+Wire Wire Line
+	9450 14750 9050 14750
+Wire Wire Line
+	9050 14750 9050 14300
+Wire Wire Line
+	9050 14300 9450 14300
+Text Label 9450 14600 2    50   ~ 0
+GND
+NoConn ~ 10200 14950
+NoConn ~ 10200 14500
+Text Label 10200 14650 0    50   Italic 10
+~CAS_C
+Text Label 10200 14750 0    50   Italic 10
+~CAS_D
+Text Label 10200 14850 0    50   Italic 10
+~CAS_E
+Text Notes 10450 14850 0    50   Italic 10
+>
+Text Notes 10450 14750 0    50   Italic 10
+>
+Text Notes 10450 14650 0    50   Italic 10
+>
+Text Notes 12450 14150 0    50   Italic 10
+>
+Connection ~ 9050 14300
+$Comp
+L appleii-rescue:74LS139-geral F2
+U 1 1 68B5ACBE
+P 9800 14400
+F 0 "F2" H 9825 14975 50  0000 C CNN
+F 1 "74LS139" H 9825 14884 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 9850 14950 50  0001 C CNN
+F 3 "" H 9850 14950 50  0001 C CNN
+	1    9800 14400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4075 14700 4200 14700
+Wire Wire Line
+	3725 13550 4150 13550
+Wire Wire Line
+	3725 14700 3900 14700
+Wire Wire Line
+	3725 13450 4150 13450
+Wire Wire Line
+	3725 13250 4150 13250
+$Comp
+L 74xx:74LS86 B2
+U 1 1 620533F8
+P 7700 10400
+F 0 "B2" H 7700 10725 50  0000 C CNN
+F 1 "74LS86" H 7700 10634 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 7700 10400 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 7700 10400 50  0001 C CNN
+	1    7700 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS86 B2
+U 3 1 626F7774
+P 4950 8325
+F 0 "B2" H 4950 8650 50  0000 C CNN
+F 1 "74LS86" H 4950 8559 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 4950 8325 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 4950 8325 50  0001 C CNN
+	3    4950 8325
+	1    0    0    -1  
+$EndComp
+Text Notes 8500 10900 2    50   Italic 10
+<
+Text Notes 8500 11000 2    50   Italic 10
+<
+Text Notes 9750 10500 0    50   Italic 10
+>
+Text Notes 9750 10600 0    50   Italic 10
+>
+Text Notes 8150 10600 0    50   Italic 10
+<
+Text Notes 7250 10050 0    50   Italic 10
+>
+Text Notes 7350 9150 0    50   Italic 10
+>
+Text Label 7100 9150 0    50   Italic 10
+LD194
+Text Notes 5275 9850 0    50   Italic 10
+>
+Text Notes 5225 9950 0    50   Italic 10
+>
+Text Notes 5275 10050 0    50   Italic 10
+>
+Text Notes 5225 10150 0    50   Italic 10
+>
+Text Notes 5225 10250 0    50   Italic 10
+>
+Text Label 6350 7125 0    50   Italic 10
+14M
+Text Notes 6525 7125 0    50   Italic 10
+>
+Connection ~ 6125 9250
+Wire Wire Line
+	6125 9250 6500 9250
+Text Label 7050 10050 0    50   Italic 10
+~LPDS
+Text Label 6450 10150 2    50   Italic 10
+Φ0
+Connection ~ 6125 9950
+Wire Wire Line
+	6125 9950 6450 9950
+$Comp
+L 74xx:74LS00 A2
+U 1 1 62CBFDAF
+P 1900 4475
+F 0 "A2" H 1900 4800 50  0000 C CNN
+F 1 "74LS00" H 1900 4709 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 1900 4475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1900 4475 50  0001 C CNN
+	1    1900 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 10000 3050 10000
+Wire Wire Line
+	2825 10575 2825 10000
+Wire Wire Line
+	1750 10575 2825 10575
+Wire Wire Line
+	1750 9250 1750 10575
+Wire Wire Line
+	6125 9250 1750 9250
+Wire Wire Line
+	6125 9950 6125 9250
+$Comp
+L 74xx:74LS02 B13
+U 3 1 62C58630
+P 5825 9950
+F 0 "B13" H 5825 10275 50  0000 C CNN
+F 1 "74LS02" H 5825 10184 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 5825 9950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 5825 9950 50  0001 C CNN
+	3    5825 9950
+	1    0    0    -1  
+$EndComp
+Text Label 6500 9150 2    50   Italic 10
+Φ0
+Text Label 6500 9050 2    50   Italic 10
+~7M
+$Comp
+L 74xx:74LS11 B12
+U 3 1 62BCF5F4
+P 6800 9150
+F 0 "B12" H 6800 9475 50  0000 C CNN
+F 1 "74LS11" H 6800 9384 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 6800 9150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS11" H 6800 9150 50  0001 C CNN
+	3    6800 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 10975 6200 10975
+Wire Wire Line
+	5875 10775 6200 10775
+Text Label 6200 10875 2    50   Italic 10
+~Q3
+Text Label 6200 11075 2    50   Italic 10
+Q3
+Wire Wire Line
+	3875 10750 3875 11400
+Wire Wire Line
+	5325 11400 3875 11400
+Wire Wire Line
+	5325 10150 5325 11400
+Text Label 5125 10150 0    50   Italic 10
+Q3
+Text Label 5125 10250 0    50   Italic 10
+~Q3
+$Comp
+L appleii-rescue:74_153-geral C1
+U 2 1 628E3380
+P 6700 11475
+F 0 "C1" H 6675 12440 50  0000 C CNN
+F 1 "74_153" H 6675 12349 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 6700 11475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 6700 11475 50  0001 C CNN
+	2    6700 11475
+	1    0    0    -1  
+$EndComp
+Text Label 3875 9600 2    50   Italic 10
+AX
+Text Label 4125 10150 2    50   Italic 10
+~RAS
+Text Label 6200 11275 2    50   ~ 0
+GND
+Text Label 8625 10400 2    50   ~ 0
+SOFT5
+Text Label 9625 11100 0    50   Italic 10
+14M
+Wire Wire Line
+	4050 8225 4650 8225
+Wire Wire Line
+	4475 8425 4650 8425
+Wire Wire Line
+	4475 8550 4475 8425
+Text Label 4475 8550 3    50   ~ 0
+GND
+Connection ~ 4050 8225
+Text Label 3350 8875 3    50   ~ 0
+GND
+$Comp
+L Device:C kC1
+U 1 1 62654584
+P 3350 8725
+F 0 "kC1" H 3465 8771 50  0000 L CNN
+F 1 "0.1u" H 3465 8680 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 3388 8575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 3350 8725 50  0001 C CNN
+	1    3350 8725
+	1    0    0    -1  
+$EndComp
+Text Label 4050 8550 3    50   ~ 0
+GND
+Wire Wire Line
+	2575 7475 2575 7750
+Text Label 2575 7475 0    50   ~ 0
+5V
+Wire Wire Line
+	4050 8225 4050 8250
+$Comp
+L Device:R R3
+U 1 1 6249DF48
+P 4050 8400
+F 0 "R3" H 4120 8446 50  0000 L CNN
+F 1 "150" H 4120 8355 50  0000 L CNN
+F 2 "geral:standard_2pins" V 3980 8400 50  0001 C CNN
+F 3 "~" H 4050 8400 50  0001 C CNN
+	1    4050 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 8025 3750 8025
+Connection ~ 3725 8025
+Wire Wire Line
+	3450 7500 2875 7500
+Connection ~ 3450 7500
+Text Label 3450 7200 0    50   ~ 0
+12V
+$Comp
+L Device:R R1
+U 1 1 62441906
+P 3450 7350
+F 0 "R1" H 3520 7396 50  0000 L CNN
+F 1 "330" H 3520 7305 50  0000 L CNN
+F 2 "geral:standard_2pins" V 3380 7350 50  0001 C CNN
+F 3 "~" H 3450 7350 50  0001 C CNN
+	1    3450 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 7500 2875 7550
+Wire Wire Line
+	4050 7500 3450 7500
+Wire Wire Line
+	4050 7825 4050 7500
+Text Label 2875 8550 3    50   ~ 0
+GND
+$Comp
+L Device:R R4
+U 1 1 623A5337
+P 3725 8400
+F 0 "R4" H 3795 8446 50  0000 L CNN
+F 1 "47" H 3795 8355 50  0000 L CNN
+F 2 "geral:standard_2pins" V 3655 8400 50  0001 C CNN
+F 3 "~" H 3725 8400 50  0001 C CNN
+	1    3725 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 8025 3725 8250
+Wire Wire Line
+	3625 8025 3725 8025
+$Comp
+L Device:R R2
+U 1 1 62390853
+P 2875 8400
+F 0 "R2" H 2945 8446 50  0000 L CNN
+F 1 "47" H 2945 8355 50  0000 L CNN
+F 2 "geral:standard_2pins" V 2805 8400 50  0001 C CNN
+F 3 "~" H 2875 8400 50  0001 C CNN
+	1    2875 8400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2875 8025
+Wire Wire Line
+	2875 8025 2875 8250
+Wire Wire Line
+	2875 8025 2875 7950
+Wire Wire Line
+	3325 8025 2875 8025
+$Comp
+L Device:Crystal CRYSTAL1
+U 1 1 622CEB0B
+P 3475 8025
+F 0 "CRYSTAL1" H 3475 8293 50  0000 C CNN
+F 1 "14.31818M" H 3475 8202 50  0000 C CNN
+F 2 "geral:standard_2pins_half" H 3475 8025 50  0001 C CNN
+F 3 "~" H 3475 8025 50  0001 C CNN
+	1    3475 8025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3906 Q2
+U 1 1 6223F0BD
+P 3950 8025
+F 0 "Q2" H 4141 7979 50  0000 L CNN
+F 1 "2N3906" H 4141 8070 50  0000 L CNN
+F 2 "geral:TO-92_Inline" H 4150 7950 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 3950 8025 50  0001 L CNN
+	1    3950 8025
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3906 Q1
+U 1 1 6223CDAA
+P 2775 7750
+F 0 "Q1" H 2965 7796 50  0000 L CNN
+F 1 "2N3906" H 2965 7705 50  0000 L CNN
+F 2 "geral:TO-92_Inline" H 2975 7675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 2775 7750 50  0001 L CNN
+	1    2775 7750
+	1    0    0    1   
+$EndComp
+Text Label 4125 10450 2    50   Italic 10
+14M
+Text Label 3775 10550 2    50   ~ 0
+GND
+Connection ~ 3875 10550
+Wire Wire Line
+	3875 10550 3775 10550
+Wire Wire Line
+	3875 10550 4125 10550
+Wire Wire Line
+	3875 10350 3875 10550
+Wire Wire Line
+	4125 10350 3875 10350
+Text Label 4125 10850 2    50   ~ 0
+SOFT5
+Wire Wire Line
+	4125 10750 3875 10750
+Text Label 6200 11375 2    50   Italic 10
+AX
+Text Label 5125 9850 0    50   Italic 10
+~RAS
+Connection ~ 5875 10975
+Wire Wire Line
+	5875 10975 5875 11925
+Wire Wire Line
+	5875 10775 5875 10975
+Text Label 7400 10500 2    50   Italic 10
+7M
+Text Label 7400 10300 2    50   Italic 10
+~COLORREF
+Text Label 9625 10400 0    50   ~ 10
+B1_5V
+Text Label 8625 11100 2    50   ~ 0
+GND
+NoConn ~ 9625 10900
+Text Label 8625 11000 2    50   Italic 10
+Φ0
+Text Label 8625 10900 2    50   Italic 10
+Φ1
+Text Label 8625 10600 2    50   Italic 10
+COLORREF
+Text Label 9625 10500 0    50   Italic 10
+7M
+Text Label 9625 10600 0    50   Italic 10
+~7M
+Text Label 4625 11150 3    50   ~ 0
+GND
+Connection ~ 3875 9850
+Wire Wire Line
+	3875 9850 3875 9600
+Wire Wire Line
+	3875 10050 4125 10050
+Wire Wire Line
+	3875 9850 3875 10050
+Wire Wire Line
+	4125 9850 3875 9850
+Wire Wire Line
+	3650 9950 4125 9950
+Text Label 5125 10050 0    50   Italic 10
+~CAS
+Text Label 5125 9950 0    50   Italic 10
+AX
+Text Label 3050 9900 2    50   ~ 0
+~COLORREF
+Text Label 3050 10100 2    50   ~ 0
+Φ0
+Text Label 3050 10000 2    50   ~ 0
+AXCAS
+Text Label 2100 9900 2    50   ~ 0
+~HPE
+Text Label 2100 9700 2    50   ~ 0
+SOFT5
+Wire Wire Line
+	2700 9800 3050 9800
+$Comp
+L 74xx:74LS86 B2
+U 2 1 61E5C864
+P 2400 9800
+F 0 "B2" H 2400 10125 50  0000 C CNN
+F 1 "74LS86" H 2400 10034 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 2400 9800 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 2400 9800 50  0001 C CNN
+	2    2400 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS20 D2
+U 1 1 61E2C85A
+P 3350 9950
+F 0 "D2" H 3350 10325 50  0000 C CNN
+F 1 "74LS20" H 3350 10234 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 3350 9950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS20" H 3350 9950 50  0001 C CNN
+	1    3350 9950
+	1    0    0    -1  
+$EndComp
+Text Label 1225 6850 0    315  Italic 63
+2-CLOCKGEN
+Text Label 5325 1825 2    50   ~ 0
+5V
+Text Label 5325 2825 2    50   ~ 0
+GND
+Text Label 5125 1575 0    315  Italic 63
+POWER
+Text Label 1000 1700 0    315  Italic 63
+MISC
+$Comp
+L 74xx:74LS245 H11
+U 1 1 605F0214
+P 16525 9275
+F 0 "H11" H 16250 8425 50  0000 C CNN
+F 1 "74LS245" H 16250 8525 50  0000 C CNN
+F 2 "geral:standard_DIP_20pins" H 16525 9275 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 16525 9275 50  0001 C CNN
+	1    16525 9275
+	-1   0    0    1   
+$EndComp
+Text Label 10500 7000 0    315  Italic 63
+8-CPU
+Wire Wire Line
+	17300 10650 15975 10650
+Wire Wire Line
+	17300 8875 17300 10650
+Wire Wire Line
+	17025 8875 17300 8875
+Text Label 15375 10750 2    50   ~ 0
+R\~W
+Text Label 16025 9775 2    50   ~ 0
+lD7
+Text Label 16025 9675 2    50   ~ 0
+lD6
+Text Label 16025 9575 2    50   ~ 0
+lD5
+Text Label 16025 9475 2    50   ~ 0
+lD4
+Text Label 16025 9375 2    50   ~ 0
+lD3
+Text Label 16025 9275 2    50   ~ 0
+lD2
+Text Label 16025 9175 2    50   ~ 0
+lD1
+Text Label 16025 9075 2    50   ~ 0
+lD0
+$Comp
+L 74xx:74LS04 C11
+U 6 1 605EC5FD
+P 12175 9400
+F 0 "C11" V 12350 9250 50  0000 C CNN
+F 1 "74LS04" V 12275 9200 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 12175 9400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 12175 9400 50  0001 C CNN
+	6    12175 9400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15375 9600 15375 10550
+Wire Wire Line
+	15300 9600 15375 9600
+$Comp
+L 74xx:74LS32 C14
+U 3 1 605E6929
+P 15675 10650
+F 0 "C14" H 15675 10333 50  0000 C CNN
+F 1 "74LS32" H 15675 10424 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 15675 10650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 15675 10650 50  0001 C CNN
+	3    15675 10650
+	1    0    0    1   
+$EndComp
+Text Label 15050 10275 3    50   ~ 0
+GND
+Connection ~ 15050 10225
+Wire Wire Line
+	15300 10225 15050 10225
+Wire Wire Line
+	15300 9800 15300 10225
+Wire Wire Line
+	15050 10225 15050 10275
+Wire Wire Line
+	14225 10225 15050 10225
+Wire Wire Line
+	14225 9600 14225 10225
+Wire Wire Line
+	14550 9600 14225 9600
+Text Label 15300 9700 0    50   ~ 0
+RDY
+Text Label 15300 9300 0    50   ~ 0
+~NMI
+Text Label 15300 9500 0    50   ~ 0
+~IRQ
+Text Label 12800 9600 2    50   Italic 10
+Φ0
+$Comp
+L 74xx:74LS08 B11
+U 1 1 605D6D02
+P 13100 9500
+F 0 "B11" H 13100 9275 50  0000 C CNN
+F 1 "74LS08" H 13100 9200 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 13100 9500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 13100 9500 50  0001 C CNN
+	1    13100 9500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 15300 9200
+Text Label 14550 9200 2    50   ~ 0
+lR\~W
+Text Label 14550 8350 2    50   ~ 0
+lD7
+Text Label 14550 8450 2    50   ~ 0
+lD6
+Text Label 14550 8550 2    50   ~ 0
+lD5
+Text Label 14550 8650 2    50   ~ 0
+lD4
+Text Label 14550 8750 2    50   ~ 0
+lD3
+Text Label 14550 8850 2    50   ~ 0
+lD2
+Text Label 14550 8950 2    50   ~ 0
+lD1
+Text Label 14550 9050 2    50   ~ 0
+lD0
+Text Label 14550 8200 2    50   ~ 0
+lA15
+Text Label 14550 8100 2    50   ~ 0
+lA14
+Text Label 14550 8000 2    50   ~ 0
+lA13
+Text Label 14550 7900 2    50   ~ 0
+lA12
+Text Label 15300 7750 0    50   ~ 0
+lA11
+Text Label 15300 7850 0    50   ~ 0
+lA10
+Text Label 15300 7950 0    50   ~ 0
+lA9
+Text Label 15300 8050 0    50   ~ 0
+lA8
+Text Label 15300 8150 0    50   ~ 0
+lA7
+Text Label 15300 8250 0    50   ~ 0
+lA6
+Text Label 15300 8350 0    50   ~ 0
+lA5
+Text Label 15300 8450 0    50   ~ 0
+lA4
+Text Label 15300 8550 0    50   ~ 0
+lA3
+Text Label 15300 8650 0    50   ~ 0
+lA2
+Text Label 15300 8750 0    50   ~ 0
+lA1
+Text Label 15300 8850 0    50   ~ 0
+lA0
+Text Label 15375 9600 0    50   ~ 0
+lΦ1
+Text Label 14550 9500 2    50   ~ 0
+lΦ0
+Text Label 17025 9075 0    50   ~ 0
+D0
+Text Label 10175 8150 2    50   ~ 0
+A15
+Text Label 11350 8175 2    50   ~ 0
+A14
+Text Label 12000 8225 0    50   ~ 0
+A13
+Text Label 10825 8200 0    50   ~ 0
+A12
+Text Label 10175 7950 2    50   ~ 0
+A11
+Text Label 10175 7750 2    50   ~ 0
+A10
+Text Label 10825 7800 0    50   ~ 0
+A4
+Text Label 11350 7775 2    50   ~ 0
+A3
+Text Label 10825 8000 0    50   ~ 0
+A1
+Text Label 11350 7975 2    50   ~ 0
+A0
+$Comp
+L appleii-rescue:CPU_6502-geral H8
+U 1 1 603B5B3B
+P 14950 9900
+F 0 "H8" H 14975 7500 50  0000 C CNN
+F 1 "CPU_6502" H 14975 7600 50  0000 C CNN
+F 2 "geral:standard_DIP_40pins_doubleBody" H 14950 9950 50  0001 C CNN
+F 3 "" H 14950 9950 50  0001 C CNN
+	1    14950 9900
+	-1   0    0    1   
+$EndComp
+$Comp
+L appleii-rescue:555-geral B3
+U 1 1 69501323
+P 2675 22225
+F 0 "B3" H 2275 22650 50  0000 C CNN
+F 1 "555" H 2300 22550 50  0000 C CNN
+F 2 "geral:standard_DIP_8pins" H 2675 22625 50  0001 C CNN
+F 3 "" H 2675 22625 50  0001 C CNN
+	1    2675 22225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 69501329
+P 3275 22025
+F 0 "R12" H 3345 22071 50  0000 L CNN
+F 1 "12K" H 3345 21980 50  0000 L CNN
+F 2 "geral:standard_2pins" V 3205 22025 50  0001 C CNN
+F 3 "~" H 3275 22025 50  0001 C CNN
+	1    3275 22025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 6950132F
+P 3275 22325
+F 0 "R13" H 3345 22371 50  0000 L CNN
+F 1 "3.3M" H 3345 22280 50  0000 L CNN
+F 2 "geral:standard_2pins" V 3205 22325 50  0001 C CNN
+F 3 "~" H 3275 22325 50  0001 C CNN
+	1    3275 22325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C kC15
+U 1 1 69501335
+P 3275 22625
+F 0 "kC15" H 3390 22671 50  0000 L CNN
+F 1 "0.1u" H 3390 22580 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 3313 22475 50  0001 C CNN
+F 3 "~" H 3275 22625 50  0001 C CNN
+	1    3275 22625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 22175 3275 22175
+Connection ~ 3275 22175
+Wire Wire Line
+	2325 22175 2150 22175
+Wire Wire Line
+	2150 22175 2150 22575
+Wire Wire Line
+	3025 22575 3025 22475
+Wire Wire Line
+	3025 22275 2975 22275
+Wire Wire Line
+	3025 22475 3275 22475
+Connection ~ 3025 22475
+Wire Wire Line
+	3025 22475 3025 22275
+Connection ~ 3275 22475
+Wire Wire Line
+	2975 22075 2975 21875
+Wire Wire Line
+	3125 21875 3125 21800
+Connection ~ 3125 21875
+Wire Wire Line
+	3125 21875 3275 21875
+Text Label 3125 21800 0    50   ~ 10
+B3_5V
+Text Label 2325 22075 2    50   ~ 0
+GND
+Text Label 3275 22775 3    50   ~ 0
+GND
+Text Label 5050 21725 0    50   Italic 10
+VC
+Text Label 5050 21825 0    50   Italic 10
+VB
+Wire Wire Line
+	2325 22275 2250 22275
+Wire Wire Line
+	3675 23050 2925 23050
+Wire Wire Line
+	2250 22275 2250 23050
+NoConn ~ 3825 25850
+NoConn ~ 3825 26050
+Text Label 2825 25750 2    50   ~ 0
+LD0
+Text Label 2825 25850 2    50   ~ 0
+LD1
+Text Label 2825 25950 2    50   ~ 0
+LD2
+Text Label 2825 26050 2    50   ~ 0
+LD3
+Text Label 2825 27200 2    50   ~ 0
+LD4
+Text Label 2825 27500 2    50   ~ 0
+LD7
+$Comp
+L appleii-rescue:74LS194-geral B4
+U 1 1 6A0B01D2
+P 3325 26350
+F 0 "B4" H 2800 27300 50  0000 C CNN
+F 1 "74LS194" H 2900 27225 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 3325 26350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS194" H 3325 26350 50  0001 C CNN
+	1    3325 26350
+	1    0    0    -1  
+$EndComp
+Text Label 2825 26500 2    50   Italic 10
+14M
+Text Label 2825 27950 2    50   Italic 10
+14M
+Wire Wire Line
+	2425 26350 2825 26350
+NoConn ~ 2825 26250
+Wire Wire Line
+	3825 25750 4400 25750
+$Comp
+L appleii-rescue:74LS194-geral B9
+U 1 1 6A0B3294
+P 3325 27800
+F 0 "B9" H 2700 28675 50  0000 C CNN
+F 1 "74LS194" H 2825 28575 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 3325 27800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS194" H 3325 27800 50  0001 C CNN
+	1    3325 27800
+	1    0    0    -1  
+$EndComp
+Text Label 3375 25425 0    50   Italic 10
+LD194
+Wire Wire Line
+	3275 26900 3275 25450
+Text Label 3725 24000 1    50   ~ 0
+GND
+Text Label 2825 24000 1    50   Italic 10
+~TEXT
+Text Label 3325 24000 1    50   Italic 10
+H0
+Text Label 3125 24000 1    50   Italic 10
+~7M
+Text Label 2725 24000 1    50   Italic 10
+VC
+$Comp
+L appleii-rescue:74LS257_RD-geral A8
+U 1 1 6B373EDF
+P 3025 24500
+F 0 "A8" V 2450 25525 50  0000 C CNN
+F 1 "74LS257_RD" V 2525 25500 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 3025 24500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 3025 24500 50  0001 C CNN
+	1    3025 24500
+	0    -1   1    0   
+$EndComp
+Text Label 3425 24000 1    50   ~ 0
+LD7
+Text Label 2425 24000 1    50   Italic 10
+B4_Q0
+Text Label 2525 24000 1    50   Italic 10
+B9_Q0
+Text Label 3825 25750 0    50   Italic 10
+B4_Q0
+Text Notes 4075 25750 0    50   Italic 10
+>
+Wire Wire Line
+	3825 27200 4400 27200
+Text Label 3825 27200 0    50   Italic 10
+B9_Q0
+Text Notes 4075 27200 0    50   Italic 10
+>
+Text Label 4700 26150 0    50   ~ 0
+SOFT5
+NoConn ~ 5000 25950
+Wire Wire Line
+	5650 25750 5000 25750
+Wire Wire Line
+	5650 25850 6100 25850
+Wire Wire Line
+	6100 25850 6100 25650
+Wire Wire Line
+	6100 25650 5650 25650
+Wire Wire Line
+	3825 25950 4425 25950
+Wire Wire Line
+	4425 25950 4425 26200
+Wire Wire Line
+	4425 26200 5075 26200
+Wire Wire Line
+	5075 26200 5075 25950
+Wire Wire Line
+	5075 25950 5650 25950
+Text Label 4400 25850 2    50   Italic 10
+14M
+Text Label 4700 25550 0    50   ~ 0
+SOFT5
+Wire Wire Line
+	5650 25450 5650 25500
+Wire Wire Line
+	5650 25500 5550 25500
+Connection ~ 5650 25500
+Wire Wire Line
+	5650 25500 5650 25550
+Wire Wire Line
+	4400 26325 5175 26325
+Wire Wire Line
+	5175 26325 5175 26050
+Wire Wire Line
+	5175 26050 5650 26050
+Wire Wire Line
+	4400 26325 4400 27200
+Wire Wire Line
+	4500 26425 5275 26425
+Wire Wire Line
+	5275 26425 5275 26150
+Wire Wire Line
+	5275 26150 5650 26150
+NoConn ~ 3825 27300
+NoConn ~ 3825 27500
+Wire Wire Line
+	2425 25000 2425 26350
+Wire Wire Line
+	2725 25000 2725 25100
+Wire Wire Line
+	3025 25000 3025 25350
+Wire Wire Line
+	3025 25350 3275 25350
+Wire Wire Line
+	3275 25350 3275 25450
+Connection ~ 3275 25450
+Wire Wire Line
+	3325 25000 3325 25175
+Wire Wire Line
+	2725 25100 4275 25100
+Wire Wire Line
+	4275 25100 4275 24025
+Wire Wire Line
+	4275 24025 4575 24025
+Wire Wire Line
+	3325 25175 4325 25175
+$Comp
+L appleii-rescue:74LS151-geral A9
+U 1 1 6DC89EEF
+P 6150 26050
+F 0 "A9" H 6575 26050 50  0000 C CNN
+F 1 "74LS151" H 6675 25950 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 6150 26050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS151" H 6150 26050 50  0001 C CNN
+	1    6150 26050
+	1    0    0    -1  
+$EndComp
+Text Label 4575 24775 2    50   Italic 10
+14M
+Wire Wire Line
+	6050 25150 6050 25575
+Wire Wire Line
+	6050 25575 6200 25575
+Wire Wire Line
+	6200 25575 6200 25950
+Wire Wire Line
+	6200 25950 6050 25950
+Wire Wire Line
+	4325 25175 4325 24125
+Wire Wire Line
+	4325 24125 4575 24125
+Wire Wire Line
+	6150 25150 6150 24025
+Wire Wire Line
+	6150 24025 5575 24025
+Wire Wire Line
+	6250 24125 6250 25150
+Wire Wire Line
+	6650 25600 6650 24225
+Wire Wire Line
+	6650 24225 5575 24225
+Wire Wire Line
+	5575 24325 5825 24325
+Wire Wire Line
+	5825 24325 5825 23425
+Text Label 4300 21225 2    50   ~ 0
+GND
+Text Label 4300 21025 2    50   ~ 10
+A5_5V
+$Comp
+L 74xx:74LS166 A3
+U 1 1 6E666B92
+P 6325 21825
+F 0 "A3" H 5750 22800 50  0000 L CNN
+F 1 "74LS166" H 5750 22700 50  0000 L CNN
+F 2 "geral:standard_DIP_16OvalPins" H 6325 21825 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS166" H 6325 21825 50  0001 C CNN
+	1    6325 21825
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 21575
+Wire Wire Line
+	4300 21575 4300 21525
+Wire Wire Line
+	5050 22025 5350 22025
+Wire Wire Line
+	5350 22025 5350 21425
+Wire Wire Line
+	5350 21425 5825 21425
+Wire Wire Line
+	5050 22125 5400 22125
+Wire Wire Line
+	5400 22125 5400 21525
+Wire Wire Line
+	5400 21525 5825 21525
+Wire Wire Line
+	5050 22225 5425 22225
+Wire Wire Line
+	5425 22225 5425 21625
+Wire Wire Line
+	5425 21625 5825 21625
+Wire Wire Line
+	4300 22325 4300 22425
+Wire Wire Line
+	5450 21725 5825 21725
+Wire Wire Line
+	5825 21825 5475 21825
+Text Label 5825 21925 2    50   ~ 0
+GND
+Text Label 5825 21325 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS86 B2
+U 4 1 6F37DC4C
+P 7200 21225
+F 0 "B2" H 7200 21550 50  0000 C CNN
+F 1 "74LS86" H 7200 21459 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 7200 21225 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 7200 21225 50  0001 C CNN
+	4    7200 21225
+	1    0    0    1   
+$EndComp
+Text Label 7500 21225 0    50   Italic 10
+TEXT_VIDEO_SIGNAL
+Text Label 5550 25400 2    50   Italic 10
+TEXT_VIDEO_SIGNAL
+Wire Wire Line
+	5550 25400 5550 25500
+Wire Wire Line
+	6825 21325 6825 23425
+Text Label 5825 22125 2    50   Italic 10
+~LPDS
+Text Label 5825 22225 2    50   Italic 10
+14M
+Text Label 5825 22325 2    50   Italic 10
+7M
+Text Label 5825 22525 2    50   ~ 0
+SOFT5
+Wire Wire Line
+	5550 21225 5825 21225
+Wire Wire Line
+	5825 23425 6825 23425
+Wire Wire Line
+	6825 21125 6900 21125
+Wire Wire Line
+	6825 21325 6875 21325
+Wire Wire Line
+	5825 21125 5550 21125
+Wire Wire Line
+	5550 21125 5550 20725
+Wire Wire Line
+	5550 20725 6875 20725
+Wire Wire Line
+	6875 20725 6875 21325
+Connection ~ 6875 21325
+Wire Wire Line
+	6875 21325 6900 21325
+Wire Wire Line
+	4875 23050 5550 23050
+Wire Wire Line
+	5550 21225 5550 23050
+Wire Wire Line
+	5550 23050 5550 23400
+Wire Wire Line
+	5550 23400 4425 23400
+Wire Wire Line
+	4425 23400 4425 24325
+Wire Wire Line
+	4425 24325 4575 24325
+Connection ~ 5550 23050
+Wire Wire Line
+	4575 24225 4075 24225
+Wire Wire Line
+	4075 24225 4075 23675
+Text Label 4075 23675 3    50   Italic 10
+BLANKING
+NoConn ~ 4575 24525
+NoConn ~ 4575 24625
+Text Label 5525 24725 0    50   ~ 10
+A10_5V
+Text Label 5525 24825 0    50   ~ 0
+GND
+Wire Wire Line
+	5575 24125 6250 24125
+$Comp
+L appleii-rescue:74LS194-geral A10
+U 1 1 6D256841
+P 5075 24625
+F 0 "A10" H 5375 25525 50  0000 R CNN
+F 1 "74LS194" H 5600 25450 50  0000 R CNN
+F 2 "geral:standard_DIP_16OvalPins" H 5075 24625 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS194" H 5075 24625 50  0001 C CNN
+	1    5075 24625
+	1    0    0    -1  
+$EndComp
+Text Label 2125 24500 2    50   ~ 10
+A8_5V
+Text Label 3775 26450 0    50   ~ 10
+B4_5V
+Text Label 3775 26550 0    50   ~ 0
+GND
+Text Label 3775 27900 0    50   ~ 10
+B9_5V
+Text Label 3775 28000 0    50   ~ 0
+GND
+Text Label 7575 25850 0    50   Italic 10
+VIDEO_SIGNAL
+Text Notes 8100 25850 0    50   Italic 10
+>
+$Comp
+L 74xx:74LS74 B10
+U 1 1 70CA2A68
+P 7275 25950
+F 0 "B10" H 7000 26325 50  0000 C CNN
+F 1 "74LS74" H 7050 26250 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 7275 25950 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 7275 25950 50  0001 C CNN
+	1    7275 25950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6650 25950
+Text Label 7275 25650 0    50   ~ 0
+SOFT5
+Text Label 7275 26250 0    50   ~ 0
+SOFT5
+Wire Wire Line
+	6650 25850 6975 25850
+Text Label 6975 25950 2    50   Italic 10
+14M
+NoConn ~ 7575 26050
+Text Label 13025 22375 2    50   Italic 10
+VIDEO_SIGNAL
+Text Notes 8225 21225 0    50   Italic 10
+>
+Wire Wire Line
+	4500 27775 4500 27875
+$Comp
+L 74xx:74LS02 A12
+U 3 1 6BDD1287
+P 4800 27875
+F 0 "A12" H 4775 27650 50  0000 C CNN
+F 1 "74LS02" H 4775 27575 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 4800 27875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 4800 27875 50  0001 C CNN
+	3    4800 27875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 A12
+U 4 1 6BDCD2B1
+P 5400 27775
+F 0 "A12" H 5400 28100 50  0000 C CNN
+F 1 "74LS02" H 5400 28009 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 5400 27775 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 5400 27775 50  0001 C CNN
+	4    5400 27775
+	1    0    0    -1  
+$EndComp
+Text Label 5100 27675 2    50   Italic 10
+HIRESMODE
+$Comp
+L 74xx:74LS74 A11
+U 1 1 60630CB7
+P 6025 27475
+F 0 "A11" H 5700 27925 50  0000 C CNN
+F 1 "74LS74" H 5675 27850 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 6025 27475 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 6025 27475 50  0001 C CNN
+	1    6025 27475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 27775 5700 27775
+Wire Wire Line
+	5725 27475 5725 27375
+Wire Wire Line
+	5650 27275 5725 27275
+Wire Wire Line
+	5725 27275 5725 27375
+Connection ~ 5725 27375
+Text Label 5650 27275 2    50   ~ 0
+SOFT5
+Text Label 6025 27175 2    50   ~ 0
+GND
+NoConn ~ 6325 27375
+Wire Wire Line
+	6025 27775 6800 27775
+Wire Wire Line
+	6800 27775 6800 26700
+Wire Wire Line
+	6800 26700 6050 26700
+Wire Wire Line
+	6050 25950 6050 26700
+Connection ~ 6025 27775
+Text Label 4025 24500 0    50   ~ 0
+GND
+Wire Wire Line
+	3625 25250 4225 25250
+Wire Wire Line
+	4225 25250 4225 26875
+Wire Wire Line
+	4225 26875 6475 26875
+Wire Wire Line
+	6475 26875 6475 27575
+Wire Wire Line
+	6475 27575 6325 27575
+Wire Wire Line
+	3625 24000 3625 25250
+Wire Wire Line
+	4500 27875 4300 27875
+Connection ~ 4500 27875
+Wire Wire Line
+	4500 27875 4500 27975
+Text Label 6325 22825 3    50   ~ 0
+GND
+NoConn ~ 2975 22375
+Wire Wire Line
+	2325 22375 2700 22375
+Wire Wire Line
+	2700 22375 2700 21875
+Wire Wire Line
+	2700 21875 2975 21875
+Connection ~ 2975 21875
+Wire Wire Line
+	2975 21875 3125 21875
+$Comp
+L appleii:8T97_HEXBUF H5
+U 1 1 7384F681
+P 11650 8975
+F 0 "H5" H 11650 9200 50  0000 C CNN
+F 1 "8T97_HEXBUF" H 11650 9125 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 11650 8925 50  0001 C CNN
+F 3 "" H 11650 8925 50  0001 C CNN
+	1    11650 8975
+	-1   0    0    1   
+$EndComp
+Text Label 10175 8050 2    50   ~ 0
+lA11
+Text Label 10175 7850 2    50   ~ 0
+lA10
+Text Label 10825 7900 0    50   ~ 0
+lA4
+Text Label 11350 7875 2    50   ~ 0
+lA3
+Text Label 10825 8100 0    50   ~ 0
+lA1
+Text Label 11350 8075 2    50   ~ 0
+lA0
+Text Label 10175 8250 2    50   ~ 0
+lA15
+Text Label 11350 8275 2    50   ~ 0
+lA14
+Text Label 12000 8325 0    50   ~ 0
+lA13
+Text Label 10825 8300 0    50   ~ 0
+lA12
+Text Label 12000 8125 0    50   ~ 0
+lR\~W
+Text Label 12000 8025 0    50   ~ 0
+R\~W
+Text Label 9175 8700 3    50   ~ 0
+H3_5V
+Text Label 10375 8700 3    50   ~ 0
+H4_5V
+Text Label 11550 8725 3    50   ~ 0
+H5_5V
+Wire Wire Line
+	12650 9400 12650 9225
+Wire Wire Line
+	12650 9400 12800 9400
+Text Label 10525 7550 1    50   ~ 0
+GND
+Text Label 11700 7575 1    50   ~ 0
+GND
+Text Label 12650 9225 2    50   ~ 0
+~DMA
+Connection ~ 12650 9400
+Wire Wire Line
+	12475 9400 12650 9400
+Text Label 28250 9375 0    50   ~ 0
+D3
+Text Label 28250 9275 0    50   ~ 0
+D4
+Text Label 28250 9175 0    50   ~ 0
+D5
+Text Label 28250 9075 0    50   ~ 0
+D6
+Text Label 28250 8975 0    50   ~ 0
+D7
+Text Label 28250 8375 0    50   ~ 0
+A8
+Text Label 28250 8475 0    50   ~ 0
+A9
+Text Label 28250 8775 0    50   ~ 0
+A10
+Text Label 28250 8675 0    50   ~ 0
+GND
+Text Label 27500 8275 2    50   ~ 0
+A7
+Text Label 27500 8375 2    50   ~ 0
+A6
+Text Label 27500 8475 2    50   ~ 0
+A5
+Text Label 27500 8575 2    50   ~ 0
+A4
+Text Label 27500 8675 2    50   ~ 0
+A3
+Text Label 27500 8775 2    50   ~ 0
+A2
+Text Label 27500 9275 2    50   ~ 0
+D2
+Text Label 27500 9175 2    50   ~ 0
+D1
+Text Label 23225 6950 0    315  Italic 63
+10-ROM
+$Comp
+L appleii-rescue:PPROM_28C65_256-geral F3
+U 1 1 76FE8ECE
+P 27850 7675
+F 0 "F3" H 27875 7500 50  0000 C CNN
+F 1 "PPROM_28C65_256" H 27875 7409 50  0000 C CNN
+F 2 "geral:standard_DIP_28pins_thin_doubleBody" H 27850 7525 50  0001 C CNN
+F 3 "" H 27850 7525 50  0001 C CNN
+	1    27850 7675
+	1    0    0    -1  
+$EndComp
+Text Label 21325 10450 2    50   ~ 0
+SOFT5
+Text Label 21325 10250 2    50   Italic 10
+~RAS
+Text Label 21825 10750 3    50   ~ 0
+GND
+Text Label 22325 9850 0    50   ~ 0
+LD7
+Text Label 22325 9950 0    50   ~ 0
+LD6
+$Comp
+L 74xx:74LS174 B8
+U 1 1 60852CA7
+P 21825 9950
+F 0 "B8" H 21325 10750 50  0000 C CNN
+F 1 "74LS174" H 21425 10675 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 21825 9950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 21825 9950 50  0001 C CNN
+	1    21825 9950
+	1    0    0    -1  
+$EndComp
+Text Label 21325 9850 2    50   ~ 0
+DO7
+Text Label 21300 8575 2    50   ~ 0
+SOFT5
+Text Label 21300 8375 2    50   Italic 10
+~RAS
+Text Label 21800 8875 3    50   ~ 0
+GND
+Text Label 21325 9750 2    50   ~ 0
+DO5
+Text Label 18075 6950 0    315  Italic 63
+7-RAM
+Text Label 25825 8800 2    50   ~ 0
+A11
+Text Label 24325 9375 2    50   ~ 0
+A12
+Text Label 24325 9575 2    50   ~ 0
+A13
+Text Label 24175 7600 2    50   Italic 10
+Φ1
+Text Label 28250 8575 0    50   ~ 0
+A11
+Text Label 27500 8175 2    50   ~ 0
+A12
+Text Label 28250 8275 0    50   ~ 0
+A13
+Text Label 28250 8075 0    50   ~ 10
+F3_5V
+Text Label 27500 9375 2    50   ~ 0
+GND
+Text Label 26425 9475 0    50   Italic 10
+~IOSTB
+Text Notes 26650 9475 0    50   Italic 10
+>
+Text Label 22325 9750 0    50   ~ 0
+LD5
+Text Label 21800 7375 0    50   ~ 10
+B5_5V
+Text Label 21825 9250 0    50   ~ 10
+B8_5V
+Wire Wire Line
+	3350 8300 3350 8575
+Text Label 3350 8300 0    50   ~ 0
+5V
+Wire Wire Line
+	3350 8575 3725 8575
+Wire Wire Line
+	3725 8575 3725 8550
+Connection ~ 3350 8575
+Text Label 4300 21125 2    50   ~ 0
+SOFT5
+Wire Wire Line
+	10200 14200 10800 14200
+Wire Wire Line
+	10200 14300 10800 14300
+Wire Wire Line
+	10200 14400 10800 14400
+Text Label 7525 13925 0    50   ~ 10
+J1_5V
+Text Label 10200 14050 0    50   ~ 10
+F2_V2
+Text Label 8225 15925 0    50   ~ 10
+C12_5V
+Text Label 15300 9050 0    50   ~ 0
+H8_5V
+Text Label 14550 7750 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS32 C14
+U 4 1 60D3CF1C
+P 14250 13675
+F 0 "C14" H 14250 14000 50  0000 C CNN
+F 1 "74LS32" H 14250 13909 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 14250 13675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 14250 13675 50  0001 C CNN
+	4    14250 13675
+	1    0    0    -1  
+$EndComp
+Text Label 13950 13775 2    50   ~ 0
+R\~W
+Text Label 14550 13675 0    50   Italic 10
+~MEMWR
+Text Label 13950 13575 2    50   Italic 10
+Φ1
+Text Notes 14825 13675 0    50   ~ 10
+>
+$Comp
+L appleii:APPLEII_MEMCON Z1
+U 1 1 60E9D506
+P 19750 9000
+F 0 "Z1" H 19700 10215 50  0000 C CNN
+F 1 "APPLEII_MEMCON" H 19700 10124 50  0000 C CNN
+F 2 "geral:Conector2x25_Oval_0.65_rightangle" H 19750 10250 50  0001 C CNN
+F 3 "" H 19750 10250 50  0001 C CNN
+	1    19750 9000
+	1    0    0    -1  
+$EndComp
+Text Label 20300 9850 0    50   ~ 0
+DO3
+Text Label 20300 10050 0    50   ~ 0
+DO2
+Text Label 20300 10250 0    50   ~ 0
+DO1
+Text Label 20300 10450 0    50   ~ 0
+DO0
+Text Label 20300 9050 0    50   ~ 0
+DO7
+Text Label 20300 9250 0    50   ~ 0
+DO6
+Text Label 20300 9450 0    50   ~ 0
+DO5
+Text Label 20300 9650 0    50   ~ 0
+DO4
+Text Label 20300 10350 0    50   ~ 0
+D0
+Text Label 20300 10150 0    50   ~ 0
+D1
+Text Label 20300 9950 0    50   ~ 0
+D2
+Text Label 20300 9750 0    50   ~ 0
+D3
+Text Label 20300 9550 0    50   ~ 0
+D4
+Text Label 20300 9350 0    50   ~ 0
+D5
+Text Label 20300 9150 0    50   ~ 0
+D6
+Text Label 20300 8950 0    50   ~ 0
+D7
+Text Label 20300 8450 0    50   Italic 10
+RA0
+Text Label 20300 8850 0    50   Italic 10
+RA1
+Text Label 20300 8650 0    50   Italic 10
+RA2
+Text Label 20300 8350 0    50   Italic 10
+RA3
+Text Label 20300 8550 0    50   Italic 10
+RA4
+Text Label 20300 8750 0    50   Italic 10
+RA5
+Text Label 20300 8150 0    50   Italic 10
+RA6
+Text Label 20300 8050 0    50   Italic 10
+~MEMWR
+Text Label 20300 8250 0    50   Italic 10
+~RAS
+Text Label 19100 10250 2    50   Italic 10
+~CAS_C
+Text Label 19100 10350 2    50   Italic 10
+~CAS_D
+Text Label 19100 10450 2    50   Italic 10
+~CAS_E
+Text Label 19100 8450 2    50   ~ 0
+GND
+Text Label 19100 8850 2    50   ~ 0
+-5V
+Text Label 19100 8050 2    50   ~ 0
+12V
+Text Label 3025 24000 1    50   ~ 0
+SOFT5
+Text Label 19025 12275 0    315  Italic 63
+11-IOPERIPHERAL:SLOTS
+$Comp
+L 74xx:74LS138 H2
+U 1 1 6062274D
+P 23150 13900
+F 0 "H2" H 22750 14525 50  0000 C CNN
+F 1 "74LS138" H 22850 14450 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 23150 13900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 23150 13900 50  0001 C CNN
+	1    23150 13900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21925 13575 22475 13575
+Wire Wire Line
+	22475 13575 22475 14300
+Wire Wire Line
+	22475 14300 22650 14300
+Text Label 23650 13700 0    50   Italic 10
+~DEVSEL1
+Text Label 23650 13800 0    50   Italic 10
+~DEVSEL2
+Text Label 23650 13900 0    50   Italic 10
+~DEVSEL3
+Text Label 21925 13775 0    50   Italic 10
+~IOSEL2
+Text Label 21925 13875 0    50   Italic 10
+~IOSEL3
+Text Label 20925 13575 2    50   ~ 0
+A8
+Text Label 20925 13675 2    50   ~ 0
+A9
+Text Label 20925 13775 2    50   ~ 0
+A10
+Text Label 22650 13600 2    50   ~ 0
+A4
+Text Label 22650 13700 2    50   ~ 0
+A5
+Text Label 22650 13800 2    50   ~ 0
+A6
+Text Label 22650 14100 2    50   ~ 0
+A7
+Text Label 22650 14200 2    50   Italic 10
+Φ1
+Wire Wire Line
+	20925 14175 20925 14275
+Text Label 20625 13850 1    50   ~ 0
+RPULLUP_0
+Wire Wire Line
+	20925 14075 20925 13975
+Wire Wire Line
+	20925 13975 20625 13975
+Text Label 21425 14575 3    50   ~ 0
+GND
+Text Label 23150 14600 3    50   ~ 0
+GND
+Wire Wire Line
+	20925 14175 20625 14175
+Text Label 21425 13275 0    50   ~ 10
+H12_5V
+Text Label 23150 13300 0    50   ~ 10
+H2_5V
+Text Notes 22200 13675 0    50   Italic 10
+>
+Text Notes 22200 13775 0    50   Italic 10
+>
+Text Notes 22200 13875 0    50   Italic 10
+>
+Text Notes 23975 13575 0    50   Italic 10
+>
+Text Notes 23975 13675 0    50   Italic 10
+>
+Text Notes 23975 13775 0    50   Italic 10
+>
+Text Notes 23975 13875 0    50   Italic 10
+>
+Text Label 20025 13975 2    50   ~ 0
+USER1
+$Comp
+L Device:Jumper JP1
+U 1 1 60622787
+P 20325 13975
+F 0 "JP1" H 20325 14239 50  0000 C CNN
+F 1 "Jumper" H 20325 14148 50  0000 C CNN
+F 2 "geral:jumper_set_1" H 20325 13975 50  0001 C CNN
+F 3 "~" H 20325 13975 50  0001 C CNN
+	1    20325 13975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20625 13850 20625 13975
+Connection ~ 20625 13975
+$Comp
+L appleii-rescue:APPLEII_SLOTSCON-apple SLOTSCON1
+U 1 1 60AEE564
+P 28700 13650
+F 0 "SLOTSCON1" H 28700 13615 50  0000 C CNN
+F 1 "APPLEII_SLOTSCON" H 28700 13524 50  0000 C CNN
+F 2 "geral:conetor_2x04_P2.54" H 28700 13650 50  0001 C CNN
+F 3 "" H 28700 13650 50  0001 C CNN
+	1    28700 13650
+	1    0    0    -1  
+$EndComp
+Text Label 28250 14050 2    50   Italic 10
+~DEVSEL3'
+Text Label 28250 14250 2    50   Italic 10
+~DEVSEL2'
+Text Label 29150 14150 0    50   Italic 10
+~DEVSEL1'
+Text Label 29150 13950 0    50   Italic 10
+~DEVSEL0'
+Text Label 29150 14250 0    50   Italic 10
+~IOSEL1'
+Text Label 28250 14150 2    50   Italic 10
+~IOSEL2'
+Text Label 28250 13950 2    50   Italic 10
+~IOSEL3'
+$Comp
+L 74xx:74LS32 U102
+U 1 1 60C7E8F0
+P 24625 9475
+F 0 "U102" H 24625 9800 50  0000 C CNN
+F 1 "74LS32" H 24625 9709 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 24625 9475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 24625 9475 50  0001 C CNN
+	1    24625 9475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U102
+U 2 1 60C7EE59
+P 25225 9575
+F 0 "U102" H 25225 9900 50  0000 C CNN
+F 1 "74LS32" H 25225 9809 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 25225 9575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 25225 9575 50  0001 C CNN
+	2    25225 9575
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U102
+U 3 1 60C82055
+P 26125 10000
+F 0 "U102" H 26125 10325 50  0000 C CNN
+F 1 "74LS32" H 26125 10234 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 26125 10000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 26125 10000 50  0001 C CNN
+	3    26125 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U102
+U 4 1 60C84CF2
+P 26125 9475
+F 0 "U102" H 26125 9800 50  0000 C CNN
+F 1 "74LS32" H 26125 9709 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 26125 9475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 26125 9475 50  0001 C CNN
+	4    26125 9475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U100
+U 2 1 60D74DD4
+P 25075 7800
+F 0 "U100" H 25075 8125 50  0000 C CNN
+F 1 "74LS00" H 25075 8034 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 25075 7800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 25075 7800 50  0001 C CNN
+	2    25075 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U100
+U 3 1 60D77F00
+P 26275 7800
+F 0 "U100" H 26275 8125 50  0000 C CNN
+F 1 "74LS00" H 26275 8034 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 26275 7800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 26275 7800 50  0001 C CNN
+	3    26275 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U100
+U 4 1 60D7B128
+P 25675 7700
+F 0 "U100" H 25675 8025 50  0000 C CNN
+F 1 "74LS00" H 25675 7934 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 25675 7700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 25675 7700 50  0001 C CNN
+	4    25675 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U101
+U 1 1 60F4EDB1
+P 24525 8450
+F 0 "U101" H 24525 8775 50  0000 C CNN
+F 1 "74LS00" H 24525 8684 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 24525 8450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 24525 8450 50  0001 C CNN
+	1    24525 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U101
+U 3 1 60F4EDBD
+P 26125 8900
+F 0 "U101" H 26125 9225 50  0000 C CNN
+F 1 "74LS00" H 26125 9134 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 26125 8900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 26125 8900 50  0001 C CNN
+	3    26125 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U101
+U 4 1 60F4EDC3
+P 25125 8550
+F 0 "U101" H 25125 8875 50  0000 C CNN
+F 1 "74LS00" H 25125 8784 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 25125 8550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 25125 8550 50  0001 C CNN
+	4    25125 8550
+	1    0    0    1   
+$EndComp
+Text Label 25975 7900 2    50   ~ 0
+A14
+Text Label 24775 7900 2    50   ~ 0
+A15
+Text Label 24175 7800 2    50   Italic 10
+Φ1
+Wire Wire Line
+	25375 7600 25375 7800
+Connection ~ 25375 7800
+Wire Wire Line
+	26575 7800 26575 8075
+Wire Wire Line
+	26575 8075 24025 8075
+Wire Wire Line
+	24025 8075 24025 8350
+Wire Wire Line
+	24025 8350 24225 8350
+Wire Wire Line
+	24225 8350 24225 8550
+Connection ~ 24225 8350
+Text Label 25425 8550 0    50   Italic 10
+~ROM_CS
+Text Notes 25750 8550 0    50   Italic 10
+>
+Text Label 28250 8875 0    50   Italic 10
+~ROM_CS
+Text Label 25825 9000 2    50   ~ 0
+A11
+Wire Wire Line
+	24825 8650 24825 9025
+Wire Wire Line
+	24825 9025 25525 9025
+Wire Wire Line
+	25525 9025 25525 9575
+Wire Wire Line
+	24925 9675 24025 9675
+Connection ~ 24025 8350
+Wire Wire Line
+	24025 8350 24025 9675
+Connection ~ 25525 9575
+Wire Wire Line
+	26425 8900 26425 9125
+Wire Wire Line
+	26425 9125 25700 9125
+Wire Wire Line
+	25700 9125 25700 9375
+Wire Wire Line
+	25825 10100 25525 10100
+Wire Wire Line
+	25525 10100 25525 9575
+Text Label 25825 9900 2    50   ~ 0
+A11
+Wire Wire Line
+	25700 9375 25825 9375
+Wire Wire Line
+	25525 9575 25825 9575
+Wire Wire Line
+	22600 27375 22600 28575
+$Comp
+L Device:C kC4
+U 1 1 6090E4DF
+P 22375 27975
+F 0 "kC4" H 22490 28021 50  0000 L CNN
+F 1 "0.1u" H 22490 27930 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 22413 27825 50  0001 C CNN
+F 3 "~" H 22375 27975 50  0001 C CNN
+	1    22375 27975
+	1    0    0    -1  
+$EndComp
+Text Label 22375 28125 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS86 B2
+U 5 1 608844A0
+P 5625 2325
+F 0 "B2" H 5855 2371 50  0000 L CNN
+F 1 "74LS86" H 5855 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 5625 2325 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 5625 2325 50  0001 C CNN
+	5    5625 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C pB2
+U 1 1 609683DB
+P 5625 3125
+F 0 "pB2" H 5740 3171 50  0000 L CNN
+F 1 "0.1u" H 5740 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 5663 2975 50  0001 C CNN
+F 3 "~" H 5625 3125 50  0001 C CNN
+	1    5625 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS20 D2
+U 3 1 60C8DEF9
+P 6375 2325
+F 0 "D2" H 6605 2371 50  0000 L CNN
+F 1 "74LS20" H 6605 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 6375 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS20" H 6375 2325 50  0001 C CNN
+	3    6375 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C pD2
+U 1 1 60ED3D5A
+P 6375 3125
+F 0 "pD2" H 6490 3171 50  0000 L CNN
+F 1 "0.1u" H 6490 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 6413 2975 50  0001 C CNN
+F 3 "~" H 6375 3125 50  0001 C CNN
+	1    6375 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5125 10150 5325 10150
+Wire Wire Line
+	5125 10050 5525 10050
+Wire Wire Line
+	5125 9850 5525 9850
+$Comp
+L 74xx:74LS195 C2
+U 1 1 61EDAF75
+P 4625 10350
+F 0 "C2" H 4625 11331 50  0000 C CNN
+F 1 "74S195" H 4625 11240 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 4625 10350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS195" H 4625 10350 50  0001 C CNN
+	1    4625 10350
+	1    0    0    -1  
+$EndComp
+Text Label 4625 9550 0    50   ~ 10
+C2_5V
+Text Label 7025 1825 3    50   ~ 10
+C2_5V
+$Comp
+L Device:C pC2
+U 1 1 61443584
+P 6950 3125
+F 0 "pC2" H 7065 3171 50  0000 L CNN
+F 1 "0.1u" H 7065 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 6988 2975 50  0001 C CNN
+F 3 "~" H 6950 3125 50  0001 C CNN
+	1    6950 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pB13
+U 1 1 6177CA49
+P 7475 3125
+F 0 "pB13" H 7590 3171 50  0000 L CNN
+F 1 "0.1u" H 7590 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 7513 2975 50  0001 C CNN
+F 3 "~" H 7475 3125 50  0001 C CNN
+	1    7475 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pA2
+U 1 1 61E157CE
+P 8975 3125
+F 0 "pA2" H 9090 3171 50  0000 L CNN
+F 1 "0.1u" H 9090 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 9013 2975 50  0001 C CNN
+F 3 "~" H 8975 3125 50  0001 C CNN
+	1    8975 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 A2
+U 5 1 61BB8F7A
+P 8975 2325
+F 0 "A2" H 9205 2371 50  0000 L CNN
+F 1 "74LS00" H 9205 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 8975 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8975 2325 50  0001 C CNN
+	5    8975 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C pB12
+U 1 1 62167CEE
+P 8225 3125
+F 0 "pB12" H 8340 3171 50  0000 L CNN
+F 1 "0.1u" H 8340 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 8263 2975 50  0001 C CNN
+F 3 "~" H 8225 3125 50  0001 C CNN
+	1    8225 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS11 B12
+U 4 1 61BB2625
+P 8225 2325
+F 0 "B12" H 8455 2371 50  0000 L CNN
+F 1 "74LS11" H 8455 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 8225 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS11" H 8225 2325 50  0001 C CNN
+	4    8225 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C pC1
+U 1 1 62454BCF
+P 9850 3125
+F 0 "pC1" H 9965 3171 50  0000 L CNN
+F 1 "0.1u" H 9965 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 9888 2975 50  0001 C CNN
+F 3 "~" H 9850 3125 50  0001 C CNN
+	1    9850 3125
+	-1   0    0    1   
+$EndComp
+Text Label 6200 11475 2    50   Italic 10
+Φ0
+Wire Wire Line
+	7150 10775 7900 10775
+Wire Wire Line
+	8000 10700 8000 10400
+Wire Wire Line
+	7900 10775 7900 11350
+Wire Wire Line
+	9850 11350 9850 10800
+Wire Wire Line
+	9850 10800 9625 10800
+$Comp
+L appleii-rescue:74_175-apple B1
+U 1 1 629B13B8
+P 8725 10200
+F 0 "B1" H 9125 10265 50  0000 C CNN
+F 1 "74_175" H 9125 10174 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 9125 10250 50  0001 C CNN
+F 3 "" H 9125 10250 50  0001 C CNN
+	1    8725 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 11925 8325 11925
+Wire Wire Line
+	8000 10700 8625 10700
+Text Notes 8150 10500 0    50   Italic 10
+<
+Text Label 8625 10500 2    50   Italic 10
+~COLORREF
+Wire Wire Line
+	9625 11000 9975 11000
+Wire Wire Line
+	8325 10800 8625 10800
+Text Notes 9300 10275 0    20   Italic 4
+nota: os pinos mudaram de nome D2/Q2<->D3/Q3 e  \nD4/Q4<->D0/Q0; mas é um flipflop não há alterações\nno comportamento... ao lado dos pinos\nestão os nomes do original 74_175\n
+Wire Wire Line
+	8325 10800 8325 11550
+Wire Wire Line
+	9975 11000 9975 11550
+Wire Wire Line
+	9975 11550 8325 11550
+Connection ~ 8325 11550
+Wire Wire Line
+	8325 11550 8325 11925
+Wire Wire Line
+	7900 11350 9850 11350
+Wire Wire Line
+	9625 10700 9750 10700
+Wire Wire Line
+	9750 10700 9750 10600
+Wire Wire Line
+	9750 10600 9625 10600
+Text Label 10550 1825 3    50   ~ 10
+B1_5V
+$Comp
+L Device:C pB1
+U 1 1 64801F8D
+P 10550 3125
+F 0 "pB1" H 10665 3171 50  0000 L CNN
+F 1 "0.1u" H 10665 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 10588 2975 50  0001 C CNN
+F 3 "~" H 10550 3125 50  0001 C CNN
+	1    10550 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS02 B13
+U 5 1 6135DD3A
+P 7475 2325
+F 0 "B13" H 7705 2371 50  0000 L CNN
+F 1 "74LS02" H 7705 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 7475 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 7475 2325 50  0001 C CNN
+	5    7475 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9625 1825 9625 1700
+Wire Wire Line
+	9625 1700 9850 1700
+Wire Wire Line
+	5625 1825 6375 1825
+Connection ~ 8975 1825
+Wire Wire Line
+	8975 1825 9625 1825
+Connection ~ 8225 1825
+Wire Wire Line
+	8225 1825 8975 1825
+Connection ~ 7475 1825
+Wire Wire Line
+	7475 1825 8225 1825
+Connection ~ 6375 1825
+Wire Wire Line
+	6375 1825 7475 1825
+Wire Wire Line
+	5625 2825 6375 2825
+Wire Wire Line
+	6375 2825 7475 2825
+Wire Wire Line
+	9625 2825 9625 2950
+Wire Wire Line
+	9625 2950 9850 2950
+Connection ~ 6375 2825
+Connection ~ 7475 2825
+Wire Wire Line
+	7475 2825 8225 2825
+Connection ~ 8225 2825
+Wire Wire Line
+	8225 2825 8975 2825
+Connection ~ 8975 2825
+$Comp
+L appleii-rescue:74_153-geral C1
+U 3 1 62359D82
+P 9850 2700
+F 0 "C1" H 10128 3121 50  0000 L CNN
+F 1 "74_153" H 10128 3030 50  0000 L CNN
+F 2 "geral:standard_DIP_16OvalPins" H 9850 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 9850 2700 50  0001 C CNN
+	3    9850 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 1825 5325 1825
+Connection ~ 5625 1825
+Wire Wire Line
+	5625 2825 5325 2825
+Connection ~ 5625 2825
+Text Label 5325 2975 2    50   ~ 0
+5V
+Text Label 5325 3275 2    50   ~ 0
+GND
+Connection ~ 6375 2975
+Wire Wire Line
+	6375 2975 5625 2975
+Connection ~ 6950 2975
+Wire Wire Line
+	6950 2975 6375 2975
+Connection ~ 7475 2975
+Wire Wire Line
+	7475 2975 6950 2975
+Connection ~ 8225 2975
+Wire Wire Line
+	8225 2975 7475 2975
+Connection ~ 8975 2975
+Wire Wire Line
+	8975 2975 9850 2975
+Wire Wire Line
+	8225 2975 8975 2975
+Wire Wire Line
+	9850 3275 8975 3275
+Connection ~ 5625 3275
+Wire Wire Line
+	5625 3275 5325 3275
+Connection ~ 6375 3275
+Wire Wire Line
+	6375 3275 5625 3275
+Connection ~ 6950 3275
+Wire Wire Line
+	6950 3275 6375 3275
+Connection ~ 7475 3275
+Wire Wire Line
+	7475 3275 6950 3275
+Connection ~ 8225 3275
+Wire Wire Line
+	8225 3275 7475 3275
+Connection ~ 8975 3275
+Wire Wire Line
+	8975 3275 8225 3275
+Wire Wire Line
+	5625 2975 5325 2975
+Connection ~ 5625 2975
+Connection ~ 9625 1825
+Wire Wire Line
+	9850 2975 10550 2975
+Connection ~ 9850 2975
+Wire Wire Line
+	9850 3275 10550 3275
+Connection ~ 9850 3275
+Text Label 11000 1825 3    50   ~ 10
+D14_5V
+Text Label 11450 1825 3    50   ~ 10
+D13_5V
+Text Label 11900 1825 3    50   ~ 10
+D12_5V
+Text Label 12350 1825 3    50   ~ 10
+D11_5V
+$Comp
+L 74xx:74LS04 C11
+U 7 1 68180CB7
+P 12825 2325
+F 0 "C11" H 13055 2371 50  0000 L CNN
+F 1 "74LS04" H 13055 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 12825 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 12825 2325 50  0001 C CNN
+	7    12825 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C pD14
+U 1 1 6827C4D4
+P 10975 3125
+F 0 "pD14" H 11090 3171 50  0000 L CNN
+F 1 "0.1u" H 11090 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 11013 2975 50  0001 C CNN
+F 3 "~" H 10975 3125 50  0001 C CNN
+	1    10975 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pD13
+U 1 1 682FA29D
+P 11425 3125
+F 0 "pD13" H 11540 3171 50  0000 L CNN
+F 1 "0.1u" H 11540 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 11463 2975 50  0001 C CNN
+F 3 "~" H 11425 3125 50  0001 C CNN
+	1    11425 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pD12
+U 1 1 68378045
+P 11875 3125
+F 0 "pD12" H 11990 3171 50  0000 L CNN
+F 1 "0.1u" H 11990 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 11913 2975 50  0001 C CNN
+F 3 "~" H 11875 3125 50  0001 C CNN
+	1    11875 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pD11
+U 1 1 683F5FA2
+P 12325 3125
+F 0 "pD11" H 12440 3171 50  0000 L CNN
+F 1 "0.1u" H 12440 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 12363 2975 50  0001 C CNN
+F 3 "~" H 12325 3125 50  0001 C CNN
+	1    12325 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8975 2825 9625 2825
+Connection ~ 9625 2825
+$Comp
+L Device:C pC11
+U 1 1 68AEE577
+P 12825 3125
+F 0 "pC11" H 12940 3171 50  0000 L CNN
+F 1 "0.1u" H 12940 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 12863 2975 50  0001 C CNN
+F 3 "~" H 12825 3125 50  0001 C CNN
+	1    12825 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10550 2975 10975 2975
+Connection ~ 10550 2975
+Connection ~ 10975 2975
+Wire Wire Line
+	10975 2975 11425 2975
+Connection ~ 11425 2975
+Wire Wire Line
+	11425 2975 11875 2975
+Connection ~ 11875 2975
+Wire Wire Line
+	11875 2975 12325 2975
+Connection ~ 12325 2975
+Wire Wire Line
+	10550 3275 10975 3275
+Connection ~ 10550 3275
+Connection ~ 10975 3275
+Wire Wire Line
+	10975 3275 11425 3275
+Connection ~ 11425 3275
+Wire Wire Line
+	11425 3275 11875 3275
+Connection ~ 11875 3275
+Wire Wire Line
+	11875 3275 12325 3275
+Connection ~ 12325 3275
+Wire Wire Line
+	2775 13800 2425 13800
+Wire Wire Line
+	2425 13800 2425 12800
+Wire Wire Line
+	2425 12800 3225 12800
+Connection ~ 3225 12800
+Text Label 2775 16300 2    50   ~ 0
+SOFT5
+Text Label 14125 1825 3    50   ~ 10
+J1_5V
+Text Label 14450 1825 3    50   ~ 10
+F2_V2
+$Comp
+L 74xx:74LS08 H1
+U 5 1 69321EF4
+P 13600 2325
+F 0 "H1" H 13830 2371 50  0000 L CNN
+F 1 "74LS08" H 13830 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 13600 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 13600 2325 50  0001 C CNN
+	5    13600 2325
+	1    0    0    -1  
+$EndComp
+Text Label 14825 1825 3    50   ~ 10
+C12_5V
+$Comp
+L Device:C pH1
+U 1 1 6974D369
+P 13600 3125
+F 0 "pH1" H 13715 3171 50  0000 L CNN
+F 1 "0.1u" H 13715 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 13638 2975 50  0001 C CNN
+F 3 "~" H 13600 3125 50  0001 C CNN
+	1    13600 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pJ1
+U 1 1 697D1FC2
+P 14050 3125
+F 0 "pJ1" H 14165 3171 50  0000 L CNN
+F 1 "0.1u" H 14165 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 14088 2975 50  0001 C CNN
+F 3 "~" H 14050 3125 50  0001 C CNN
+	1    14050 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pF2
+U 1 1 69856BE8
+P 14450 3125
+F 0 "pF2" H 14565 3171 50  0000 L CNN
+F 1 "0.1u" H 14565 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 14488 2975 50  0001 C CNN
+F 3 "~" H 14450 3125 50  0001 C CNN
+	1    14450 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pC12
+U 1 1 698DB8DA
+P 14875 3125
+F 0 "pC12" H 14990 3171 50  0000 L CNN
+F 1 "0.1u" H 14990 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 14913 2975 50  0001 C CNN
+F 3 "~" H 14875 3125 50  0001 C CNN
+	1    14875 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9625 1825 12825 1825
+Wire Wire Line
+	12325 2975 12825 2975
+Wire Wire Line
+	12325 3275 12825 3275
+Connection ~ 12825 2975
+Connection ~ 12825 3275
+Wire Wire Line
+	9625 2825 12825 2825
+Connection ~ 12825 2825
+Wire Wire Line
+	12825 2825 13600 2825
+Connection ~ 13600 2825
+Wire Wire Line
+	12825 1825 13600 1825
+Connection ~ 12825 1825
+Connection ~ 13600 1825
+Connection ~ 14050 2975
+Connection ~ 14050 3275
+Connection ~ 14450 2975
+Connection ~ 14450 3275
+Wire Wire Line
+	14050 2975 14450 2975
+Wire Wire Line
+	14050 3275 14450 3275
+Connection ~ 13600 2975
+Wire Wire Line
+	13600 2975 14050 2975
+Connection ~ 13600 3275
+Wire Wire Line
+	13600 3275 14050 3275
+Wire Wire Line
+	12825 2975 13600 2975
+Wire Wire Line
+	12825 3275 13600 3275
+Wire Wire Line
+	8925 14400 8925 14675
+$Comp
+L appleii:74_257 J1
+U 1 1 6AEB65B2
+P 7175 14325
+F 0 "J1" H 7175 14990 50  0000 C CNN
+F 1 "74_257" H 7175 14899 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 7175 14925 50  0001 C CNN
+F 3 "" H 7175 14925 50  0001 C CNN
+	1    7175 14325
+	1    0    0    -1  
+$EndComp
+Text Label 7525 14025 0    50   ~ 0
+GND
+Wire Wire Line
+	7525 14425 8125 14425
+Wire Wire Line
+	8125 14425 8125 13450
+Wire Wire Line
+	7525 14125 7600 14125
+Wire Wire Line
+	7600 14125 7600 14025
+Wire Wire Line
+	7600 14025 7525 14025
+Wire Wire Line
+	7525 14625 8475 14625
+Wire Wire Line
+	8475 14625 8475 14300
+Wire Wire Line
+	8475 14300 9050 14300
+Wire Wire Line
+	7525 14325 7925 14325
+Wire Wire Line
+	7925 14325 7925 14675
+Wire Wire Line
+	7925 14675 8925 14675
+Connection ~ 8925 14675
+Wire Wire Line
+	8925 14675 8925 14850
+$Comp
+L appleii:74_257 C12
+U 1 1 6BE0E1C2
+P 7875 16325
+F 0 "C12" H 7875 16990 50  0000 C CNN
+F 1 "74_257" H 7875 16899 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 7875 16925 50  0001 C CNN
+F 3 "" H 7875 16925 50  0001 C CNN
+	1    7875 16325
+	1    0    0    -1  
+$EndComp
+Text Label 8225 16525 0    50   Italic 10
+~PAGE2
+Wire Wire Line
+	8225 16625 9400 16625
+Wire Wire Line
+	9400 16725 8675 16725
+Wire Wire Line
+	8675 16725 8675 16325
+Wire Wire Line
+	8675 16325 8225 16325
+Text Label 8225 16025 0    50   ~ 0
+GND
+$Comp
+L appleii:74_257 C12
+U 2 1 6DB8D02E
+P 14475 18925
+F 0 "C12" H 14753 19021 50  0000 L CNN
+F 1 "74_257" H 14753 18930 50  0000 L CNN
+F 2 "geral:standard_DIP_16OvalPins" H 14475 19525 50  0001 C CNN
+F 3 "" H 14475 19525 50  0001 C CNN
+	2    14475 18925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14125 18825 13675 18825
+Wire Wire Line
+	13675 18350 14900 18350
+Wire Wire Line
+	14900 18350 14900 18575
+Wire Wire Line
+	13675 18350 13675 18825
+Wire Wire Line
+	14125 19125 13675 19125
+Wire Wire Line
+	13675 19125 13675 19425
+Wire Wire Line
+	13675 19425 15600 19425
+Wire Wire Line
+	15600 19425 15600 19275
+Text Notes 2900 2100 0    20   Italic 4
+RA0:5 é o endereço coluna ou linha;\nestão ligados entre resistências para \natenuar as reflexões, dado que as pistas\nsão longas até às DRAMs\nRA6 está ligada da mesma forma mas não\na estes dois SIPs
+Text Label 15950 1825 3    50   ~ 10
+E14_5V
+Text Label 16375 1825 3    50   ~ 10
+E13_5V
+$Comp
+L 74xx:74LS32 C14
+U 5 1 6E8C9289
+P 15325 2325
+F 0 "C14" H 15555 2371 50  0000 L CNN
+F 1 "74LS32" H 15555 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 15325 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 15325 2325 50  0001 C CNN
+	5    15325 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C pC14
+U 1 1 6EAFFB80
+P 15325 3125
+F 0 "pC14" H 15440 3171 50  0000 L CNN
+F 1 "0.1u" H 15440 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 15363 2975 50  0001 C CNN
+F 3 "~" H 15325 3125 50  0001 C CNN
+	1    15325 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13600 1825 15325 1825
+Wire Wire Line
+	13600 2825 15325 2825
+Connection ~ 15325 1825
+Text Label 16725 1825 3    50   ~ 10
+E12_5V
+$Comp
+L Device:C pE14
+U 1 1 6EE48E0F
+P 15900 3125
+F 0 "pE14" H 16015 3171 50  0000 L CNN
+F 1 "0.1u" H 16015 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 15938 2975 50  0001 C CNN
+F 3 "~" H 15900 3125 50  0001 C CNN
+	1    15900 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pE13
+U 1 1 6F077C42
+P 16325 3125
+F 0 "pE13" H 16440 3171 50  0000 L CNN
+F 1 "0.1u" H 16440 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 16363 2975 50  0001 C CNN
+F 3 "~" H 16325 3125 50  0001 C CNN
+	1    16325 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pE12
+U 1 1 6F103A19
+P 16725 3125
+F 0 "pE12" H 16840 3171 50  0000 L CNN
+F 1 "0.1u" H 16840 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 16763 2975 50  0001 C CNN
+F 3 "~" H 16725 3125 50  0001 C CNN
+	1    16725 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14450 2975 14875 2975
+Connection ~ 14875 2975
+Wire Wire Line
+	14875 2975 15325 2975
+Wire Wire Line
+	14450 3275 14875 3275
+Connection ~ 14875 3275
+Wire Wire Line
+	14875 3275 15325 3275
+Connection ~ 15325 2975
+Wire Wire Line
+	15325 2975 15900 2975
+Connection ~ 15325 3275
+Wire Wire Line
+	15325 3275 15900 3275
+Connection ~ 15900 2975
+Wire Wire Line
+	15900 2975 16325 2975
+Connection ~ 15900 3275
+Wire Wire Line
+	15900 3275 16325 3275
+Connection ~ 16325 2975
+Wire Wire Line
+	16325 2975 16725 2975
+Connection ~ 16325 3275
+Wire Wire Line
+	16325 3275 16725 3275
+Connection ~ 16725 2975
+Connection ~ 16725 3275
+Connection ~ 15325 2825
+$Comp
+L Device:C pE11
+U 1 1 6F838240
+P 17150 3125
+F 0 "pE11" H 17265 3171 50  0000 L CNN
+F 1 "0.1u" H 17265 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 17188 2975 50  0001 C CNN
+F 3 "~" H 17150 3125 50  0001 C CNN
+	1    17150 3125
+	-1   0    0    1   
+$EndComp
+Text Label 17150 1825 3    50   ~ 10
+E12_5V
+Wire Wire Line
+	16725 2975 17150 2975
+Connection ~ 17150 2975
+Wire Wire Line
+	16725 3275 17150 3275
+Connection ~ 17150 3275
+Wire Wire Line
+	15325 2825 18775 2825
+Text Label 22300 7975 0    50   ~ 0
+LD3
+Text Label 22300 8075 0    50   ~ 0
+LD2
+Text Label 22300 7875 0    50   ~ 0
+LD1
+Text Label 22300 7775 0    50   ~ 0
+LD0
+Text Label 21300 7775 2    50   ~ 0
+DO0
+Text Label 21300 7875 2    50   ~ 0
+DO1
+Text Label 21300 8075 2    50   ~ 0
+DO2
+Text Label 21300 7975 2    50   ~ 0
+DO3
+Text Label 17625 1825 3    50   ~ 10
+B5_5V
+$Comp
+L Device:C pB5
+U 1 1 701F5160
+P 17575 3125
+F 0 "pB5" H 17690 3171 50  0000 L CNN
+F 1 "0.1u" H 17690 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 17613 2975 50  0001 C CNN
+F 3 "~" H 17575 3125 50  0001 C CNN
+	1    17575 3125
+	-1   0    0    1   
+$EndComp
+Text Label 28250 8175 0    50   ~ 0
+SOFT5
+$Comp
+L 74xx:74LS00 U100
+U 5 1 70A7AB0A
+P 18775 2325
+F 0 "U100" H 19005 2371 50  0000 L CNN
+F 1 "74LS00" H 19005 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 18775 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 18775 2325 50  0001 C CNN
+	5    18775 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U101
+U 5 1 70A7AB10
+P 19525 2325
+F 0 "U101" H 19755 2371 50  0000 L CNN
+F 1 "74LS00" H 19755 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 19525 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 19525 2325 50  0001 C CNN
+	5    19525 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U102
+U 5 1 70A7AB16
+P 20325 2325
+F 0 "U102" H 20555 2371 50  0000 L CNN
+F 1 "74LS32" H 20555 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 20325 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 20325 2325 50  0001 C CNN
+	5    20325 2325
+	1    0    0    -1  
+$EndComp
+Text Label 18350 1825 3    50   ~ 10
+F3_5V
+$Comp
+L Device:C pF3
+U 1 1 70B9906E
+P 18425 3125
+F 0 "pF3" H 18540 3171 50  0000 L CNN
+F 1 "0.1u" H 18540 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 18463 2975 50  0001 C CNN
+F 3 "~" H 18425 3125 50  0001 C CNN
+	1    18425 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pU100
+U 1 1 70C28504
+P 18900 3125
+F 0 "pU100" H 19015 3171 50  0000 L CNN
+F 1 "0.1u" H 19015 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 18938 2975 50  0001 C CNN
+F 3 "~" H 18900 3125 50  0001 C CNN
+	1    18900 3125
+	-1   0    0    1   
+$EndComp
+Connection ~ 18775 2825
+Wire Wire Line
+	15325 1825 18775 1825
+Connection ~ 18775 1825
+Wire Wire Line
+	18775 1825 19525 1825
+Connection ~ 19525 1825
+Wire Wire Line
+	19525 1825 20325 1825
+Wire Wire Line
+	18775 2825 19525 2825
+Connection ~ 19525 2825
+Wire Wire Line
+	19525 2825 20325 2825
+Connection ~ 20325 2825
+Wire Wire Line
+	17150 2975 17575 2975
+Connection ~ 18900 2975
+Wire Wire Line
+	17150 3275 17575 3275
+Connection ~ 18900 3275
+$Comp
+L Device:C pU101
+U 1 1 710BF212
+P 19525 3125
+F 0 "pU101" H 19640 3171 50  0000 L CNN
+F 1 "0.1u" H 19640 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 19563 2975 50  0001 C CNN
+F 3 "~" H 19525 3125 50  0001 C CNN
+	1    19525 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pU102
+U 1 1 71151705
+P 20325 3125
+F 0 "pU102" H 20440 3171 50  0000 L CNN
+F 1 "0.1u" H 20440 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 20363 2975 50  0001 C CNN
+F 3 "~" H 20325 3125 50  0001 C CNN
+	1    20325 3125
+	-1   0    0    1   
+$EndComp
+Text Label 1425 2225 2    50   ~ 0
+5V
+Text Label 1825 2725 0    50   ~ 0
+RPULLUP_0
+Text Label 1825 2625 0    50   ~ 0
+RDY
+Text Label 1825 2425 0    50   ~ 0
+~NMI
+Text Label 1825 2525 0    50   ~ 0
+~IRQ
+Text Label 1825 2325 0    50   ~ 0
+~DMA
+$Comp
+L Device:R_Network08 RA1
+U 1 1 71828CCB
+P 1625 2625
+F 0 "RA1" H 2013 2671 50  0000 L CNN
+F 1 "1K" H 2013 2580 50  0000 L CNN
+F 2 "geral:R_Array_SIP9" V 2100 2625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1625 2625 50  0001 C CNN
+	1    1625 2625
+	0    -1   1    0   
+$EndComp
+Text Notes 26900 10000 0    50   Italic 10
+>
+Text Label 26425 10000 0    50   Italic 10
+~H12_ENABLE
+Text Label 20625 14175 2    50   Italic 10
+~H12_ENABLE
+Text Label 21025 1825 3    50   ~ 10
+H12_5V
+Text Label 21450 1825 3    50   ~ 10
+H2_5V
+$Comp
+L Device:C pH12
+U 1 1 72B10D87
+P 21000 3125
+F 0 "pH12" H 21115 3171 50  0000 L CNN
+F 1 "0.1u" H 21115 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 21038 2975 50  0001 C CNN
+F 3 "~" H 21000 3125 50  0001 C CNN
+	1    21000 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pH2
+U 1 1 72BA14E5
+P 21425 3125
+F 0 "pH2" H 21540 3171 50  0000 L CNN
+F 1 "0.1u" H 21540 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 21463 2975 50  0001 C CNN
+F 3 "~" H 21425 3125 50  0001 C CNN
+	1    21425 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	18900 2975 19525 2975
+Connection ~ 21000 2975
+Wire Wire Line
+	21000 2975 21425 2975
+Connection ~ 21425 2975
+Wire Wire Line
+	18900 3275 19525 3275
+Connection ~ 21425 3275
+Connection ~ 20325 1825
+Text Label 20075 19275 2    50   ~ 0
+A5
+Text Label 20075 19375 2    50   ~ 0
+A6
+Text Label 20075 19875 2    50   ~ 0
+A7
+Text Label 20075 19175 2    50   ~ 0
+A4
+Text Label 20075 19675 2    50   Italic 10
+Φ0
+Wire Wire Line
+	22475 14300 22475 15475
+Wire Wire Line
+	22475 15475 18775 15475
+Wire Wire Line
+	18775 15475 18775 19775
+Wire Wire Line
+	18775 19775 20075 19775
+Connection ~ 22475 14300
+Wire Wire Line
+	31325 17450 31325 17350
+Wire Wire Line
+	31325 17350 31675 17350
+Wire Wire Line
+	30875 17450 31325 17450
+Text Label 33300 16825 2    50   ~ 10
+J14_5V
+Text Label 33300 16925 2    50   ~ 0
+GND
+Wire Wire Line
+	26375 18850 26375 18625
+Connection ~ 26375 18850
+Text Label 22975 21200 0    50   ~ 10
+K13_5V
+Text Label 22125 21650 2    50   ~ 10
+K13_M5V
+Connection ~ 21450 21250
+Text Label 22275 1825 3    50   ~ 10
+F14_5V
+Text Label 21850 1825 3    50   ~ 10
+F13_5V
+Text Label 23125 1825 3    50   ~ 10
+H14_5V
+Text Label 22750 1825 3    50   ~ 10
+H13_5V
+Text Label 23600 1825 3    50   ~ 10
+J14_5V
+$Comp
+L 74xx:74LS74 J13
+U 3 1 747AB8A4
+P 24500 2350
+F 0 "J13" H 24730 2396 50  0000 L CNN
+F 1 "74LS74" H 24730 2305 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 24500 2350 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 24500 2350 50  0001 C CNN
+	3    24500 2350
+	1    0    0    -1  
+$EndComp
+Text Label 24100 1800 1    50   ~ 10
+K13_M5V
+Text Label 24100 1825 3    50   ~ 10
+K13_5V
+$Comp
+L Device:C pF13
+U 1 1 74B2597F
+P 21850 3125
+F 0 "pF13" H 21965 3171 50  0000 L CNN
+F 1 "0.1u" H 21965 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 21888 2975 50  0001 C CNN
+F 3 "~" H 21850 3125 50  0001 C CNN
+	1    21850 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pK13_B1
+U 1 1 74BB9B1F
+P 24100 3425
+F 0 "pK13_B1" H 24215 3471 50  0000 L CNN
+F 1 "0.1u" H 24215 3380 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 24138 3275 50  0001 C CNN
+F 3 "~" H 24100 3425 50  0001 C CNN
+	1    24100 3425
+	-1   0    0    1   
+$EndComp
+Text Label 23625 1800 2    50   ~ 0
+-5V
+Wire Wire Line
+	23625 1800 24100 1800
+Text Label 23400 3575 2    50   ~ 0
+-5V
+$Comp
+L Device:C pH13
+U 1 1 753F27EB
+P 22725 3125
+F 0 "pH13" H 22840 3171 50  0000 L CNN
+F 1 "0.1u" H 22840 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 22763 2975 50  0001 C CNN
+F 3 "~" H 22725 3125 50  0001 C CNN
+	1    22725 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pF14
+U 1 1 7551FBF4
+P 22275 3125
+F 0 "pF14" H 22390 3171 50  0000 L CNN
+F 1 "0.1u" H 22390 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 22313 2975 50  0001 C CNN
+F 3 "~" H 22275 3125 50  0001 C CNN
+	1    22275 3125
+	-1   0    0    1   
+$EndComp
+Connection ~ 17575 2975
+Connection ~ 17575 3275
+Connection ~ 18425 2975
+Wire Wire Line
+	18425 2975 18900 2975
+Connection ~ 18425 3275
+Wire Wire Line
+	18425 3275 18900 3275
+Connection ~ 19525 2975
+Wire Wire Line
+	19525 2975 20325 2975
+Connection ~ 19525 3275
+Wire Wire Line
+	19525 3275 20325 3275
+Connection ~ 20325 2975
+Wire Wire Line
+	20325 2975 21000 2975
+Connection ~ 20325 3275
+Wire Wire Line
+	20325 3275 21000 3275
+Connection ~ 21000 3275
+Wire Wire Line
+	21000 3275 21425 3275
+Connection ~ 21850 2975
+Wire Wire Line
+	21850 2975 22275 2975
+Connection ~ 21850 3275
+Wire Wire Line
+	21850 3275 22275 3275
+Wire Wire Line
+	21425 2975 21850 2975
+Wire Wire Line
+	21425 3275 21850 3275
+Connection ~ 22275 2975
+Connection ~ 22275 3275
+Wire Wire Line
+	22275 3275 22725 3275
+Connection ~ 22725 3275
+Wire Wire Line
+	22725 3275 23150 3275
+Wire Wire Line
+	22275 2975 22725 2975
+Connection ~ 22725 2975
+Wire Wire Line
+	22725 2975 23150 2975
+$Comp
+L Device:C pH14
+U 1 1 76C56373
+P 23150 3125
+F 0 "pH14" H 23265 3171 50  0000 L CNN
+F 1 "0.1u" H 23265 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 23188 2975 50  0001 C CNN
+F 3 "~" H 23150 3125 50  0001 C CNN
+	1    23150 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pJ14
+U 1 1 76CF348A
+P 23575 3125
+F 0 "pJ14" H 23690 3171 50  0000 L CNN
+F 1 "0.1u" H 23690 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 23613 2975 50  0001 C CNN
+F 3 "~" H 23575 3125 50  0001 C CNN
+	1    23575 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pK13
+U 1 1 7713D494
+P 24100 3125
+F 0 "pK13" H 24215 3171 50  0000 L CNN
+F 1 "0.1u" H 24215 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 24138 2975 50  0001 C CNN
+F 3 "~" H 24100 3125 50  0001 C CNN
+	1    24100 3125
+	-1   0    0    1   
+$EndComp
+Connection ~ 24100 2975
+Wire Wire Line
+	24100 2975 24475 2975
+Connection ~ 24100 3275
+Wire Wire Line
+	24100 3275 24475 3275
+Wire Wire Line
+	23400 3575 24100 3575
+Connection ~ 24100 3575
+Wire Wire Line
+	24100 3575 24375 3575
+Wire Wire Line
+	20325 1825 24500 1825
+Wire Wire Line
+	24500 1950 24500 1825
+Connection ~ 24500 1825
+Wire Wire Line
+	24500 2750 24500 2825
+$Comp
+L Device:C pJ13
+U 1 1 77B2192A
+P 24475 3125
+F 0 "pJ13" H 24590 3171 50  0000 L CNN
+F 1 "0.1u" H 24590 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 24513 2975 50  0001 C CNN
+F 3 "~" H 24475 3125 50  0001 C CNN
+	1    24475 3125
+	-1   0    0    1   
+$EndComp
+Text Label 23875 24475 0    50   ~ 10
+A7_M12V
+Text Label 26175 1825 3    50   ~ 10
+A7_5V
+Text Label 25275 1825 3    50   ~ 10
+B7_5V
+$Comp
+L 74xx:74LS02 A12
+U 5 1 782932D1
+P 26500 2325
+F 0 "A12" H 26730 2371 50  0000 L CNN
+F 1 "74LS02" H 26730 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 26500 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 26500 2325 50  0001 C CNN
+	5    26500 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS74 B10
+U 3 1 7982C158
+P 27300 2325
+F 0 "B10" H 27530 2371 50  0000 L CNN
+F 1 "74LS74" H 27530 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 27300 2325 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 27300 2325 50  0001 C CNN
+	3    27300 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L appleii-rescue:555-geral A13
+U 1 1 60CF9398
+P 21925 27550
+F 0 "A13" H 21900 27965 50  0000 C CNN
+F 1 "555" H 21900 27874 50  0000 C CNN
+F 2 "geral:standard_DIP_8pins" H 21925 27950 50  0001 C CNN
+F 3 "" H 21925 27950 50  0001 C CNN
+	1    21925 27550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21575 27500 21925 27500
+Wire Wire Line
+	21925 27500 21925 27600
+Wire Wire Line
+	22375 27175 22375 27075
+Wire Wire Line
+	22225 27075 22375 27075
+Wire Wire Line
+	22375 27475 22375 27600
+Wire Wire Line
+	21925 27600 22225 27600
+Wire Wire Line
+	22225 27600 22375 27600
+Connection ~ 22225 27600
+Connection ~ 22375 27600
+Wire Wire Line
+	22375 27600 22375 27825
+Wire Wire Line
+	22225 27075 21350 27075
+Connection ~ 22225 27075
+Wire Wire Line
+	23050 26875 23075 26875
+Text Label 25700 1825 3    50   ~ 10
+A13_5V
+Text Label 26175 1775 1    50   ~ 10
+A7_M12V
+$Comp
+L Device:C pB7
+U 1 1 7AB09BB2
+P 25225 3125
+F 0 "pB7" H 25340 3171 50  0000 L CNN
+F 1 "0.1u" H 25340 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 25263 2975 50  0001 C CNN
+F 3 "~" H 25225 3125 50  0001 C CNN
+	1    25225 3125
+	-1   0    0    1   
+$EndComp
+Connection ~ 25225 2975
+Wire Wire Line
+	25225 2975 25700 2975
+Connection ~ 25225 3275
+Wire Wire Line
+	25225 3275 25700 3275
+$Comp
+L Device:C pA13
+U 1 1 7AC3F090
+P 25700 3125
+F 0 "pA13" H 25815 3171 50  0000 L CNN
+F 1 "0.1u" H 25815 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 25738 2975 50  0001 C CNN
+F 3 "~" H 25700 3125 50  0001 C CNN
+	1    25700 3125
+	-1   0    0    1   
+$EndComp
+Text Label 25700 1775 2    50   ~ 0
+-12V
+Wire Wire Line
+	25700 1775 26175 1775
+$Comp
+L Device:C pA7
+U 1 1 7B2517E6
+P 26125 3125
+F 0 "pA7" H 26240 3171 50  0000 L CNN
+F 1 "0.1u" H 26240 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 26163 2975 50  0001 C CNN
+F 3 "~" H 26125 3125 50  0001 C CNN
+	1    26125 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pA7_B1
+U 1 1 7B2ED24B
+P 26125 3425
+F 0 "pA7_B1" H 26240 3471 50  0000 L CNN
+F 1 "0.1u" H 26240 3380 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 26163 3275 50  0001 C CNN
+F 3 "~" H 26125 3425 50  0001 C CNN
+	1    26125 3425
+	-1   0    0    1   
+$EndComp
+Text Label 25375 3575 2    50   ~ 0
+-12V
+Wire Wire Line
+	24500 1825 26500 1825
+Connection ~ 26500 1825
+Wire Wire Line
+	26500 1825 27300 1825
+Connection ~ 26500 2975
+Wire Wire Line
+	26500 2975 27300 2975
+Connection ~ 24475 2975
+Wire Wire Line
+	24475 2975 25225 2975
+Connection ~ 24475 3275
+Wire Wire Line
+	24475 3275 25225 3275
+Connection ~ 25700 2975
+Wire Wire Line
+	25700 2975 26125 2975
+Connection ~ 25700 3275
+Wire Wire Line
+	25700 3275 26125 3275
+Connection ~ 26125 2975
+Wire Wire Line
+	26125 2975 26500 2975
+Connection ~ 26125 3275
+Connection ~ 26125 3575
+Wire Wire Line
+	26125 3575 26350 3575
+Wire Wire Line
+	25375 3575 26125 3575
+Wire Wire Line
+	27300 1925 27300 1825
+Wire Wire Line
+	27300 2725 27300 2825
+Connection ~ 27300 2975
+$Comp
+L Device:C pA12
+U 1 1 7BD7A4A7
+P 26500 3125
+F 0 "pA12" H 26615 3171 50  0000 L CNN
+F 1 "0.1u" H 26615 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 26538 2975 50  0001 C CNN
+F 3 "~" H 26500 3125 50  0001 C CNN
+	1    26500 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pB10
+U 1 1 7BE1A1E0
+P 27300 3125
+F 0 "pB10" H 27415 3171 50  0000 L CNN
+F 1 "0.1u" H 27415 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 27338 2975 50  0001 C CNN
+F 3 "~" H 27300 3125 50  0001 C CNN
+	1    27300 3125
+	-1   0    0    1   
+$EndComp
+Text Label 34350 1825 3    50   ~ 10
+B3_5V
+Text Label 34800 1825 3    50   ~ 10
+A5_5V
+NoConn ~ 4300 22125
+NoConn ~ 4300 22025
+NoConn ~ 4300 21925
+Wire Wire Line
+	4750 22225 4750 22350
+Wire Wire Line
+	4750 22350 5450 22350
+Wire Wire Line
+	5450 22350 5450 21725
+Wire Wire Line
+	4300 22425 5475 22425
+Wire Wire Line
+	5475 22425 5475 21825
+Text Label 6325 20825 0    50   ~ 10
+A3_5V
+Text Label 35200 1825 3    50   ~ 10
+A3_5V
+Wire Wire Line
+	2150 22575 3025 22575
+$Comp
+L 74xx:74LS08 B11
+U 5 1 7C83A04B
+P 32075 2325
+F 0 "B11" H 32305 2371 50  0000 L CNN
+F 1 "74LS08" H 32305 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 32075 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 32075 2325 50  0001 C CNN
+	5    32075 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 23725 5025 23725
+Wire Wire Line
+	5025 23725 4900 23725
+Connection ~ 5025 23725
+Text Label 4900 23725 2    50   Italic 10
+LD194
+Text Label 29700 1825 3    50   ~ 10
+A10_5V
+Text Label 30125 1825 3    50   ~ 10
+A8_5V
+Text Label 28850 1825 3    50   ~ 10
+B9_5V
+Text Label 29225 1825 3    50   ~ 10
+B4_5V
+Text Label 28000 1825 3    50   ~ 10
+B8_5V
+$Comp
+L 74xx:74LS74 A11
+U 3 1 7D08C434
+P 31300 2325
+F 0 "A11" H 31530 2371 50  0000 L CNN
+F 1 "74LS74" H 31530 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 31300 2325 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 31300 2325 50  0001 C CNN
+	3    31300 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C pB8
+U 1 1 7D83566E
+P 27975 3125
+F 0 "pB8" H 28090 3171 50  0000 L CNN
+F 1 "0.1u" H 28090 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 28013 2975 50  0001 C CNN
+F 3 "~" H 27975 3125 50  0001 C CNN
+	1    27975 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pB9
+U 1 1 7DA1BD17
+P 28825 3125
+F 0 "pB9" H 28940 3171 50  0000 L CNN
+F 1 "0.1u" H 28940 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 28863 2975 50  0001 C CNN
+F 3 "~" H 28825 3125 50  0001 C CNN
+	1    28825 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pB4
+U 1 1 7DABD9CA
+P 29225 3125
+F 0 "pB4" H 29340 3171 50  0000 L CNN
+F 1 "0.1u" H 29340 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 29263 2975 50  0001 C CNN
+F 3 "~" H 29225 3125 50  0001 C CNN
+	1    29225 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pA10
+U 1 1 7DC0108F
+P 29650 3125
+F 0 "pA10" H 29765 3171 50  0000 L CNN
+F 1 "0.1u" H 29765 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 29688 2975 50  0001 C CNN
+F 3 "~" H 29650 3125 50  0001 C CNN
+	1    29650 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pA8
+U 1 1 7DCA321F
+P 30075 3125
+F 0 "pA8" H 30190 3171 50  0000 L CNN
+F 1 "0.1u" H 30190 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 30113 2975 50  0001 C CNN
+F 3 "~" H 30075 3125 50  0001 C CNN
+	1    30075 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	27300 2975 27975 2975
+Connection ~ 27975 2975
+Connection ~ 28825 2975
+Wire Wire Line
+	28825 2975 29225 2975
+Connection ~ 29225 2975
+Wire Wire Line
+	29225 2975 29650 2975
+Connection ~ 29650 2975
+Wire Wire Line
+	29650 2975 30075 2975
+Connection ~ 30075 2975
+Wire Wire Line
+	26125 3275 26500 3275
+Connection ~ 27975 3275
+Connection ~ 28825 3275
+Wire Wire Line
+	28825 3275 29225 3275
+Connection ~ 29225 3275
+Wire Wire Line
+	29225 3275 29650 3275
+Connection ~ 29650 3275
+Wire Wire Line
+	29650 3275 30075 3275
+Connection ~ 30075 3275
+Wire Wire Line
+	20325 2825 24500 2825
+Connection ~ 24500 2825
+Wire Wire Line
+	24500 2825 26500 2825
+Connection ~ 26500 2825
+Wire Wire Line
+	27300 2825 26500 2825
+Connection ~ 27300 2825
+$Comp
+L Device:C pA11
+U 1 1 7F05A3D1
+P 31300 3125
+F 0 "pA11" H 31415 3171 50  0000 L CNN
+F 1 "0.1u" H 31415 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 31338 2975 50  0001 C CNN
+F 3 "~" H 31300 3125 50  0001 C CNN
+	1    31300 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS51 C13
+U 3 1 7FCE1AB6
+P 32900 2325
+F 0 "C13" H 33130 2371 50  0000 L CNN
+F 1 "74LS51" H 33130 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 32900 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 32900 2325 50  0001 C CNN
+	3    32900 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 B14
+U 5 1 800420E5
+P 33650 2325
+F 0 "B14" H 33880 2371 50  0000 L CNN
+F 1 "74LS02" H 33880 2280 50  0000 L CNN
+F 2 "geral:standard_DIP_14OvalPins" H 33650 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 33650 2325 50  0001 C CNN
+	5    33650 2325
+	1    0    0    -1  
+$EndComp
+Connection ~ 23150 2975
+Wire Wire Line
+	23150 2975 23575 2975
+Connection ~ 23150 3275
+Wire Wire Line
+	23150 3275 23575 3275
+Connection ~ 23575 2975
+Wire Wire Line
+	23575 2975 24100 2975
+Connection ~ 23575 3275
+Wire Wire Line
+	23575 3275 24100 3275
+Connection ~ 26500 3275
+Wire Wire Line
+	26500 3275 27300 3275
+Connection ~ 27300 3275
+Wire Wire Line
+	27300 3275 27975 3275
+Connection ~ 27300 1825
+Wire Wire Line
+	31300 1925 31300 1825
+Wire Wire Line
+	31300 2725 31300 2825
+Connection ~ 31300 1825
+Connection ~ 31300 2825
+Wire Wire Line
+	31300 1825 32075 1825
+Wire Wire Line
+	31300 2825 32075 2825
+Connection ~ 31300 2975
+Connection ~ 31300 3275
+Wire Wire Line
+	31300 2975 34325 2975
+Wire Wire Line
+	31300 3275 34325 3275
+Connection ~ 32075 1825
+Connection ~ 32075 2825
+Wire Wire Line
+	32075 1825 32900 1825
+Wire Wire Line
+	32075 2825 32900 2825
+$Comp
+L Device:C pB11
+U 1 1 814D52C8
+P 32075 3125
+F 0 "pB11" H 32190 3171 50  0000 L CNN
+F 1 "0.1u" H 32190 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 32113 2975 50  0001 C CNN
+F 3 "~" H 32075 3125 50  0001 C CNN
+	1    32075 3125
+	-1   0    0    1   
+$EndComp
+Connection ~ 32900 1825
+Wire Wire Line
+	32900 1825 33650 1825
+Connection ~ 32900 2825
+Wire Wire Line
+	32900 2825 33650 2825
+$Comp
+L Device:C pC13
+U 1 1 81641B0F
+P 32900 3125
+F 0 "pC13" H 33015 3171 50  0000 L CNN
+F 1 "0.1u" H 33015 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 32938 2975 50  0001 C CNN
+F 3 "~" H 32900 3125 50  0001 C CNN
+	1    32900 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pB14
+U 1 1 816F800D
+P 33650 3125
+F 0 "pB14" H 33765 3171 50  0000 L CNN
+F 1 "0.1u" H 33765 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 33688 2975 50  0001 C CNN
+F 3 "~" H 33650 3125 50  0001 C CNN
+	1    33650 3125
+	-1   0    0    1   
+$EndComp
+Connection ~ 33650 1825
+Wire Wire Line
+	33650 1825 35850 1825
+Connection ~ 33650 2825
+Wire Wire Line
+	33650 2825 35850 2825
+$Comp
+L Device:C pB3
+U 1 1 81A8B007
+P 34325 3125
+F 0 "pB3" H 34440 3171 50  0000 L CNN
+F 1 "0.1u" H 34440 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 34363 2975 50  0001 C CNN
+F 3 "~" H 34325 3125 50  0001 C CNN
+	1    34325 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C pA5
+U 1 1 81B421EF
+P 34775 3125
+F 0 "pA5" H 34890 3171 50  0000 L CNN
+F 1 "0.1u" H 34890 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 34813 2975 50  0001 C CNN
+F 3 "~" H 34775 3125 50  0001 C CNN
+	1    34775 3125
+	-1   0    0    1   
+$EndComp
+Connection ~ 34775 2975
+Wire Wire Line
+	34775 2975 35850 2975
+$Comp
+L Device:C pA3
+U 1 1 81D688F2
+P 35200 3125
+F 0 "pA3" H 35315 3171 50  0000 L CNN
+F 1 "0.1u" H 35315 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 35238 2975 50  0001 C CNN
+F 3 "~" H 35200 3125 50  0001 C CNN
+	1    35200 3125
+	-1   0    0    1   
+$EndComp
+Connection ~ 34775 3275
+Wire Wire Line
+	34775 3275 35850 3275
+Wire Wire Line
+	21225 20950 21450 20950
+Connection ~ 25400 20675
+Text Notes 5550 3650 0    197  ~ 39
+1
+Text Notes 11275 3650 0    197  ~ 39
+10
+Text Notes 16125 3625 0    197  ~ 39
+20
+Text Notes 21650 3600 0    197  ~ 39
+30
+Text Notes 25875 2775 0    197  ~ 39
+40
+Text Notes 31850 3550 0    197  ~ 39
+50
+Text Notes 35375 3600 0    197  ~ 39
+56
+Wire Wire Line
+	27300 1825 31300 1825
+Wire Wire Line
+	27300 2825 31300 2825
+Wire Wire Line
+	30075 3275 31300 3275
+Wire Wire Line
+	30075 2975 31300 2975
+Wire Wire Line
+	27975 3275 28825 3275
+Wire Wire Line
+	27975 2975 28825 2975
+Text Label 3375 28800 2    50   Italic 10
+TEXTMODE
+Text Label 2775 28900 2    50   Italic 10
+MIXMODE
+Text Label 2775 29000 2    50   Italic 10
+V2
+Text Label 2775 29100 2    50   Italic 10
+V4
+$Comp
+L 74xx:74LS11 B12
+U 2 1 6C058EE8
+P 3075 29000
+F 0 "B12" H 3075 28775 50  0000 C CNN
+F 1 "74LS11" H 3075 28700 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 3075 29000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS114" H 3075 29000 50  0001 C CNN
+	2    3075 29000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 B13
+U 4 1 6C2D0D69
+P 3675 28900
+F 0 "B13" H 3675 29225 50  0000 C CNN
+F 1 "74LS02" H 3675 29134 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 3675 28900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3675 28900 50  0001 C CNN
+	4    3675 28900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 B11
+U 2 1 714E4E2F
+P 5800 28925
+F 0 "B11" H 5800 29250 50  0000 C CNN
+F 1 "74LS08" H 5800 29159 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 5800 28925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5800 28925 50  0001 C CNN
+	2    5800 28925
+	1    0    0    -1  
+$EndComp
+Text Label 5500 28825 2    50   Italic 10
+HIRESMODE
+Text Label 6100 28925 0    50   Italic 10
+HIRES
+Text Notes 6325 28925 0    50   Italic 10
+>
+Text Label 5500 29025 2    50   ~ 0
+FROM_LATCHB8_Q0
+Wire Wire Line
+	5500 29025 4775 29025
+Wire Wire Line
+	21325 9550 21850 9550
+Wire Wire Line
+	21850 9550 21850 10050
+Wire Wire Line
+	21850 10050 22325 10050
+Wire Wire Line
+	21050 9125 21050 10050
+Wire Wire Line
+	21050 10050 21325 10050
+Wire Wire Line
+	22625 7675 22625 9125
+Wire Wire Line
+	21050 9125 22625 9125
+Text Label 3975 28900 0    50   ~ 0
+VIDEO_IS_TEXT
+Text Label 21300 7675 2    50   ~ 0
+VIDEO_IS_TEXT
+$Comp
+L 74xx:74LS174 B5
+U 1 1 60806A67
+P 21800 8075
+F 0 "B5" H 21375 8800 50  0000 C CNN
+F 1 "74LS174" H 21475 8725 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 21800 8075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 21800 8075 50  0001 C CNN
+	1    21800 8075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22300 7675 22625 7675
+Text Label 22325 9550 0    50   ~ 0
+FROM_LATCHB8_Q0
+Text Label 22500 7675 2    50   Italic 10
+~TEXT
+Text Notes 22475 7675 0    50   Italic 10
+>
+Wire Wire Line
+	4775 29025 4775 28425
+Wire Wire Line
+	4775 28425 4300 28425
+Wire Wire Line
+	4300 27875 4300 28425
+Connection ~ 34325 2975
+Wire Wire Line
+	34325 2975 34775 2975
+Connection ~ 34325 3275
+Wire Wire Line
+	34325 3275 34775 3275
+Wire Wire Line
+	17575 3275 18425 3275
+Wire Wire Line
+	17575 2975 18425 2975
+Text Label 17025 9175 0    50   ~ 0
+D1
+Text Label 17025 9275 0    50   ~ 0
+D2
+Text Label 17025 9375 0    50   ~ 0
+D3
+Text Label 17025 9475 0    50   ~ 0
+D4
+Text Label 17025 9575 0    50   ~ 0
+D5
+Text Label 17025 9675 0    50   ~ 0
+D6
+Text Label 17025 9775 0    50   ~ 0
+D7
+Text Label 11075 9400 0    50   ~ 0
+~ENABLE_BUF
+Wire Wire Line
+	11075 9400 11625 9400
+$Comp
+L appleii:8T97_HEXBUF H4
+U 1 1 737CBABC
+P 10475 8950
+F 0 "H4" H 10450 9175 50  0000 C CNN
+F 1 "8T97_HEXBUF" H 10450 9100 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 10475 8900 50  0001 C CNN
+F 3 "" H 10475 8900 50  0001 C CNN
+	1    10475 8950
+	-1   0    0    1   
+$EndComp
+Text Label 12000 7925 0    50   ~ 0
+lA2
+Text Label 12000 7825 0    50   ~ 0
+A2
+Text Label 9325 7550 1    50   ~ 0
+GND
+Text Label 8975 7850 2    50   ~ 0
+lA5
+Text Label 8975 8050 2    50   ~ 0
+lA6
+Text Label 9625 7900 0    50   ~ 0
+lA7
+Text Label 9625 8100 0    50   ~ 0
+lA8
+Text Label 9625 8300 0    50   ~ 0
+lA9
+Text Label 8975 7750 2    50   ~ 0
+A5
+Text Label 8975 7950 2    50   ~ 0
+A6
+Text Label 9625 7800 0    50   ~ 0
+A7
+Text Label 9625 8000 0    50   ~ 0
+A8
+Text Label 9625 8200 0    50   ~ 0
+A9
+$Comp
+L appleii:8T97_HEXBUF H3
+U 1 1 603BE3D9
+P 9275 8950
+F 0 "H3" H 9250 9175 50  0000 C CNN
+F 1 "8T97_HEXBUF" H 9250 9100 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 9275 8900 50  0001 C CNN
+F 3 "" H 9275 8900 50  0001 C CNN
+	1    9275 8950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9275 8700 9325 8700
+Wire Wire Line
+	10475 8700 10525 8700
+Wire Wire Line
+	11650 8725 11700 8725
+Wire Wire Line
+	9325 8700 9325 8950
+Wire Wire Line
+	10525 8950 10525 8700
+Connection ~ 9325 8700
+Wire Wire Line
+	9325 8700 9375 8700
+Connection ~ 10525 8700
+Wire Wire Line
+	10525 8700 10575 8700
+Wire Wire Line
+	11700 8950 11700 8725
+Wire Wire Line
+	9325 8950 10525 8950
+Connection ~ 10525 8950
+Wire Wire Line
+	10525 8950 11625 8950
+Connection ~ 11700 8725
+Wire Wire Line
+	11700 8725 11750 8725
+Wire Wire Line
+	11625 9400 11625 8950
+Connection ~ 11625 9400
+Wire Wire Line
+	11625 9400 11875 9400
+Connection ~ 11625 8950
+Wire Wire Line
+	11625 8950 11700 8950
+Wire Wire Line
+	2775 13500 2775 13400
+Connection ~ 2775 13400
+Text Label 24825 24625 2    50   ~ 0
+KEY6
+Text Label 24825 24925 2    50   ~ 0
+KEY7
+Text Label 24825 24325 2    50   ~ 0
+KEY4
+Text Label 24850 27500 2    50   ~ 0
+KEY2
+Text Label 24850 27200 2    50   ~ 0
+KEY3
+Text Label 24850 26600 2    50   ~ 0
+KEY0
+Text Label 24850 26900 2    50   ~ 0
+KEY1
+Text Label 23875 24975 0    50   ~ 0
+KEY2
+Text Label 23875 24875 0    50   ~ 0
+KEY3
+Text Label 23875 24775 0    50   ~ 0
+KEY0
+Text Label 23875 24675 0    50   ~ 0
+KEY1
+Text Label 22975 24975 2    50   ~ 0
+KEY6
+Text Label 24825 25225 2    50   ~ 0
+KEY5
+Text Label 24825 25325 2    50   ~ 0
+LD5
+Text Label 22975 24875 2    50   ~ 0
+KEY4
+Text Label 22975 24775 2    50   ~ 0
+KEY5
+Text Label 23675 26875 0    50   ~ 0
+KEY7
+Text Label 21325 9650 2    50   ~ 0
+DO4
+Text Label 22325 9650 0    50   ~ 0
+LD4
+Wire Wire Line
+	2900 2625 3550 2625
+Wire Wire Line
+	2900 2325 3550 2325
+Text Label 6650 26300 0    50   ~ 0
+GND
+Text Label 6650 26400 0    50   ~ 10
+A9_5V
+Text Label 35550 1825 3    50   ~ 10
+A9_5V
+$Comp
+L Device:C pA9
+U 1 1 612423CB
+P 35650 3125
+F 0 "pA9" H 35765 3171 50  0000 L CNN
+F 1 "0.1u" H 35765 3080 50  0000 L CNN
+F 2 "geral:standard_2pins_half" H 35688 2975 50  0001 C CNN
+F 3 "~" H 35650 3125 50  0001 C CNN
+	1    35650 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L appleii-rescue:APPLEII_CARDEDGE-apple U1
+U 1 1 615B0FBD
+P 33650 11875
+F 0 "U1" H 34150 11940 50  0000 C CNN
+F 1 "APPLEII_CARDEDGE" H 34150 11849 50  0000 C CNN
+F 2 "geral:Conector2x25_Oval_0.65_rightangle" H 34150 11975 50  0001 C CNN
+F 3 "" H 34150 11975 50  0001 C CNN
+	1    33650 11875
+	1    0    0    -1  
+$EndComp
+Text Label 33550 12175 2    50   ~ 0
+A0
+Text Label 33550 12275 2    50   ~ 0
+A1
+Text Label 33550 12375 2    50   ~ 0
+A2
+Text Label 33550 12475 2    50   ~ 0
+A3
+Text Label 33550 12575 2    50   ~ 0
+A4
+Text Label 33550 12675 2    50   ~ 0
+A5
+Text Label 33550 13675 2    50   ~ 0
+A15
+Text Label 34750 12175 0    50   ~ 0
+D0
+Text Label 34750 12875 0    50   ~ 0
+D7
+Text Label 34750 12775 0    50   ~ 0
+D6
+Text Label 34750 12675 0    50   ~ 0
+D5
+Text Label 34750 12475 0    50   ~ 0
+D3
+Text Label 34750 12375 0    50   ~ 0
+D2
+Text Label 34750 12275 0    50   ~ 0
+D1
+Text Label 34750 12575 0    50   ~ 0
+D4
+Text Label 19100 8250 2    50   ~ 0
+5V
+Text Label 19100 8550 2    50   ~ 0
+GND
+Text Label 19100 8650 2    50   ~ 0
+GND
+Text Label 19100 9850 2    50   ~ 0
+GND
+Text Label 19100 9950 2    50   ~ 0
+GND
+Text Label 19100 10050 2    50   ~ 0
+GND
+Text Label 2825 27800 2    50   Italic 10
+B9_Q0
+NoConn ~ 2825 27700
+Text Label 2825 26650 2    50   ~ 0
+SOFT5
+Text Label 3175 2825 0    50   Italic 10
+RA3
+Text Label 3175 2725 0    50   Italic 10
+RA0
+Text Label 3175 2625 0    50   Italic 10
+RA4
+Text Label 3175 2525 0    50   Italic 10
+RA2
+Text Label 3175 2425 0    50   Italic 10
+RA5
+Text Label 3175 2325 0    50   Italic 10
+RA1
+Text Label 3175 2925 0    50   Italic 10
+RA6
+Wire Wire Line
+	4300 22225 4750 22225
+Text Label 2775 17550 2    50   ~ 0
+SOFT5
+Connection ~ 25900 19375
+Wire Wire Line
+	25900 19375 26075 19375
+Text Label 25900 19675 3    50   ~ 0
+GND
+$Comp
+L Device:D CR1
+U 1 1 6197B23B
+P 25900 19525
+F 0 "CR1" V 25854 19605 50  0000 L CNN
+F 1 "1N914" V 25945 19605 50  0000 L CNN
+F 2 "geral:standard_2pins" H 25900 19525 50  0001 C CNN
+F 3 "~" H 25900 19525 50  0001 C CNN
+	1    25900 19525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3375 25425 3375 25450
+Connection ~ 3375 25450
+Wire Wire Line
+	3375 25450 3375 26900
+Text Label 1825 2225 0    50   Italic 10
+~RESET
+Text Label 14550 9800 2    50   Italic 10
+~RESET
+NoConn ~ 14550 9700
+Text Label 2825 28100 2    50   ~ 0
+SOFT5
+$Comp
+L 74xx:74LS00 A2
+U 3 1 62D4F8CC
+P 1900 3950
+F 0 "A2" H 1900 4275 50  0000 C CNN
+F 1 "74LS00" H 1900 4184 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 1900 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1900 3950 50  0001 C CNN
+	3    1900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 A2
+U 4 1 62D4F8D2
+P 6750 10050
+F 0 "A2" H 6750 10375 50  0000 C CNN
+F 1 "74LS00" H 6750 10284 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 6750 10050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6750 10050 50  0001 C CNN
+	4    6750 10050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1600 4375 1600 4575
+Wire Wire Line
+	1600 3850 1600 4050
+Wire Wire Line
+	2200 3950 2200 4200
+Wire Wire Line
+	2200 4200 2450 4200
+Connection ~ 2200 4200
+Wire Wire Line
+	2200 4200 2200 4475
+Text Label 2450 4200 0    50   ~ 0
+SOFT5
+$Comp
+L appleii-rescue:flipSwitch-geral U2
+U 1 1 607DA938
+P 5150 6975
+F 0 "U2" H 5828 6871 50  0000 L CNN
+F 1 "manual_clock_onoff" H 5828 6780 50  0000 L CNN
+F 2 "geral:mini_flipswitch2.54" H 5250 7175 50  0001 C CNN
+F 3 "" H 5250 7175 50  0001 C CNN
+	1    5150 6975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 7550 5050 7225
+Wire Wire Line
+	5050 7225 5100 7225
+Wire Wire Line
+	5100 7125 6350 7125
+$Comp
+L appleii-rescue:flipSwitch-geral U3
+U 1 1 60BF8075
+P 5450 6400
+F 0 "U3" H 6128 6296 50  0000 L CNN
+F 1 "manual_clock_strobe" H 6128 6205 50  0000 L CNN
+F 2 "geral:flipSwitch3" H 5550 6600 50  0001 C CNN
+F 3 "" H 5550 6600 50  0001 C CNN
+	1    5450 6400
+	1    0    0    -1  
+$EndComp
+Text Label 5400 6450 2    50   ~ 0
+GND
+Wire Wire Line
+	13400 9500 14550 9500
+Wire Wire Line
+	5050 7550 5300 7550
+Wire Wire Line
+	5300 7550 5300 8325
+Wire Wire Line
+	5300 8325 5250 8325
+Text Label 5300 8325 0    50   Italic 10
+14M_OUT
+Text Notes 5650 8325 0    50   Italic 10
+>
+Text Label 33550 12775 2    50   ~ 0
+A6
+Text Label 34750 12975 0    50   ~ 0
+~DEVSEL
+Text Label 34750 13075 0    50   ~ 0
+Φ0
+Text Label 34750 13275 0    50   ~ 0
+Φ1
+Text Label 34750 13375 0    50   ~ 0
+Q3
+Text Label 34750 13475 0    50   ~ 0
+7M
+Text Label 34750 13575 0    50   ~ 0
+COLORREF
+Text Label 33550 13575 2    50   ~ 0
+A14
+Text Label 33550 13475 2    50   ~ 0
+A13
+Text Label 33550 13375 2    50   ~ 0
+A12
+Text Label 33550 13275 2    50   ~ 0
+A11
+Text Label 33550 13175 2    50   ~ 0
+A10
+Text Label 33550 13075 2    50   ~ 0
+A9
+Text Label 33550 12975 2    50   ~ 0
+A8
+Text Label 33550 12875 2    50   ~ 0
+A7
+Text Label 33550 13875 2    50   ~ 0
+SYNC
+Text Label 33550 13975 2    50   ~ 0
+~IOSTB
+Text Label 33550 14075 2    50   ~ 0
+RDY
+Text Label 33550 14175 2    50   ~ 0
+~DMA
+Text Label 33550 14475 2    50   ~ 0
+5V
+Text Label 34750 14475 0    50   ~ 0
+GND
+Text Label 34750 14175 0    50   ~ 0
+~NMI
+Text Label 34750 14075 0    50   ~ 0
+~IRQ
+Text Label 34750 13975 0    50   ~ 0
+~RESET
+Text Label 34750 13875 0    50   ~ 0
+~INH
+Text Label 34750 13675 0    50   ~ 0
+M5V
+Text Label 34750 13775 0    50   ~ 0
+M12V
+Text Label 34750 13175 0    50   ~ 0
+USER1
+Text Label 33550 13775 2    50   ~ 0
+R\~W
+NoConn ~ 29150 14050
+$Comp
+L appleii-rescue:flipSwitch-geral U4
+U 1 1 6130DCF9
+P 27450 7325
+F 0 "U4" H 28128 7221 50  0000 L CNN
+F 1 "flipSwitch" H 28128 7130 50  0000 L CNN
+F 2 "geral:mini_flipswitch2.54" H 27550 7525 50  0001 C CNN
+F 3 "" H 27550 7525 50  0001 C CNN
+	1    27450 7325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	27500 8075 27200 8075
+Wire Wire Line
+	27200 8075 27200 7475
+Wire Wire Line
+	27200 7475 27400 7475
+Text Label 27400 7375 2    50   ~ 0
+SOFT5
+Text Label 27400 7575 2    50   ~ 0
+GND
+$Comp
+L Device:R R22
+U 1 1 6130FBC0
+P 33025 17150
+F 0 "R22" H 33095 17196 50  0000 L CNN
+F 1 "100" H 33095 17105 50  0000 L CNN
+F 2 "geral:standard_2pins" V 32955 17150 50  0001 C CNN
+F 3 "~" H 33025 17150 50  0001 C CNN
+	1    33025 17150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 613962E4
+P 33025 17675
+F 0 "R20" H 33095 17721 50  0000 L CNN
+F 1 "100" H 33095 17630 50  0000 L CNN
+F 2 "geral:standard_2pins" V 32955 17675 50  0001 C CNN
+F 3 "~" H 33025 17675 50  0001 C CNN
+	1    33025 17675
+	0    -1   -1   0   
+$EndComp
+Text Label 32725 17675 2    50   ~ 0
+GAME_TIM0
+Text Label 34575 17125 0    50   ~ 0
+GAME_TIM1
+$Comp
+L Device:R RSTR1
+U 1 1 61F98F98
+P 5250 6650
+F 0 "RSTR1" V 5043 6650 50  0000 C CNN
+F 1 "R" V 5134 6650 50  0000 C CNN
+F 2 "geral:standard_2pins" V 5180 6650 50  0001 C CNN
+F 3 "~" H 5250 6650 50  0001 C CNN
+	1    5250 6650
+	0    1    1    0   
+$EndComp
+Text Label 5100 6650 2    50   ~ 0
+5V
+Wire Wire Line
+	5125 7025 5100 7025
+Wire Wire Line
+	5025 7025 5025 6550
+Connection ~ 5100 7025
+Wire Wire Line
+	5100 7025 5025 7025
+Wire Wire Line
+	5025 6550 5400 6550
+Text Label 17025 8775 0    50   ~ 0
+GND
+Text Label 8225 16425 0    50   ~ 0
+GND
+Text Label 4575 24925 2    50   ~ 0
+SOFT5
+Text Label 23650 13600 0    50   Italic 10
+~DEVSEL0
+$Comp
+L Device:R R27
+U 1 1 61EF9ACF
+P 15250 21325
+F 0 "R27" V 15043 21325 50  0000 C CNN
+F 1 "4.7K" V 15134 21325 50  0000 C CNN
+F 2 "geral:standard_2pins" V 15180 21325 50  0001 C CNN
+F 3 "~" H 15250 21325 50  0001 C CNN
+	1    15250 21325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15400 21325 15575 21325
+Wire Wire Line
+	14825 20900 14800 20900
+Wire Wire Line
+	14800 20900 14800 21125
+Connection ~ 14800 21125
+Wire Wire Line
+	10350 16625 10750 16625
+NoConn ~ 22125 21050
+NoConn ~ 22975 21650
+Text Label 16525 8475 1    50   ~ 0
+GND
+Text Label 16525 10075 3    50   ~ 0
+H10_5V
+Text Label 1600 4050 2    50   ~ 0
+GND
+Text Label 1600 4575 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS00 U100
+U 1 1 60D72092
+P 24475 7700
+F 0 "U100" H 24475 8025 50  0000 C CNN
+F 1 "74LS00" H 24475 7934 50  0000 C CNN
+F 2 "geral:standard_DIP_14OvalPins" H 24475 7700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 24475 7700 50  0001 C CNN
+	1    24475 7700
+	1    0    0    -1  
+$EndComp
+Text Label 27500 9075 2    50   ~ 0
+D0
+Text Label 27500 8975 2    50   ~ 0
+A0
+Text Label 27500 8875 2    50   ~ 0
+A1
+Text Notes 25800 25750 0    50   ~ 0
+atrás do conetor de teclado\nestá uma PROM com a tecla,\nmas como não existe um "chip\nenable" para essa, este comutador\nresolve a situação...
+Text Label 21925 13575 0    50   Italic 10
+~ENABLE_IO
+Text Label 22750 26975 0    50   Italic 10
+STROBE
+Text Label 23850 21350 0    50   Italic 10
+CASSETE_DIGITAL_INPUT
+Wire Wire Line
+	25675 19375 25900 19375
+Text Label 28175 19725 2    50   Italic 10
+CASSETE_DIGITAL_INPUT
+$Comp
+L 74xx:74LS86 U9
+U 1 1 640287CD
+P 28475 19825
+F 0 "U9" H 28475 20150 50  0000 C CNN
+F 1 "74LS86" H 28475 20059 50  0000 C CNN
+F 2 "" H 28475 19825 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 28475 19825 50  0001 C CNN
+	1    28475 19825
+	1    0    0    -1  
+$EndComp
+Text Notes 27650 19225 0    50   ~ 0
+atrasar os sinais de entrada e saída\ne fazer XOR isto faz um edge detection\nque depois serve para oscilar o speaker\ntal como  o faz a porta I/O
+Text Label 28175 19925 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS86 U9
+U 2 1 642F45A1
+P 28500 20375
+F 0 "U9" H 28500 20700 50  0000 C CNN
+F 1 "74LS86" H 28500 20609 50  0000 C CNN
+F 2 "" H 28500 20375 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 28500 20375 50  0001 C CNN
+	2    28500 20375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	28775 19825 28775 20100
+Wire Wire Line
+	28775 20100 28200 20100
+Wire Wire Line
+	28200 20100 28200 20275
+Text Label 28200 20475 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS86 U9
+U 3 1 645C10EB
+P 28525 20950
+F 0 "U9" H 28525 21275 50  0000 C CNN
+F 1 "74LS86" H 28525 21184 50  0000 C CNN
+F 2 "" H 28525 20950 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 28525 20950 50  0001 C CNN
+	3    28525 20950
+	1    0    0    -1  
+$EndComp
+Text Label 28250 21625 2    50   Italic 10
+CASSETE_DIGITAL_INPUT
+Wire Wire Line
+	28800 20375 28800 20675
+Wire Wire Line
+	28800 20675 28225 20675
+Wire Wire Line
+	28225 20675 28225 20850
+Text Label 31100 21225 2    50   Italic 10
+SPK_OUT_CLK
+Text Label 29750 21025 3    50   Italic 10
+CASSETE_OUT_CLK
+Text Label 28225 21050 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS86 U9
+U 4 1 65041CFB
+P 28550 21525
+F 0 "U9" H 28550 21850 50  0000 C CNN
+F 1 "74LS86" H 28550 21759 50  0000 C CNN
+F 2 "" H 28550 21525 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 28550 21525 50  0001 C CNN
+	4    28550 21525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	28825 21275 28250 21275
+Wire Wire Line
+	28250 21275 28250 21425
+Wire Wire Line
+	28825 20950 28825 21275
+Wire Wire Line
+	28850 21525 28850 21850
+Wire Wire Line
+	28850 21850 28275 21850
+Wire Wire Line
+	29175 22100 29175 20425
+Wire Wire Line
+	29175 20425 29450 20425
+$Comp
+L Transistor_BJT:2N3904 Q9
+U 1 1 6596E1C3
+P 29650 20425
+F 0 "Q9" H 29840 20471 50  0000 L CNN
+F 1 "2N3904" H 29840 20380 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 29850 20350 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 29650 20425 50  0001 L CNN
+	1    29650 20425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q10
+U 1 1 65ADB4DF
+P 29950 21025
+F 0 "Q10" H 30140 21071 50  0000 L CNN
+F 1 "2N3904" H 30140 20980 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 30150 20950 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 29950 21025 50  0001 L CNN
+	1    29950 21025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	29750 20225 30350 20225
+Wire Wire Line
+	30425 20225 30350 20225
+Connection ~ 30350 20225
+$Comp
+L appleii-rescue:flipSwitch-geral U11
+U 1 1 65DBA022
+P 30750 20475
+F 0 "U11" H 31428 20371 50  0000 L CNN
+F 1 "flipSwitch-geral" H 31428 20280 50  0000 L CNN
+F 2 "" H 30850 20675 50  0001 C CNN
+F 3 "" H 30850 20675 50  0001 C CNN
+	1    30750 20475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	30425 20225 30425 20525
+Wire Wire Line
+	30425 20525 30700 20525
+Wire Wire Line
+	30050 20825 30350 20825
+Wire Wire Line
+	30350 20825 30350 20225
+Text Label 29750 20625 3    50   ~ 0
+GND
+Text Label 30050 21225 3    50   ~ 0
+GND
+Wire Wire Line
+	30700 20625 30525 20625
+Wire Wire Line
+	30525 20625 30525 20975
+Wire Wire Line
+	30525 20975 31225 20975
+Wire Wire Line
+	31225 20975 31225 21225
+Wire Wire Line
+	31225 21225 31100 21225
+Wire Wire Line
+	28275 21850 28275 22100
+Wire Wire Line
+	28275 22100 29175 22100
+Text Notes 12450 7400 0    150  Italic 30
+buffers de endereçamento\ne transceivers de dados\n
+Text Notes 20225 7025 0    150  Italic 30
+presas de saída\nda memória (LD0:7)
+Text Notes 4600 13825 0    150  Italic 30
+gerador de\nendereço\nde video
+Text Notes 13025 12800 0    150  Italic 30
+gerador RAi para memória
+Text Notes 26100 25000 0    150  Italic 30
+memória ou teclado\npara o DATABUS
+$Comp
+L 74xx:74LS244 U6
+U 1 1 63D4566E
+P 26300 13125
+F 0 "U6" H 26300 14106 50  0000 C CNN
+F 1 "74LS244" H 26300 14015 50  0000 C CNN
+F 2 "GERAL:standard_DIP_20pins_thin_body" H 26300 13125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 26300 13125 50  0001 C CNN
+	1    26300 13125
+	1    0    0    -1  
+$EndComp
+Text Label 25800 12725 2    50   Italic 10
+~IOSEL1
+Text Label 25800 12825 2    50   Italic 10
+~IOSEL2
+Text Label 25800 12925 2    50   Italic 10
+~IOSEL3
+Text Label 25800 13025 2    50   Italic 10
+~IOSEL4
+Text Label 25800 13125 2    50   Italic 10
+~IOSEL5
+Text Label 25800 13225 2    50   Italic 10
+~IOSEL6
+Text Label 25800 13325 2    50   Italic 10
+~IOSEL7
+Text Label 25800 13625 2    50   Italic 10
+SLOT_SELECT
+Text Label 25800 13525 2    50   Italic 10
+~SLOT_SELECT
+Text Label 27375 13125 0    50   Italic 10
+~IOSEL1'
+Text Label 27375 13025 0    50   Italic 10
+~IOSEL0'
+Text Label 27375 13325 0    50   Italic 10
+~IOSEL3'
+Text Label 27375 13225 0    50   Italic 10
+~IOSEL2'
+Wire Wire Line
+	26800 12625 27225 12625
+Wire Wire Line
+	27225 12625 27225 13025
+Wire Wire Line
+	27225 13025 26800 13025
+Wire Wire Line
+	26800 12725 27075 12725
+Wire Wire Line
+	27075 12725 27075 13125
+Wire Wire Line
+	26800 12825 26975 12825
+Wire Wire Line
+	26800 12925 26875 12925
+Wire Wire Line
+	26875 12925 26875 13325
+Wire Wire Line
+	26875 13325 26800 13325
+Wire Wire Line
+	26875 13325 27375 13325
+Connection ~ 26875 13325
+Wire Wire Line
+	26800 13125 27075 13125
+Wire Wire Line
+	26800 13225 26975 13225
+Wire Wire Line
+	26975 12825 26975 13225
+Connection ~ 26975 13225
+Wire Wire Line
+	26975 13225 27375 13225
+Wire Wire Line
+	27075 13125 27375 13125
+Connection ~ 27075 13125
+Wire Wire Line
+	27225 13025 27375 13025
+Connection ~ 27225 13025
+Text Label 21925 13675 0    50   Italic 10
+~IOSEL1
+$Comp
+L 74xx:74LS244 U7
+U 1 1 66415832
+P 26300 15050
+F 0 "U7" H 26300 16031 50  0000 C CNN
+F 1 "74LS244" H 26300 15940 50  0000 C CNN
+F 2 "GERAL:standard_DIP_20pins_thin_body" H 26300 15050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 26300 15050 50  0001 C CNN
+	1    26300 15050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	26800 14550 27225 14550
+Wire Wire Line
+	27225 14550 27225 14950
+Wire Wire Line
+	27225 14950 26800 14950
+Wire Wire Line
+	26800 14650 27075 14650
+Wire Wire Line
+	27075 14650 27075 15050
+Wire Wire Line
+	26800 14750 26975 14750
+Wire Wire Line
+	26800 14850 26875 14850
+Wire Wire Line
+	26875 14850 26875 15250
+Wire Wire Line
+	26875 15250 26800 15250
+Wire Wire Line
+	26875 15250 27375 15250
+Connection ~ 26875 15250
+Wire Wire Line
+	26800 15050 27075 15050
+Wire Wire Line
+	26800 15150 26975 15150
+Wire Wire Line
+	26975 14750 26975 15150
+Connection ~ 26975 15150
+Wire Wire Line
+	26975 15150 27375 15150
+Wire Wire Line
+	27075 15050 27375 15050
+Connection ~ 27075 15050
+Wire Wire Line
+	27225 14950 27375 14950
+Connection ~ 27225 14950
+Text Label 25800 14650 2    50   Italic 10
+~DEVSEL1
+Text Label 25800 14750 2    50   Italic 10
+~DEVSEL2
+Text Label 25800 14850 2    50   Italic 10
+~DEVSEL3
+Text Label 25800 14550 2    50   Italic 10
+~DEVSEL0
+Text Label 25800 15050 2    50   Italic 10
+~DEVSEL5
+Text Label 25800 15150 2    50   Italic 10
+~DEVSEL6
+Text Label 25800 15250 2    50   Italic 10
+~DEVSEL7
+Text Label 25800 14950 2    50   Italic 10
+~DEVSEL4
+Text Label 27375 15050 0    50   Italic 10
+~DEVSEL1'
+Text Label 27375 15150 0    50   Italic 10
+~DEVSEL2'
+Text Label 27375 15250 0    50   Italic 10
+~DEVSEL3'
+Text Label 27375 14950 0    50   Italic 10
+~DEVSEL0'
+Text Notes 20150 13100 0    150  Italic 30
+existem 8 slots, \nmas o 1º não tem ~IOSEL\n
+$Comp
+L Display_Character:HDSP-7503 U10
+U 1 1 69DF4948
+P 29750 12800
+F 0 "U10" H 29750 13467 50  0000 C CNN
+F 1 "HDSP-7503" H 29750 13376 50  0000 C CNN
+F 2 "Display_7Segment:HDSP-A151" H 29750 12250 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-2553EN" H 29350 13350 50  0001 C CNN
+	1    29750 12800
+	1    0    0    -1  
+$EndComp
+Text Label 30050 13100 0    50   ~ 0
+gnd
+Text Label 30050 13200 0    50   ~ 0
+pullup2
+Text Label 29450 12600 2    50   ~ 0
+pullup2
+Text Label 29450 12700 2    50   ~ 0
+pullup2
+Text Label 29450 13000 2    50   ~ 0
+pullup2
+Wire Wire Line
+	29450 12500 28875 12500
+Wire Wire Line
+	29450 12900 28925 12900
+Wire Wire Line
+	29450 13200 28950 13200
+Text Label 28875 12500 2    50   Italic 10
+SLOT_SELECT
+Text Label 28925 12900 2    50   Italic 10
+SLOT_SELECT
+Text Label 28950 13100 2    50   Italic 10
+~SLOT_SELECT
+Wire Wire Line
+	29450 13100 28950 13100
+Text Label 28925 12800 2    50   Italic 10
+SLOT_SELECT
+Wire Wire Line
+	29450 12800 28925 12800
+Text Label 28950 13200 2    50   ~ 0
+gnd
+Text Label 29150 14050 0    50   Italic 10
+~IOSEL0'
+Text Label 25800 15550 2    50   Italic 10
+SLOT_SELECT
+Text Label 25800 15450 2    50   Italic 10
+~SLOT_SELECT
+Text Label 21925 13975 0    50   Italic 10
+~IOSEL4
+Text Label 21925 14075 0    50   Italic 10
+~IOSEL5
+Text Label 21925 14175 0    50   Italic 10
+~IOSEL6
+Text Label 21925 14275 0    50   Italic 10
+~IOSEL7
+Connection ~ 20925 14175
+$Comp
+L 74xx:74LS138 H12
+U 1 1 60622777
+P 21425 13875
+F 0 "H12" H 21050 14475 50  0000 C CNN
+F 1 "74LS138" H 21125 14400 50  0000 C CNN
+F 2 "geral:standard_DIP_16OvalPins" H 21425 13875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 21425 13875 50  0001 C CNN
+	1    21425 13875
+	1    0    0    -1  
+$EndComp
+Text Notes 22200 13975 0    50   Italic 10
+>
+Text Notes 22200 14075 0    50   Italic 10
+>
+Text Notes 22200 14175 0    50   Italic 10
+>
+Text Notes 22200 14275 0    50   Italic 10
+>
+Text Label 23650 14100 0    50   Italic 10
+~DEVSEL5
+Text Label 23650 14200 0    50   Italic 10
+~DEVSEL6
+Text Label 23650 14300 0    50   Italic 10
+~DEVSEL7
+Text Label 23650 14000 0    50   Italic 10
+~DEVSEL4
+Text Notes 23975 13975 0    50   Italic 10
+>
+Text Notes 23975 14075 0    50   Italic 10
+>
+Text Notes 23975 14175 0    50   Italic 10
+>
+Text Notes 23975 14275 0    50   Italic 10
+>
+Text Label 21075 19775 0    50   ~ 10
+~EN_CASSETE_AND_JOY
+Text Label 21075 19675 0    50   ~ 10
+~EN_SOFTSWITCHES
+Text Label 19675 17450 2    50   ~ 10
+~EN_SOFTSWITCHES
+Text Label 21325 9950 2    50   ~ 0
+DO6
+NoConn ~ 21325 9950
+Text Notes 21625 11375 0    50   ~ 0
+houve um problema com LD6\ne como não tinha um 174 pus\num 175 encima para\nlatchar LD6
+$Comp
+L 74xx:74LS175 U5
+U 1 1 63D0DD5C
+P 23575 10650
+F 0 "U5" H 23575 11531 50  0000 C CNN
+F 1 "74LS175" H 23575 11440 50  0000 C CNN
+F 2 "GERAL:standard_DIP_16Pins" H 23575 10650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS175" H 23575 10650 50  0001 C CNN
+	1    23575 10650
+	1    0    0    -1  
+$EndComp
+Text Label 23075 10650 2    50   ~ 0
+DO6
+Text Label 24075 10650 0    50   ~ 0
+LD6
+Text Label 23075 11150 2    50   ~ 0
+SOFT5
+Text Label 23075 11050 2    50   Italic 10
+~RAS
+Text Label 23575 9950 0    50   ~ 10
+B8_5V
+Text Label 23575 11450 3    50   ~ 0
+GND
+Wire Wire Line
+	4500 27400 4500 26425
+Wire Wire Line
+	3825 27400 4500 27400
+Text Label 2825 27400 2    50   ~ 0
+LD6
+Text Label 2825 27300 2    50   ~ 0
+LD5
+Text Label 4775 28425 0    50   Italic 10
+~ISTEXT(LATCHED)
+Text Label 3325 25000 0    50   ~ 0
+S_P1
+$Comp
+L Device:R_POT R28
+U 1 1 658A349A
+P 25950 18450
+F 0 "R28" H 25881 18496 50  0000 R CNN
+F 1 "50K" H 25881 18405 50  0000 R CNN
+F 2 "geral:trimpot - 3 pin standard" H 25950 18450 50  0001 C CNN
+F 3 "~" H 25950 18450 50  0001 C CNN
+	1    25950 18450
+	1    0    0    -1  
+$EndComp
+Text Label 25925 18750 2    50   ~ 0
+GND
+Wire Wire Line
+	25950 18600 25950 18750
+Wire Wire Line
+	25950 18750 25925 18750
+Wire Wire Line
+	26100 18450 26100 18525
+Wire Wire Line
+	26100 18525 26375 18525
+Text Notes 21800 14700 0    50   Italic 10
+atenção /IOSEL é ligada\nmesmo quando CPU\nnão está ativado
+Text Notes 19025 17175 0    50   Italic 10
+$C050:$C05F
+Text Notes 21300 19150 0    50   Italic 10
+$C00X
+Text Notes 21400 19275 0    50   Italic 10
+$C01X
+Text Notes 21800 19375 0    50   Italic 10
+$C02X
+Text Notes 21625 19475 0    50   Italic 10
+$C03X
+Text Notes 21475 19575 0    50   Italic 10
+$C04X
+Text Notes 21900 19775 0    50   Italic 10
+$C06X
+Text Notes 21775 19675 0    50   Italic 10
+$C05X
+Text Notes 21850 19875 0    50   Italic 10
+$C07X
+Wire Wire Line
+	21075 19775 22675 19775
+Wire Wire Line
+	21075 19675 22150 19675
+Wire Wire Line
+	22150 19675 22150 19200
+Text Notes 23200 18300 0    50   Italic 10
+$C06X
+Text Notes 18925 17075 0    50   Italic 10
+SOFT-SWITCHES
+Text Notes 21025 18975 0    50   Italic 10
+MISC I/O
+Text Notes 24925 20200 0    50   Italic 10
+PARA GRAVAÇÃO\nDA CASSETE\n
+Text Notes 25325 19025 0    50   Italic 10
+PARA AUSCUTADOR
+Text Notes 20750 20550 0    50   Italic 10
+DESDE CASSETE
+Text Notes 21150 16850 0    50   Italic 10
+$C050/1
+Text Notes 21125 16950 0    50   Italic 10
+$C052/3
+Text Notes 21025 17050 0    50   Italic 10
+$C054/5
+Text Notes 21175 17150 0    50   Italic 10
+$C056/7
+Text Notes 20900 17250 0    50   Italic 10
+$C058/9
+Text Notes 20900 17350 0    50   Italic 10
+$C05A/B
+Text Notes 20900 17450 0    50   Italic 10
+$C05C/D
+Text Notes 20900 17550 0    50   Italic 10
+$C05E/F
+Wire Wire Line
+	2925 23050 2925 23375
+Wire Wire Line
+	2925 23375 3175 23375
+Connection ~ 2925 23050
+Wire Wire Line
+	2925 23050 2250 23050
+Text Label 3175 23375 0    50   ~ 10
+PISCA-PISCA
+Wire Wire Line
+	15300 9500 15675 9500
+Text Label 15875 7600 1    50   ~ 10
+PISCA-PISCA
+$Comp
+L Transistor_BJT:2N3904 Q8
+U 1 1 65979F26
+P 16200 7600
+F 0 "Q8" H 16390 7646 50  0000 L CNN
+F 1 "2N3904" H 16390 7555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 16400 7525 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 16200 7600 50  0001 L CNN
+	1    16200 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16000 7600 15875 7600
+Text Label 16300 7800 3    50   ~ 0
+GND
+$Comp
+L appleii-rescue:flipSwitch-geral U8
+U 1 1 65EE1D17
+P 16475 6425
+F 0 "U8" H 17153 6321 50  0000 L CNN
+F 1 "flipSwitch-geral" H 17153 6230 50  0000 L CNN
+F 2 "" H 16575 6625 50  0001 C CNN
+F 3 "" H 16575 6625 50  0001 C CNN
+	1    16475 6425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 7400 16300 6675
+Wire Wire Line
+	16300 6675 16425 6675
+Wire Wire Line
+	15675 6575 15675 9500
+Wire Wire Line
+	15675 6575 16425 6575
+Text Label 15875 6575 0    50   ~ 10
+~IRQ
+Text Notes 22200 18275 0    50   Italic 10
+$C060
+Wire Wire Line
+	22150 19200 21725 19200
+Wire Wire Line
+	21725 19200 21725 18625
+Text Notes 22000 18575 0    50   Italic 10
+$C061
+Text Notes 22000 18675 0    50   Italic 10
+$C062
+Text Notes 22000 18775 0    50   Italic 10
+$C063
+Text Notes 21975 18875 0    50   Italic 10
+$C064
+Text Notes 21975 18975 0    50   Italic 10
+$C065
+Text Notes 21975 19075 0    50   Italic 10
+$C066
+Text Notes 21975 19175 0    50   Italic 10
+$C067
+Wire Wire Line
+	19400 17450 19400 18625
+Wire Wire Line
+	19400 18625 21725 18625
+$Comp
+L appleii-rescue:flipSwitch-geral U12
+U 1 1 6733684A
+P 21250 18325
+F 0 "U12" H 21325 18525 50  0000 L CNN
+F 1 "flipSwitch-geral" H 21300 18425 50  0000 L CNN
+F 2 "" H 21350 18525 50  0001 C CNN
+F 3 "" H 21350 18525 50  0001 C CNN
+	1    21250 18325
+	-1   0    0    1   
+$EndComp
+Text Label 21300 18075 0    50   ~ 10
+PISCA-PISCA
+Wire Wire Line
+	21300 18175 22350 18175
+Wire Wire Line
+	22350 18175 22350 18475
+Wire Wire Line
+	22350 18475 22675 18475
+Text Label 4200 21700 2    50   Italic 10
+~CHARROM_OE
+Wire Wire Line
+	4300 21625 4250 21625
+Wire Wire Line
+	4250 21625 4250 21700
+Wire Wire Line
+	4250 21700 4200 21700
+Text Notes 3050 20625 0    70   Italic 14
+A char ROM está\nespelahada aqui\nno desenho!
+Text Label 5050 21925 0    50   Italic 10
+VA
+Text Label 4300 22325 2    50   Italic 10
+PIXEL0
+Text Label 4300 22225 2    50   Italic 10
+PIXEL1
+Text Label 5050 22225 0    50   Italic 10
+PIXEL2
+Text Label 5050 22125 0    50   Italic 10
+PIXEL3
+Text Label 5050 22025 0    50   Italic 10
+PIXEL4
+Text Notes 2300 21450 0    70   Italic 14
+ATENÇÃO: NA CHARSROM \nORIGINAL LIGA-SE AO SHIFT\nAPARTIR DE D1! é necessário\nremapear os shiftando D0->D1\ne assim sucessivamente e trocar\nD3 com D4.
+Text Notes 23050 9550 0    50   Italic 10
+(~TEXT)
+Text Notes 13875 19275 0    50   Italic 10
+HIRES - 1  SEL\n
+Text Label 22600 28575 0    50   Italic 10
+CLRSTB
+Text Notes 23225 26400 0    60   Italic 12
+o bit 7 diz se a tecla\nfoi pressionada pela\na primeira vez
+Text Notes 23225 26050 0    60   Italic 12
+tecla pressionada=0\nse /RESET ou CLRSTB\n
+Text Notes 21850 18075 0    50   Italic 10
+MODO DE TESTE
+Text Label 33300 16725 2    50   ~ 0
+GAME_SW1
+Text Notes 27600 15775 0    200  Italic 40
+placa digital-"joysticks" analogicos
+Text Notes 27550 18525 1    100  Italic 20
+----------------------
+$Comp
+L appleii:APPLEII_DIGITAL_GAMEPAD_FEMALE U13
+U 1 1 656DCC9E
+P 28600 17100
+F 0 "U13" H 28750 17675 50  0000 C CNN
+F 1 "APPLEII_DIGITAL_GAMEPAD_FEMALE" H 28700 17750 50  0000 C CNN
+F 2 "Package_DIP:DIP-12_W7.62mm_Socket_LongPads" H 28600 17325 50  0001 C CNN
+F 3 "" H 28600 17325 50  0001 C CNN
+	1    28600 17100
+	1    0    0    -1  
+$EndComp
+Text Label 29050 17075 0    50   ~ 0
+GAME_SW0
+Text Label 29050 17325 0    50   ~ 0
+GAME_SW2
+Text Label 29050 16700 0    50   ~ 0
+GAME_OUT2
+Text Label 29050 17200 0    50   ~ 0
+GAME_SW1
+Text Label 29050 16825 0    50   ~ 0
+GAME_OUT3
+$Comp
+L appleii:APPLEII_DIGITAL_GAMEPAD_FEMALE U14
+U 1 1 66E79F24
+P 28575 18225
+F 0 "U14" V 28035 18150 50  0000 C CNN
+F 1 "APPLEII_DIGITAL_GAMEPAD_FEMALE" H 28650 18800 50  0000 C CNN
+F 2 "Package_DIP:DIP-12_W7.62mm_Socket_LongPads" H 28575 18450 50  0001 C CNN
+F 3 "" H 28575 18450 50  0001 C CNN
+	1    28575 18225
+	1    0    0    -1  
+$EndComp
+Text Label 29025 18200 0    50   ~ 0
+GAME_SW0
+Text Label 29025 18450 0    50   ~ 0
+GAME_SW2
+Text Label 29025 17825 0    50   ~ 0
+GAME_OUT2
+Text Label 29025 18325 0    50   ~ 0
+GAME_SW1
+Text Label 29025 17950 0    50   ~ 0
+GAME_OUT3
+Text Label 28400 17075 2    50   Italic 10
+GAME_RESET_TIMERS
+Text Label 28400 17200 2    50   ~ 0
+GAME_OUT1
+Text Label 28400 16700 2    50   ~ 10
+H13_5V
+Text Label 28400 17325 2    50   ~ 0
+GAME_OUT0
+Text Label 28400 16950 2    50   ~ 10
+GND
+Text Label 28375 18200 2    50   Italic 10
+GAME_RESET_TIMERS
+Text Label 28375 18325 2    50   ~ 0
+GAME_OUT1
+Text Label 28375 17825 2    50   ~ 10
+H13_5V
+Text Label 28375 18450 2    50   ~ 0
+GAME_OUT0
+Text Label 28375 18075 2    50   ~ 10
+GND
+$Comp
+L Connector:Conn_01x06_Female CON_AUDIO1
+U 1 1 657DFEDB
+P 24950 17275
+F 0 "CON_AUDIO1" H 24800 17675 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 24800 17750 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 24950 17275 50  0001 C CNN
+F 3 "~" H 24950 17275 50  0001 C CNN
+	1    24950 17275
+	1    0    0    -1  
+$EndComp
+Text Label 24900 18825 1    50   Italic 10
+CON_SPK_CPU_OUT
+Text Label 25050 18825 1    50   Italic 10
+CON_SPK
+Text Label 24750 17075 2    50   Italic 10
+CON_SPK
+Text Label 24750 17175 2    50   Italic 10
+CON_SPK_CPU_OUT
+NoConn ~ 24975 19375
+Text Label 25000 20675 3    50   Italic 10
+CON_CPU_OUT
+Wire Wire Line
+	24700 19375 24900 19375
+Wire Wire Line
+	24900 19375 24900 18825
+Connection ~ 24900 19375
+Wire Wire Line
+	24900 19375 25050 19375
+Wire Wire Line
+	25050 19375 25050 18825
+Connection ~ 25050 19375
+Wire Wire Line
+	25050 19375 25075 19375
+Wire Wire Line
+	24700 20375 25000 20375
+Wire Wire Line
+	25000 20675 25000 20375
+Connection ~ 25000 20375
+Wire Wire Line
+	25000 20375 25400 20375
+Text Label 24750 17275 2    50   Italic 10
+CON_CPU_OUT
+Text Label 23700 21775 3    50   Italic 10
+CON_CPU_INPUT
+NoConn ~ 23625 21350
+Wire Wire Line
+	23525 21350 23525 21775
+Connection ~ 23525 21350
+Wire Wire Line
+	23525 21350 23475 21350
+Wire Wire Line
+	23850 21350 23700 21350
+Wire Wire Line
+	23700 21350 23700 21775
+Connection ~ 23700 21350
+Wire Wire Line
+	23700 21350 23525 21350
+Text Label 23525 21775 3    50   Italic 10
+CON_TAPE_INPUT
+Text Label 24750 17375 2    50   Italic 10
+CON_CPU_INPUT
+Text Label 24750 17475 2    50   Italic 10
+CON_TAPE_INPUT
+NoConn ~ 24750 17575
+Wire Wire Line
+	25025 17075 25100 17075
+Wire Wire Line
+	25100 17075 25100 17175
+Wire Wire Line
+	25100 17175 25025 17175
+Wire Wire Line
+	25025 17375 25100 17375
+Wire Wire Line
+	25100 17375 25100 17475
+Wire Wire Line
+	25100 17475 25025 17475
+Text Notes 25250 17600 0    50   Italic 10
+curto-circuitar estas ligações\npara o computador funcionar por \ncassete (como originalmente);\nsenão ligar conetor à\nplaca raspberry pi pico\nque trata da comutação\ndo audio
+Text Label 22825 17000 0    315  Italic 63
+AUDIO
+Text Label 25600 20500 0    50   Italic 10
+auido_out
+Wire Wire Line
+	25600 20500 25600 20675
+Wire Wire Line
+	25400 20675 25600 20675
+Connection ~ 25600 20675
+Wire Wire Line
+	25600 20675 25775 20675
+Text Label 20975 20650 0    50   Italic 10
+auido_in
+Wire Wire Line
+	21450 21250 22125 21250
+Wire Wire Line
+	20800 20950 20925 20950
+Connection ~ 20925 20950
+Wire Wire Line
+	20925 21150 20800 21150
+Wire Wire Line
+	20925 20950 20925 20650
+Wire Wire Line
+	20925 20650 20975 20650
+Text Notes 13350 13450 0    55   Italic 11
+(~Q3 da latch)
+Text Notes 29850 18475 0    118  Italic 24
+existem 4 linhas TIM/OUT para dois joystick com X, Y 
+Text Notes 29850 18675 0    55   Italic 11
+TIM entra para o joystick\nOUT sai para a porta 
+$EndSCHEMATC

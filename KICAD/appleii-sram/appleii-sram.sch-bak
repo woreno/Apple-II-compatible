@@ -1,0 +1,548 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L appleii:APPLEII_MEMCON U1
+U 1 1 657B325C
+P 8750 7200
+F 0 "U1" H 8700 8415 50  0000 C CNN
+F 1 "APPLEII_MEMCON" H 8700 8324 50  0000 C CNN
+F 2 "GERAL:Apple_8bit_edge" H 8750 8450 50  0001 C CNN
+F 3 "" H 8750 8450 50  0001 C CNN
+	1    8750 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Memory_RAM:AS6C4008-55PCN U4
+U 1 1 657B3E15
+P 5800 3950
+F 0 "U4" H 6000 5100 50  0000 C CNN
+F 1 "AS6C4008-55PCN" H 6300 5025 50  0000 C CNN
+F 2 "Package_SO:SSOP-32_11.305x20.495mm_P1.27mm" H 5800 4050 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 5800 4050 50  0001 C CNN
+	1    5800 3950
+	1    0    0    -1  
+$EndComp
+Text Label 9600 6550 1    50   Italic 10
+A0
+Text Label 9000 6550 1    50   Italic 10
+A6
+Text Label 9100 6550 1    50   Italic 10
+A5
+Text Label 9200 6550 1    50   Italic 10
+A4
+Text Label 9300 6550 1    50   Italic 10
+A3
+Text Label 9400 6550 1    50   Italic 10
+A2
+Text Label 9500 6550 1    50   Italic 10
+A1
+Text Label 4625 6750 3    50   Italic 10
+A0
+Text Label 5225 6750 3    50   Italic 10
+A6
+Text Label 5125 6750 3    50   Italic 10
+A5
+Text Label 5025 6750 3    50   Italic 10
+A4
+Text Label 4925 6750 3    50   Italic 10
+A3
+Text Label 4825 6750 3    50   Italic 10
+A2
+Text Label 4725 6750 3    50   Italic 10
+A1
+Text Label 4625 5750 1    50   Italic 10
+B0
+Text Label 5225 5750 1    50   Italic 10
+B6
+Text Label 5125 5750 1    50   Italic 10
+B5
+Text Label 5025 5750 1    50   Italic 10
+B4
+Text Label 4925 5750 1    50   Italic 10
+B3
+Text Label 4825 5750 1    50   Italic 10
+B2
+Text Label 4725 5750 1    50   Italic 10
+B1
+Text Label 5300 3750 2    50   Italic 10
+A0
+Text Label 5300 4350 2    50   Italic 10
+A6
+Text Label 5300 4250 2    50   Italic 10
+A5
+Text Label 5300 4150 2    50   Italic 10
+A4
+Text Label 5300 4050 2    50   Italic 10
+A3
+Text Label 5300 3950 2    50   Italic 10
+A2
+Text Label 5300 3850 2    50   Italic 10
+A1
+Text Label 7800 6550 1    50   Italic 10
+~CAS0
+Text Label 7700 6550 1    50   Italic 10
+~CAS1
+Text Label 7600 6550 1    50   Italic 10
+~CAS2
+Text Label 5300 4450 2    50   Italic 10
+~CAS0
+Text Label 5300 4550 2    50   Italic 10
+~CAS1
+Text Label 5300 4650 2    50   Italic 10
+~CAS2
+Text Label 9625 4075 0    50   Italic 10
+Din0
+Text Label 9625 4175 0    50   Italic 10
+Din1
+Text Label 9625 4275 0    50   Italic 10
+Din2
+Text Label 9625 4375 0    50   Italic 10
+Din3
+Text Label 9625 4475 0    50   Italic 10
+Din4
+Text Label 9625 4575 0    50   Italic 10
+Din5
+Text Label 9625 4675 0    50   Italic 10
+Din6
+Text Label 9625 4775 0    50   Italic 10
+Din7
+$Comp
+L 74xx:74LS245 U6
+U 1 1 657E6734
+P 9125 4575
+F 0 "U6" H 9000 5375 50  0000 C CNN
+F 1 "74LS245" H 8925 5275 50  0000 C CNN
+F 2 "GERAL:standard_DIP_20pins_thin_body" H 9125 4575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 9125 4575 50  0001 C CNN
+	1    9125 4575
+	-1   0    0    -1  
+$EndComp
+Text Label 6300 3050 0    50   Italic 10
+D0'
+Text Label 6300 3150 0    50   Italic 10
+D1'
+Text Label 6300 3250 0    50   Italic 10
+D2'
+Text Label 6300 3350 0    50   Italic 10
+D3'
+Text Label 6300 3450 0    50   Italic 10
+D4'
+Text Label 6300 3550 0    50   Italic 10
+D5'
+Text Label 6300 3650 0    50   Italic 10
+D6'
+Text Label 6300 3750 0    50   Italic 10
+D7'
+Text Label 8625 4075 2    50   Italic 10
+D0'
+Text Label 8625 4175 2    50   Italic 10
+D1'
+Text Label 8625 4275 2    50   Italic 10
+D2'
+Text Label 8625 4375 2    50   Italic 10
+D3'
+Text Label 8625 4475 2    50   Italic 10
+D4'
+Text Label 8625 4575 2    50   Italic 10
+D5'
+Text Label 8625 4675 2    50   Italic 10
+D6'
+Text Label 8625 4775 2    50   Italic 10
+D7'
+Text Label 8000 6550 1    50   Italic 10
+~WRITE
+Wire Wire Line
+	6300 4150 6300 4050
+Wire Wire Line
+	6300 4050 6525 4050
+Connection ~ 6300 4050
+Text Label 6525 4050 0    50   Italic 10
+GND
+Text Label 7300 6550 1    50   Italic 10
+VCC
+Text Label 7300 7750 3    50   Italic 10
+GND
+Text Label 7900 6550 1    50   Italic 10
+~RAS
+Text Label 5425 6750 3    50   Italic 10
+RAS
+$Comp
+L 74xx:74LS04 U2
+U 1 1 657FF1CD
+P 7225 5375
+F 0 "U2" H 7300 5625 50  0000 C CNN
+F 1 "74LS04" H 7375 5550 50  0000 C CNN
+F 2 "GERAL:standard_DIP_14OvalPins" H 7225 5375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7225 5375 50  0001 C CNN
+	1    7225 5375
+	0    -1   -1   0   
+$EndComp
+Text Label 4600 7350 2    50   Italic 10
+~RAS
+Text Label 5200 7350 0    50   Italic 10
+RAS
+Text Label 8900 6550 1    50   Italic 10
+Do0
+Text Label 8800 6550 1    50   Italic 10
+Do1
+Text Label 8700 6550 1    50   Italic 10
+Do2
+Text Label 8600 6550 1    50   Italic 10
+Do3
+Text Label 8500 6550 1    50   Italic 10
+Do4
+Text Label 8400 6550 1    50   Italic 10
+Do5
+Text Label 8300 6550 1    50   Italic 10
+Do6
+Text Label 8200 6550 1    50   Italic 10
+Do7
+Text Label 9625 5075 0    50   Italic 10
+~WRITE
+Text Label 7225 4975 2    50   Italic 10
+GND
+$Comp
+L 74xx:74LS04 U2
+U 6 1 6582F979
+P 4925 7350
+F 0 "U2" V 4950 7150 50  0000 C CNN
+F 1 "74LS04" V 5025 7150 50  0000 C CNN
+F 2 "GERAL:standard_DIP_14OvalPins" H 4925 7350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4925 7350 50  0001 C CNN
+	6    4925 7350
+	1    0    0    -1  
+$EndComp
+Text Label 7225 5675 0    50   Italic 10
+~WRITE
+Text Label 5200 4850 2    50   Italic 10
+GND
+Wire Wire Line
+	5300 4750 5300 4850
+Wire Wire Line
+	5300 4850 5200 4850
+Connection ~ 5300 4850
+Text Label 5800 5050 3    50   Italic 10
+GND
+Text Label 5825 6250 0    50   Italic 10
+GND
+$Comp
+L 74xx:74LS574 U3
+U 1 1 657BF169
+P 5025 6250
+F 0 "U3" V 5475 5825 50  0000 C CNN
+F 1 "74LS574" V 5400 5725 50  0000 C CNN
+F 2 "GERAL:standard_DIP_20pins_thin_body" H 5025 6250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS574" H 5025 6250 50  0001 C CNN
+	1    5025 6250
+	0    -1   -1   0   
+$EndComp
+Text Label 4225 6250 2    50   Italic 10
+VCC
+Text Label 5800 2850 1    50   Italic 10
+VCC
+Text Label 9125 5375 3    50   Italic 10
+GND
+Text Notes 8800 3825 2    50   Italic 10
+Escrita
+Text Notes 7050 3850 0    50   Italic 10
+Leitura
+Text Label 7225 5075 2    50   Italic 10
+WRITE
+Text Label 7725 3775 1    50   Italic 10
+VCC
+$Comp
+L 74xx:74LS245 U5
+U 1 1 65811F37
+P 7725 4575
+F 0 "U5" H 7850 5375 50  0000 C CNN
+F 1 "74LS245" H 7975 5275 50  0000 C CNN
+F 2 "GERAL:standard_DIP_20pins_thin_body" H 7725 4575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 7725 4575 50  0001 C CNN
+	1    7725 4575
+	1    0    0    -1  
+$EndComp
+Text Label 9625 4975 0    50   Italic 10
+PULLUP
+Text Label 7225 4775 2    50   Italic 10
+Do7
+Text Label 7225 4675 2    50   Italic 10
+Do6
+Text Label 7225 4575 2    50   Italic 10
+Do5
+Text Label 7225 4475 2    50   Italic 10
+Do4
+Text Label 7225 4375 2    50   Italic 10
+Do3
+Text Label 7225 4275 2    50   Italic 10
+Do2
+Text Label 7225 4175 2    50   Italic 10
+Do1
+Text Label 7225 4075 2    50   Italic 10
+Do0
+Text Label 8225 4775 0    50   Italic 10
+D7'
+Text Label 8225 4675 0    50   Italic 10
+D6'
+Text Label 8225 4575 0    50   Italic 10
+D5'
+Text Label 8225 4475 0    50   Italic 10
+D4'
+Text Label 8225 4375 0    50   Italic 10
+D3'
+Text Label 8225 4275 0    50   Italic 10
+D2'
+Text Label 8225 4175 0    50   Italic 10
+D1'
+Text Label 8225 4075 0    50   Italic 10
+D0'
+Text Notes 8800 3900 2    50   Italic 10
+encima
+Text Notes 7050 3925 0    50   Italic 10
+embaixo
+Text Notes 8450 3525 3    50   Italic 10
+--------------------
+Text Notes 6425 3550 0    50   Italic 10
+--------------------------------
+Text Notes 6625 3650 0    200  Italic 40
+/
+Text Notes 6925 3450 0    100  Italic 20
+local databus
+Text Notes 6900 4500 3    50   Italic 10
+--------------------+
+Text Notes 6850 5875 0    50   Italic 10
+----------------------------------------------------
+Text Notes 7525 5800 0    100  Italic 20
+databus out, databus in
+Text Notes 8350 6225 0    200  Italic 40
+/
+Text Notes 6775 3350 0    70   Italic 14
+8
+Text Notes 8625 6025 0    70   Italic 14
+16
+Text Notes 8500 5825 3    50   Italic 10
+--------
+Text Label 9600 7750 3    50   Italic 10
+Din0
+Text Label 9500 7750 3    50   Italic 10
+Din1
+Text Label 9400 7750 3    50   Italic 10
+Din2
+Text Label 9300 7750 3    50   Italic 10
+Din3
+Text Label 9200 7750 3    50   Italic 10
+Din4
+Text Label 9100 7750 3    50   Italic 10
+Din5
+Text Label 9000 7750 3    50   Italic 10
+Din6
+Text Label 8900 7750 3    50   Italic 10
+Din7
+Text Notes 3950 4325 0    100  Italic 20
+local \naddress \nbus
+Text Notes 4575 4275 0    200  Italic 40
+/
+Text Notes 4725 4000 0    70   Italic 14
+15
+Text Notes 4700 3275 3    50   Italic 10
+-------------------------------------
+Text Notes 4650 3325 0    50   Italic 10
+-------
+Text Label 5300 3050 2    50   Italic 10
+B0
+Text Label 5300 3650 2    50   Italic 10
+B6
+Text Label 5300 3550 2    50   Italic 10
+B5
+Text Label 5300 3450 2    50   Italic 10
+B4
+Text Label 5300 3350 2    50   Italic 10
+B3
+Text Label 5300 3250 2    50   Italic 10
+B2
+Text Label 5300 3150 2    50   Italic 10
+B1
+Text Notes 4050 4575 3    50   Italic 10
+---------------------------------------
+Text Notes 4000 4625 0    50   Italic 10
+----------+
+Text Notes 4550 5275 0    200  Italic 40
+/
+Text Notes 4125 4725 0    200  Italic 40
+/
+Text Notes 4825 5150 0    70   Italic 14
+6
+Text Notes 4425 4525 0    70   Italic 14
+6
+Text Notes 4000 7050 0    50   Italic 10
+-------------+
+Text Notes 6575 6075 0    50   Italic 10
+------------------
+Text Notes 4625 5475 0    50   Italic 10
++------------------------------
+Text Notes 5350 5525 0    200  Italic 40
+/
+Text Notes 5625 5400 0    70   Italic 14
+3
+Text Notes 6600 5400 3    50   Italic 10
+----------
+Text Notes 7575 6250 0    200  Italic 40
+/
+Text Notes 7725 6000 3    50   Italic 10
+-----
+Text Notes 7850 6075 0    70   Italic 14
+3
+Wire Wire Line
+	5525 6750 5825 6750
+Wire Wire Line
+	5825 6750 5825 6250
+Wire Wire Line
+	5425 6750 5425 7350
+Wire Wire Line
+	5425 7350 5225 7350
+Text Notes 10100 4525 3    50   Italic 10
+--------------------+
+Text Label 9125 3775 1    50   Italic 10
+VCC
+Text Label 7725 5375 3    50   Italic 10
+GND
+Connection ~ 5225 7350
+Wire Wire Line
+	5225 7350 5200 7350
+$Comp
+L 74xx:74LS04 U?
+U 5 1 65BDEF23
+P 2575 2975
+F 0 "U?" H 2025 3200 50  0000 C CNN
+F 1 "74LS04" H 2100 3125 50  0000 C CNN
+F 2 "GERAL:standard_DIP_14OvalPins" H 2575 2975 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2575 2975 50  0001 C CNN
+	5    2575 2975
+	1    0    0    -1  
+$EndComp
+Text Label 2275 2975 2    50   Italic 10
+AX
+$Comp
+L 74xx:74LS04 U?
+U 4 1 65BE1787
+P 2575 3400
+F 0 "U?" H 2025 3625 50  0000 C CNN
+F 1 "74LS04" H 2100 3550 50  0000 C CNN
+F 2 "GERAL:standard_DIP_14OvalPins" H 2575 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2575 3400 50  0001 C CNN
+	4    2575 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 2975 2875 3200
+Wire Wire Line
+	2875 3200 2275 3200
+Wire Wire Line
+	2275 3200 2275 3400
+$Comp
+L 74xx:74LS04 U?
+U 3 1 65BE388E
+P 2575 3825
+F 0 "U?" H 2025 4050 50  0000 C CNN
+F 1 "74LS04" H 2100 3975 50  0000 C CNN
+F 2 "GERAL:standard_DIP_14OvalPins" H 2575 3825 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2575 3825 50  0001 C CNN
+	3    2575 3825
+	1    0    0    -1  
+$EndComp
+Text Label 2275 3400 2    50   Italic 10
+~AX
+Text Label 2875 3400 0    50   Italic 10
+AX'
+Wire Wire Line
+	2875 3400 2875 3625
+Wire Wire Line
+	2875 3625 2275 3625
+Wire Wire Line
+	2275 3625 2275 3825
+Text Label 2275 3825 2    50   Italic 10
+AX'
+Text Label 2875 3825 0    50   Italic 10
+~AX'
+$Comp
+L 74xx:74LS04 U?
+U 2 1 65BEAA64
+P 2575 4225
+F 0 "U?" H 2025 4450 50  0000 C CNN
+F 1 "74LS04" H 2100 4375 50  0000 C CNN
+F 2 "GERAL:standard_DIP_14OvalPins" H 2575 4225 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2575 4225 50  0001 C CNN
+	2    2575 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 3825 2875 4025
+Wire Wire Line
+	2875 4025 2275 4025
+Wire Wire Line
+	2275 4025 2275 4225
+Text Label 2275 4225 2    50   Italic 10
+~AX'
+Text Label 2875 4225 0    50   Italic 10
+AX''
+$Comp
+L 74xx:74LS32 U?
+U 1 1 65BF1D75
+P 2525 4875
+F 0 "U?" H 2525 5200 50  0000 C CNN
+F 1 "74LS32" H 2525 5109 50  0000 C CNN
+F 2 "" H 2525 4875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2525 4875 50  0001 C CNN
+	1    2525 4875
+	1    0    0    -1  
+$EndComp
+Text Label 2225 4775 2    50   Italic 10
+AX''
+Text Label 2225 4975 2    50   Italic 10
+AX
+Wire Wire Line
+	2825 4875 2825 5275
+Wire Wire Line
+	2825 5275 2075 5275
+Wire Wire Line
+	2075 5600 2250 5600
+$Comp
+L 74xx:74LS32 U?
+U 1 1 65BFF050
+P 2550 5700
+F 0 "U?" H 2550 6025 50  0000 C CNN
+F 1 "74LS32" H 2550 5934 50  0000 C CNN
+F 2 "" H 2550 5700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2550 5700 50  0001 C CNN
+	1    2550 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2075 5275 2075 5600
+Text Label 2250 5800 2    50   Italic 10
+~WRITE
+Text Label 2850 5700 0    50   Italic 10
+~RAM_WRITE
+Text Notes 4925 7050 0    50   Italic 10
+----------------------------------------------------------------------+
+Text Notes 5975 7000 0    100  Italic 20
+address
+Text Label 6300 4250 0    50   Italic 10
+~RAM_WRITE
+Text Notes 8000 7250 0    100  Italic 20
+MEMORY BUS
+Text Notes 4550 6325 0    100  Italic 20
+ADDR LATCH
+$EndSCHEMATC

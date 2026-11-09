@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name appleii)(type Legacy)(uri ${KIPRJMOD}/appleii.lib)(options "")(descr ""))
+  (lib (name appleii-rescue)(type Legacy)(uri ${KIPRJMOD}/appleii-rescue.lib)(options "")(descr ""))
+  (lib (name ibmxt)(type Legacy)(uri E:/Hardware/ibm5160-XT/xt/ibmxt.lib)(options "")(descr ""))
+  (lib (name geral)(type Legacy)(uri "E:/Hardware/KICAD/simbolos/geral - lib de simbolos.lib")(options "")(descr ""))
+)
