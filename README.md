@@ -8,8 +8,8 @@ their number but this as too cumbersome and i stopped the project.
 
 
 **References** 
- * The Apple II Circuit Description, 1983, Winston D. Gayler 
-
+ * The Apple II Circuit Description, 1983, Winston D. Gayler
+ * Ben Eater's EEPROM arduino programmer
 
 
 
