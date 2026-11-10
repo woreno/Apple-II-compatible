@@ -7,8 +7,8 @@ Despite this i had planned to assign a number to each of them using a small ROM 
 their number but this as too cumbersome and i stopped the project.
 
 
-**References**
-*The Apple II Circuit Description, 1983, Winston D. Gayler 
+**References** 
+ * The Apple II Circuit Description, 1983, Winston D. Gayler 
 
 
 
